@@ -38,7 +38,7 @@ Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.
 
 ### Policies
 
-[Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies) (or download a [.zip file with all policies](/docs/policies.zip))  
+[Browse Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies) (or download a [.zip file with all policies](/docs/policies.zip))  
 [Spreadsheet with list of URLs and full policy data (.xlsx)](/docs/urls.xlsx)
 
 ### Authors
