@@ -1,5 +1,5 @@
 GITHUB_PAGES_BRANCH=gh-pages
-SITENAME=#ssoscan
+SITENAME=ScriptInspector
 
 html:
 	hugo --theme=srg
