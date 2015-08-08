@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Vulnerabilities // SSOScan
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.15-DEV" />
+
+  <meta property="og:title" content="Vulnerabilities" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://ssoscan.org/vulnerabilities/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://ssoscan.org/css/srg.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/dm-logo.png">
+  <link rel="shortcut icon" href="/dm-logo.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="SSOScan" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <h2 class="brand-group">
+<a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
+<a href="http://www.cs.virginia.edu">University of Virginia</a>
+</h2>
+
+
+
+    <a href="http://ssoscan.org"><h1 class="brand-title">SSOScan</h1></a>
+    <h2 class="brand-tagline">Automatically Scanning for SSO Vulnerabilities</h2>
+
+
+
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/vulnerabilities/">Vulnerabilities</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            
+            	
+            
+
+			
+			
+
+			
+
+			
+
+            
+
+<p>SSOScan currently looks for these five types of vulnerabilities.</p>
+
+<h3 id="1-access-token-misuse:3119e9da9c342f2d54aa5d0f7f4d3ad9">1. Access token misuse</h3>
+
+<p>When a website uses an <em>access_token</em> from Facebook to authenticate
+users, impersonation attacks can happen.  This implementation is
+dangerous because the <em>access_token</em> is not tied to a user&rsquo;s
+identity or your application ID, but only to user&rsquo;s permissions.  This
+means a malicious application which holds a victim&rsquo;s
+<em>access_token</em> (because the victim has been tricked into
+using the malicious application) could simply reuse that token to login
+to the vulnerable website as that victim.</p>
+
+<p><strong>Mitigation.</strong> To mitigate this vulnerability, we suggest websites to
+use either code or signed_request provided by Facebook when
+authenticating users.  If an <em>access_token</em> has to be used, be
+sure to verify its intended audience explained in the Facebook developer guide: <a
+href="https://developers.facebook.com/docs/facebook-login/access-tokens/#debug">
+<em><a href="https://developers.facebook.com/docs/facebook-login/access-tokens/#debug">https://developers.facebook.com/docs/facebook-login/access-tokens/#debug</a></em></a>.</p>
+
+<h3 id="2-signed-request-misuse:3119e9da9c342f2d54aa5d0f7f4d3ad9">2. Signed_request misuse</h3>
+
+<p>When a website uses <em>signed_request</em> from Facebook to
+authenticate users, impersonation attacks can still happen if the
+developer doesn&rsquo;t check its signature and signed content with care.  An
+attacker can simply forge a <em>signed_request</em> with an
+incorrect signature, or modify the content of a
+<em>signed_request</em> intended for another application.  When the
+attacker supplies the fake credential to a vulnerable website, it will
+still authenticate the attacker as the victim.  If
+<em>access_token</em> is used along with
+<em>signed_request</em>, it is also important to check that the
+identities of both credentials agree with each other.</p>
+
+<p><strong>Mitigation.</strong> To mitigate this vulnerability, we suggest websites to
+  parse the signed<em>request and check its signature using application
+  secret correctly.  Visit <a
+  href="https://developers.facebook.com/docs/facebook-login/using-login-with-games/">
+_<a href="https://developers.facebook.com/docs/facebook-login/using-login-with-games/">https://developers.facebook.com/docs/facebook-login/using-login-with-games/</a></em></a>
+  for more details.</p>
+
+<h3 id="3-credential-leakage-via-referrer-header:3119e9da9c342f2d54aa5d0f7f4d3ad9">3. Credential leakage via referrer header</h3>
+
+<p>Referrer header is auto-appended to requests initiated from any webpage
+to other parties.  If a website includes OAuth credentials (such as
+<em>access_token</em>, etc.) in their URLs, they should make sure
+the page content does not include any untrusted resources.  For example,
+if a website includes a picture from an untrusted source &lsquo;evil.com&rsquo;,
+that maliciouis site will be able to get all OAuth credentials of users
+logging in to your site.</p>
+
+<p><strong>Mitigation.</strong> To mitigate this vulnerability, we suggest a website
+consume user&rsquo;s OAuth credentials at server side and do not return such
+information back to the client side.  Such credentials can be stored in
+web server&rsquo;s back end DB and can be linked to the user by setting a
+cookie in user&rsquo;s browser.</p>
+
+<h3 id="4-client-secret-leakage:3119e9da9c342f2d54aa5d0f7f4d3ad9">4. Client secret leakage</h3>
+
+<p>Including <em>client_secret</em> on client side is dangerous, it enables
+any user to impersonate the application.  It can be used to forge
+<em>signed_request</em> to log in as anybody to your application</p>
+
+<p><strong>Mitigation.</strong> To mitigate this vulnerability, we suggest the web
+  application never include <em>client_secret</em> on the client side.</p>
+
+<h3 id="5-credential-leakage-via-page-content:3119e9da9c342f2d54aa5d0f7f4d3ad9">5. Credential leakage via page content</h3>
+
+<p>Including Facebook&rsquo;s SSO OAuth credentials (e.g. <em>access_token</em>)
+in the landing page content (e.g. registration page) after the user has
+logged in can be dangerous because there might be other third-party
+scripts embedded on the webpage, and they have full access to the host
+information.  Once the OAuth credentials are exfiltrated, potential
+risks include leaking sensitive victim information and powerful
+permissions such as posting to victim&rsquo;s timeline as the vulnerable
+application, and even impersonation attacks (reuse the OAuth credentials
+to login as the victim to the vulnerable website).</p>
+
+<p><strong>Mitigation.</strong> To mitigate this vulnerability, we suggest the web
+application never include OAuth credentials in the page content.  If for
+some reason client-side JavaScript needs access to them, we suggest this
+information be fetched from your app server using AJAX requests and
+stored as private variables (in a closure).</p>
+
+	
+			
+
+			
+
+			
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+
+   <div class="funding">
+This work was supported by <a href="http://www.rematchr.org/project/1422332">a grant from the National Science Foundation SaTC Program</a> and a gift from
+Google.
+   </div>
+
+	<p></p>
+</div>
+
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>

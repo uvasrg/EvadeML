@@ -1,0 +1,9 @@
+//IFRAME[@id='dfif_lad.*']>insideDOMAccess
+//DIV[@id='top-banner']>document.write
+//DIV[@id='top-banner']>RemoveChild
+sub://DIV[@id='skyscraper']>document.write
+sub://DIV[@class='tft_ads']>document.write
+sub://DIV[@id='skyscraper']>RemoveChild
+sub://DIV[@class='tft_ads']>RemoveChild
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script[^<>]*src\s*=\s*"[^"]*tfag\.de/[^<>]*></script>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<link id="adpstyle" rel="stylesheet" href="http://i\.tfag\.de/js_ng/adplayer/css/adplayer\.min\.css" type="text/css">

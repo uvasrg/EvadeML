@@ -1,0 +1,21 @@
+Outgoing network traffic:*
+Outgoing network traffic:doubleclick.net
+Outgoing network traffic:betrad.com
+Outgoing network traffic:adroll.com
+Outgoing network traffic:facebook.com
+Outgoing network traffic:googleadservices.com
+Outgoing network traffic:adnxs.com
+SetCookie
+GetCookie
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<div[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<img[^]*>
+/HTML[1]>Contains
+/HTML[1]>getSize
+/HTML[1]/BODY[1]>getSize
+/HTML[1]/HEAD[1]/IMG[1]>SetAttribute:border
+/HTML[1]/HEAD[1]/IMG[1]>SetAttribute:height
+/HTML[1]/HEAD[1]/IMG[1]>SetAttribute:width
+/HTML[1]/HEAD[1]/IMG[1]>SetAttribute:src
+/HTML[1]/HEAD[1]/IMG[1]>SetSrc
+Navigator.userAgent accessed

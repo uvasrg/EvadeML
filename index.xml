@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ScriptInspector</title>
+    <link>http://scriptinspector.org/</link>
+    <description>Recent content on ScriptInspector</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://scriptinspector.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ScriptInspector: Monitoring Embedded Web Scripts</title>
+      <link>http://scriptinspector.org/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://scriptinspector.org/main/</guid>
+      <description>
+
+&lt;h3 id=&#34;understanding-and-monitoring-embedded-web-scripts:379caad01b6ea305187be199bcac1370&#34;&gt;Understanding and Monitoring Embedded Web Scripts&lt;/h3&gt;
+
+&lt;p&gt;Modern web applications make frequent use of third-party scripts, often
+in ways that allow scripts loaded from external servers to make
+unrestricted changes to the embedding page and access citical resources
+including private user information.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;http://scriptinspector.org/images/overview.png&#34;&gt;&lt;img src=&#34;http://scriptinspector.org/images/overview.png&#34; alt=&#34;Overview&#34; width=&#34;500px&#34; height=&#34;372px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ScriptInspector&lt;/strong&gt; assists site administrators in understanding,
+monitoring, and restricting the behavior of third-party scripts embedded
+in their site.  ScriptInspector is a modified browser that can
+intercept, record, and check third-party script accesses to critical
+resources against security policies.  It works with a &lt;strong&gt;Visualizer&lt;/strong&gt;
+tool that allows users to conveniently view recorded script behaviors
+and candidate policies and a &lt;strong&gt;PolicyGenerator&lt;/strong&gt; tool that aids script
+providers and site administrators in writing policies.  Site
+administrators can manually refine these policies with minimal effort to
+produce policies that effectively and robustly limit the behavior of
+embedded scripts.&lt;/p&gt;
+
+&lt;h3 id=&#34;paper:379caad01b6ea305187be199bcac1370&#34;&gt;Paper&lt;/h3&gt;
+
+&lt;p&gt;Yuchen Zhou and David Evans. &lt;em&gt;Understanding and Monitoring Embedded Web Scripts&lt;/em&gt;.  &lt;a href=&#34;http://www.ieee-security.org/TC/SP2015/&#34;&gt;&lt;em&gt;36&lt;sup&gt;th&lt;/sup&gt; IEEE Symposium on Security and Privacy&lt;/em&gt;&lt;/a&gt; (&amp;ldquo;Oakland&amp;rdquo;). San Jose, CA. 18-20 May 2015.&lt;/p&gt;
+
+&lt;p&gt;Full paper (16 pages): [&lt;a href=&#34;http://scriptinspector.org/docs/ScriptInspector.pdf&#34;&gt;PDF&lt;/a&gt;]
+&lt;/p&gt;
+
+&lt;h3 id=&#34;downloads:379caad01b6ea305187be199bcac1370&#34;&gt;Downloads&lt;/h3&gt;
+
+&lt;p&gt;Source code: &lt;a href=&#34;https://github.com/Treeeater/JSAccessVisualizer&#34;&gt;https://github.com/Treeeater/JSAccessVisualizer&lt;/a&gt;&lt;br /&gt;
+(Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://scriptinspector.org/docs/policies.zip&#34;&gt;Policies (.zip)&lt;/a&gt;
+&lt;a href=&#34;http://scriptinspector.org/docs/urls.xlsx&#34;&gt;List of URLs for which we constructed policies (.xlsx)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;authors:379caad01b6ea305187be199bcac1370&#34;&gt;Authors&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yuchenzhou.info/&#34;&gt;Yuchen Zhou&lt;/a&gt; (University of Virginia; now at Palo Alto Networks)&lt;br /&gt;
+&lt;a href=&#34;http://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (University of Virginia)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+/HTML[1]/BODY[1]>getSize
+/HTML[1]>getSize
+//SCRIPT>GetSrc
+/HTML[1]/BODY[1]>InsertBefore:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<span[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<span[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<iframe[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<style[^]*>
+/HTML[1]/HEAD[1]>InsertBefore:\[o\]<script[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<div[^]*>
+//DIV[@id='richmedia_.*']>AppendChild
+screen.width read
+GetCookie
+SetCookie
+Outgoing network traffic:*
+Outgoing network traffic:moatads.com
+Outgoing network traffic:nexac.com
+Outgoing network traffic:doubleclick.net
+Outgoing network traffic:imrworldwide.com
+Outgoing network traffic:voicefive.com
+Outgoing network traffic:insightexpressai.com
+Outgoing network traffic:c3tag.com
+Outgoing network traffic:agkn.com
+Outgoing network traffic:questionmarket.com
+Outgoing network traffic:mediaplex.com
+Outgoing network traffic:rubiconproject.com
+Outgoing network traffic:acxiom-online.com
+Outgoing network traffic:mookie1.com
+Outgoing network traffic:krxd.net
+Outgoing network traffic:serving-sys.com
+Outgoing network traffic:vizu.com
+Navigator.language accessed
+Navigator.product accessed
+Navigator.appVersion accessed
+Navigator.userAgent accessed
+Outgoing network traffic:betrad.com
+Outgoing network traffic:convertro.com
+Outgoing network traffic:adsafeprotected.com
+Outgoing network traffic:korrelate.net
+Outgoing network traffic:doubleverify.com
+Outgoing network traffic:scorecardresearch.com
+Outgoing network traffic:researchnow.com
+localStorage accessed
+Outgoing network traffic:mathtag.com
+Navigator.appCodeName accessed
+Navigator.cookieEnabled accessed
+Navigator.onLine accessed
+Navigator.productSub accessed
+navigator.plugins[].description read
+navigator.plugins[].name read
+screen.availHeight read
+screen.availLeft read
+screen.availTop read
+screen.availWidth read
+screen.colorDepth read
+screen.height read
