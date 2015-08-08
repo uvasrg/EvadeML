@@ -1,0 +1,373 @@
+@import url(//fonts.googleapis.com/css?family=Lobster);
+
+html {
+    font-family: "PT Sans", Helvetica, Meiryo, Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: #000;
+    transition-duration: 0.3s;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-family: "PT Sans", Helvetica, Meiryo, Arial, sans-serif;
+}
+
+pre {
+    padding: 0;
+    background-color: transparent;
+}
+
+blockquote {
+    background-color: #eee;
+}
+
+blockquote p {
+    white-space: pre-line;
+}
+
+kbd {
+    color: #000;
+    background: #eee;
+    border-style: solid;
+    border-color: #ccc #aaa #888 #bbb;
+    padding: .1em .6em;
+    border: 1px solid #ccc;
+    font-size: 11px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px #fff inset;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 .1em;
+    text-shadow: 0 1px 0 #fff;
+    white-space: nowrap;
+}
+
+.container {
+    width: 60rem;
+    max-width: 100%;
+}
+
+.masthead {
+    text-align: center;
+}
+
+.masthead-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.masthead-title a {
+    font-family:'Lobster', cursive;
+    text-decoration: none;
+}
+
+a.fixed-link {
+    padding: 0 10px;
+}
+
+.post {
+    margin-bottom: 0;
+}
+
+.post-date {
+    margin-bottom: 0;
+}
+
+.post-title {
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.post-title>a {
+    text-decoration: none;
+}
+
+.post-content {
+    margin-bottom: 50px;
+}
+
+.post-share img {
+    display: inline;
+    margin: 0;
+    border-radius: 2px;
+    max-width: 35px;
+}
+
+.eyecatch {
+    float: left;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.post aside {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px #eee;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+.post aside:after {
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.post aside>div {
+    float: left;
+    padding-right: 40px;
+}
+
+.eyecatch>a>img {
+    width: 100%;
+    max-width: 120px;
+    max-height: 120px;
+    margin-bottom: 0;
+}
+
+.post-single>.eyecatch {
+    float: none;
+    text-align: center;
+    padding: 0;
+}
+
+.post-single>.eyecatch>img {
+    display: inline;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+.post-content>h1,
+.post-content>h2,
+.post-content>h3,
+.post-content>h4,
+.post-content>h5 {
+    border-bottom: 1px dotted #ddd;
+    margin-top: 2rem;
+}
+
+.summary {
+    overflow: hidden;
+    font-size: 0.8em;
+    max-height: 60px;
+    position: relative;
+}
+
+.summary:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 35%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(35%,rgba(255,255,255,0.5)), color-stop(85%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 35%,rgba(255,255,255,1) 85%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+    cursor: text;
+}
+
+.readon {
+    text-align: center;
+    padding-top: 20px;
+    clear: both;
+}
+
+.readon>a {
+    display: block;
+    border-radius: 3px;
+    background-color: #eee;
+    width: 150px;
+    margin: auto;
+}
+
+.readon>a:hover {
+    background-color: transparent;
+    background-color: #f9f9f9;
+}
+
+.all-entries {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+ul.post-tags {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.tags>ul.post-tags>li {
+    float: none;
+    display: inline-block;
+}
+
+ul.post-tags:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+ul.post-tags>li {
+    float: left;
+    margin-right: 0.5em;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    border: 1px solid #9a9a9a;
+}
+
+ul.post-tags>li>a,
+ul.post-tags>li>a:hover {
+    text-decoration: none;
+}
+
+.tag-cloud {
+    margin-bottom: 50px;
+}
+
+.tag-cloud ul.post-tags>li {
+    background-color: transparent;
+    border: none;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.tag-cloud>ul.post-tags>li>a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+.tag-cloud>ul.post-tags>li>a:hover {
+    color: #e74c3c;
+}
+
+.move {
+    margin: 20px 0 50px;
+}
+
+.move>.next {
+    float: right;
+}
+
+.move:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.move i {
+    margin: 0 10px;
+}
+
+.image {
+    max-width: 100%;
+    padding: 5px;
+    background-color: #f9f9f9;
+    display: inline;
+}
+
+li.list {
+    list-style: none;
+}
+
+li.list>img {
+    height: 30px;
+    margin-bottom: 0;
+    display: inline;
+}
+
+footer.copy {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer.copy a {
+    color: #e74c3c;
+}
+
+footer.copy a:hover {
+    color: #fff;
+}
+
+aside.sidebar-wrapper {
+    padding: 50px 0;
+    background-color: #222;
+}
+
+aside.sidebar-wrapper h2 {
+    color: #fff;
+}
+
+#profile {
+    display: none;
+}
+
+#profile i {
+    color: #fff;
+}
+
+#profile,
+#profile h1 {
+    color: #fff;
+}
+
+#profile img {
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+#profile pre {
+    background-color: transparent;
+}
+
+#profile #description {
+    font-family: "PT Sans", Helvetica, Meiryo, Arial, sans-serif;
+    padding: 0;
+    white-space: pre;
+    overflow: hidden;
+    font-size: 0.8em;
+}
+
+ul#urls>li {
+    border: none;
+}
+
+#disqus_thread {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 38rem) {
+    .post-title:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    .post aside>div {
+        padding-right: 0;
+    }
+}

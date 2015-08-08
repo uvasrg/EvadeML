@@ -1,0 +1,2 @@
+sub://DIV[@class="mainContent"]>insideDOMAccess
+//DIV[@class='admanager-section']>!

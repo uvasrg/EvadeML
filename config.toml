@@ -1,0 +1,17 @@
+baseurl = "http://scriptinspector.org"
+languageCode = "en-us"
+title = "ScriptInspector"
+subtitle = "Understanding and Monitoring Embedded Web Scripts"
+
+[params]
+    sidebartitle = "Script\nInspector"
+    sidebartagline = "Understanding and Monitoring Embedded Web Scripts"
+    nodate = true
+    noauthor = true
+    noread = true
+    nopaging=true
+    notoc=true
+
+[[menu.main]]
+
+[[menu.footer]]

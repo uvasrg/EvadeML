@@ -1,0 +1,6 @@
+
+//DIV[@class='ad']>!
+root://DIV[@class='ad']>getSize
+//DIV[@class='topAd']>!
+//DIV[@id='topAd']>!
+//DIV[@class='widget-noborder']>!

@@ -1,0 +1,82 @@
+Outgoing network traffic:*
+/HTML[1]/BODY[1]>getSize
+/HTML[1]>getSize
+/HTML[1]/BODY[1]>AppendChild:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<div[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]/HEAD[1]>InsertBefore:\[o\]<script[^]*>
+/HTML[1]/HEAD[1]>document.write:<script[^]*>
+/HTML[1]/BODY[1]>InsertBefore:\[o\]<script[^]*>
+/HTML[1]/BODY[1]>document.write:<script[^]*>
+GetCookie
+SetCookie
+Navigator.userAgent accessed
+Navigator.vendor accessed
+screen.height read
+screen.width read
+Outgoing network traffic:turn.com
+Outgoing network traffic:adtechus.com
+Outgoing network traffic:quantcount.com
+Outgoing network traffic:connexity.net
+Outgoing network traffic:rubiconproject.com
+Outgoing network traffic:amazon-adsystem.com
+Outgoing network traffic:openx.net
+Outgoing network traffic:scorecardresearch.com
+Outgoing network traffic:chango.com
+Outgoing network traffic:ns-cdn.com
+Outgoing network traffic:burstnet.com
+Outgoing network traffic:openxenterprise.com
+Outgoing network traffic:runadtag.com
+Outgoing network traffic:flashtalking.com
+Outgoing network traffic:legolas-media.com
+Outgoing network traffic:godaddy.com
+Outgoing network traffic:cpxinteractive.com
+Outgoing network traffic:thesyndicationserver.com
+Outgoing network traffic:everesttech.net
+Outgoing network traffic:dotomi.com
+Outgoing network traffic:truste.com
+Outgoing network traffic:bttrack.com
+Outgoing network traffic:adsrvr.org
+Outgoing network traffic:fwmrm.net
+Outgoing network traffic:casalemedia.com
+Outgoing network traffic:revsci.net
+Outgoing network traffic:adsafeprotected.com
+Outgoing network traffic:udmserve.net
+Outgoing network traffic:intentiq.com
+Outgoing network traffic:rfihub.com
+Outgoing network traffic:adsrvr.com
+Outgoing network traffic:adsymptotic.com
+Outgoing network traffic:doubleclick.net
+Outgoing network traffic:advertising.com
+Outgoing network traffic:mathtag.com
+Outgoing network traffic:rfihub.net
+Outgoing network traffic:contextweb.com
+Outgoing network traffic:undertone.com
+Outgoing network traffic:brealtime.com
+Outgoing network traffic:ru4.com
+Outgoing network traffic:googletagservices.com
+Outgoing network traffic:adnxs.com
+Outgoing network traffic:bidswitch.net
+Outgoing network traffic:ebdr3.com
+Outgoing network traffic:tubemogul.com
+Outgoing network traffic:criteo.com
+Outgoing network traffic:glam.com
+Outgoing network traffic:sitescout.com
+Outgoing network traffic:edgesuite.net
+Outgoing network traffic:atvnetworks.tv
+Outgoing network traffic:affinity.com
+Outgoing network traffic:veruta.com
+Outgoing network traffic:mxptint.net
+Outgoing network traffic:fastclick.net
+Outgoing network traffic:dataxu.net
+Outgoing network traffic:w55c.net
+Outgoing network traffic:dataxu.net
+Outgoing network traffic:w55c.net
+Outgoing network traffic:serving-sys.com
+Outgoing network traffic:media6degrees.com
+Outgoing network traffic:gwallet.com
+Outgoing network traffic:sociomantic.com
+Outgoing network traffic:betrad.com
+Outgoing network traffic:yahoo.com
+Outgoing network traffic:doubleverify.com
+Outgoing network traffic:mediaplex.com

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research | Yuchen&#39;s Home</title>
+  <link rel="stylesheet" media="all" href="/assets/application-9333f54859f13aa4a0b808ffc4d081c8.css" data-turbolinks-track="true" />
+  <script src="/assets/application-5d074c02a7269f4ca1d8976c1d8db99b.js" data-turbolinks-track="true"></script>
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="cNl1+pL1rwlReKGHjBCYSVI7OlACn9YXS7y6flVGsLtGwtWHvP4hUPJ2WkgRby2wZcZ5mfw+N11juui1afGuJw==" />
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-4652ea925c02fdf816c62573e15bd3bb.ico" />
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17176586-5', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+  
+    <div class="container">
+      
+      <div class="singleEntry">
+	<h1 style="font-size:3em;">Understanding and Monitoring Embedded Web Scripts</h1>
+	<h2>Yuchen Zhou and David Evans</h2>
+	<h2>University of Virginia</h2>
+	<h3><a href="http://www.ieee-security.org/TC/SP2015/">IEEE Symposium on Security and Privacy</a> (Oakland 15')</h3>
+	<img class="img-responsive large_img" src="/assets/research/scriptinspector/overview-4592da48daa83e351054e997bcb32263.png" alt="Overview" />
+	<div class="textBlock">
+		<ul>
+			<li>
+				<div>Introduction</div>
+				<p>Modern web applications make frequent use of third-party scripts, often in ways that allow scripts loaded from external servers to make unrestricted changes to the embedding page and access citical resources including private user information.  This paper describes tools we developed to assist site administrators in understanding, monitoring, and restricting the behavior of third-party scripts embedded in their site. We developed <em>ScriptInspector</em>, a modified browser that can intercept, record, and check third-party script accesses to critical resources against security policies, along with a <em>Visualizer</em> tool that allows users to conveniently view recorded script behaviors and candidate policies and a <em>PolicyGenerator</em> tool that aids script providers and site administrators in writing policies.  Site administrators can manually refine these policies with minimal effort to produce policies that effectively and robustly limit the behavior of embedded scripts.  <em>PolicyGenerator</em> is able to generate effective policies for all scripts embedded on 72 out of the 100 test sites with minor human assistance.  In this paper, we present the designs of our tools, report on what we've learned about script behaviors using them, evaluate the value of our approach for website administrator.
+				</p>
+			</li>
+			<li>
+				<div>Downloads</div>
+				<p>ScriptInspector and PolicyGenerator can be downloaded <a href="https://github.com/Treeeater/JSAccessVisualizer">here</a>. Please follow instructions on the GitHub README page for more details.</p>
+			</li>
+			<li>
+				<div>Paper</div>
+				<p>Our paper is to appear at IEEE S&amp;P (Oakland) 2015, to be held at San Jose.  Please click <a href="/assets/Oakland2015-7eba9ffadc1d36c53976bce3e3256539.pdf">here</a> to download the paper.  If you have any questions, don't hesitate to email me.</p>
+				<p>In the paper, we referred readers to this website for a complete list of URLs that we constructed policies for. Please click <a href="/assets/bigtable-082ec3744be28156dd1ec166860c5283.xlsx">here</a> to see. Now, We've also made all the base and site-specific <a href="/assets/scriptinspector_policies-0f8345291b7d6284ecbff3f96b559974.zip">policies</a> available to public via download. These policies are accurate as of Feburary, 2015.</p>
+			</li>
+		</ul>
+	</div>
+</div>
+
+      <footer class="footer">
+  <div>
+    Yuchen's homepage
+  </div>
+  <nav>
+    <ul>
+      <li>Last updated: April, 24th, 2015</li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</footer>
+
+    </div>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

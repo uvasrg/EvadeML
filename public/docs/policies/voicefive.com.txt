@@ -1,0 +1,23 @@
+Outgoing network traffic:*
+//SCRIPT>GetSrc
+//META>GetAttribute:http-equiv
+/HTML[1]>getSize
+/HTML[1]/BODY[1]>getSize
+//IFRAME>GetContentWindow
+Outgoing network traffic:voicefive.com
+Outgoing network traffic:scorecardresearch.com
+screen.width read
+screen.height read
+screen.availTop read
+screen.availLeft read
+Navigator.vendor accessed
+Navigator.userAgent accessed
+Navigator.language accessed
+Navigator.javaEnabled accessed
+Navigator.appVersion accessed
+GetCookie
+/HTML[1]/BODY[1]>AppendChild:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<iframe[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<script[^]*>
+SetCookie

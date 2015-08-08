@@ -1,0 +1,21 @@
+GetCookie
+//SCRIPT>GetSrc
+//META>GetAttribute:http-equiv
+//IFRAME>GetContentWindow
+/HTML[1]/BODY[1]>AppendChild:\[o\]<iframe[^]*>
+/HTML[1]>getSize
+/HTML[1]/BODY[1]>getSize
+Outgoing network traffic:scorecardresearch.com
+Outgoing network traffic:adxpose.com
+Navigator.userAgent accessed
+Navigator.javaEnabled accessed
+Navigator.language accessed
+Navigator.vendor accessed
+localStorage accessed
+screen.height read
+screen.left read
+screen.top read
+screen.width read
+Navigator.appVersion accessed
+screen.availLeft read
+screen.availTop read

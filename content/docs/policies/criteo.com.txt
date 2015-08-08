@@ -1,0 +1,24 @@
+Outgoing network traffic:*
+SetCookie
+screen.width read
+screen.height read
+screen.colorDepth read
+/HTML[1]/BODY[1]>AppendChild:\[o\]<div[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script[^]*>
+Outgoing network traffic:criteo.com
+Outgoing network traffic:googlesyndication.com
+Outgoing network traffic:criteo.net
+Outgoing network traffic:brealtime.com
+Outgoing network traffic:adnxs.com
+Outgoing network traffic:nexage.com
+Outgoing network traffic:mathtag.com
+Navigator.userAgent accessed
+//DIV>GetId
+//DIV[@class='ctoParams']>AppendChild:\[o\]<iframe[^]*>
+//DIV[@class='ctoDataType']>AppendChild:\[o\]<iframe[^]*>
+//DIV[@class='ctoWidgetServer']>AppendChild:\[o\]<iframe[^]*>
+//DIV[@id='cto_se_.*']>AppendChild:\[o\]<iframe[^]*>
+//DIV[@class='ctoParams']>GetTextContent
+//DIV[@class='ctoDataType']>GetTextContent
+//DIV[@class='ctoWidgetServer']>GetTextContent
+/HTML[1]/HEAD[1]>InsertBefore:\[o\]<script[^]*>

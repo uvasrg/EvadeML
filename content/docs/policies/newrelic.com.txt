@@ -1,0 +1,11 @@
+Outgoing network traffic:*
+//SCRIPT>SetSrc
+//SCRIPT>SetType
+/HTML[1]/BODY[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]>getSize
+/HTML[1]>Contains
+/HTML[1]/BODY[1]>getSize
+Navigator.userAgent accessed
+Outgoing network traffic:newrelic.com
+Outgoing network traffic:nr-data.net
+/HTML[1]>GetAttribute:class

@@ -1,0 +1,3 @@
+//DIV[@class='adv-container']>!
+//DIV[@class='adv-frame1 adv-collapse']>!
+//DIV[@class='adv-frame2']>!

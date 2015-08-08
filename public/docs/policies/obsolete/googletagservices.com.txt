@@ -1,0 +1,30 @@
+//>GetAttribute:data-.*
+//>GetAttribute:id
+//>GetId
+//SCRIPT>GetSrc
+/HTML[1]/BODY[1]>ClientHeight
+/HTML[1]/BODY[1]>ScrollHeight
+/HTML[1]/BODY[1]>ClientWidth
+/HTML[1]/BODY[1]>ScrollLeft
+/HTML[1]/BODY[1]>ScrollTop
+//>InsertBefore:\[o\]<iframe style="visibility: hidden; display: none;" src="http://tpc\.googlesyndication\.com[^<>]*"></iframe>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script src="http://partner\.googleadservices\.com/[^<>]*></script>
+/HTML[1]>ClientHeight
+/HTML[1]>ClientWidth
+/HTML[1]>ScrollLeft
+/HTML[1]>ScrollTop
+GetCookie
+SetCookie
+Outgoing network traffic:googlesyndication.com
+Outgoing network traffic:googleadservices.com
+Outgoing network traffic:doubleclick.net
+Navigator.appVersion accessed
+Navigator.javaEnabled accessed
+Navigator.language accessed
+Navigator.product accessed
+Navigator.userAgent accessed
+screen.availHeight read
+screen.availWidth read
+screen.colorDepth read
+screen.height read
+screen.width read

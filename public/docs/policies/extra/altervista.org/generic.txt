@@ -1,0 +1,2 @@
+//DIV[@class='adv']>!
+//DIV[@class='banner_altervista_.*']>!

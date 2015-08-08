@@ -1,0 +1,83 @@
+Outgoing network traffic:*
+/HTML[1]/HEAD[1]>InsertBefore:\[o\]<script[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<img[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<iframe[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<div[^]*>
+/HTML[1]>getSize
+/HTML[1]/BODY[1]>getSize
+//>GetAttribute:lnttag
+Outgoing network traffic:adsrvr.org
+Outgoing network traffic:doubleclick.net
+Outgoing network traffic:vidible.tv
+Outgoing network traffic:hiro.tv
+Outgoing network traffic:adnxs.com
+Outgoing network traffic:moatads.com
+Outgoing network traffic:advertise.com
+Outgoing network traffic:choicestream.com
+Outgoing network traffic:affinitymatrix.com
+Outgoing network traffic:flashtalking.com
+Outgoing network traffic:tapad.com
+Outgoing network traffic:googletagservices.com
+Outgoing network traffic:technoratimedia.com
+Outgoing network traffic:turn.com
+Outgoing network traffic:criteo.com
+Outgoing network traffic:betrad.com
+Outgoing network traffic:accmgr.com
+Outgoing network traffic:a3cloud.com
+Outgoing network traffic:serving-sys.com
+Outgoing network traffic:adexcite.com
+Outgoing network traffic:ybpangea.com
+Outgoing network traffic:voicefive.com
+Outgoing network traffic:adsafeprotected.com
+Outgoing network traffic:co.uk
+Outgoing network traffic:brandsmind.com
+Outgoing network traffic:sekindo.com
+Outgoing network traffic:scorecardresearch.com
+Outgoing network traffic:pointroll.com
+Outgoing network traffic:adsymptotic.com
+Outgoing network traffic:revsci.net
+Outgoing network traffic:udmserve.net
+Outgoing network traffic:placelocal.com
+Outgoing network traffic:doubleverify.com
+Outgoing network traffic:adrta.com
+screen.width read
+screen.height read
+screen.colorDepth read
+screen.availWidth read
+screen.availHeight read
+Navigator.product accessed
+Navigator.javaEnabled accessed
+Navigator.userAgent accessed
+Navigator.appVersion accessed
+GetCookie
+Outgoing network traffic:yahoo.com
+Outgoing network traffic:bing.com
+Outgoing network traffic:mookie1.com
+Outgoing network traffic:mlnadvertising.com
+Outgoing network traffic:rubiconproject.com
+Outgoing network traffic:facebook.com
+Outgoing network traffic:adadvisor.net
+Outgoing network traffic:dotomi.com
+Outgoing network traffic:quantserve.com
+Outgoing network traffic:demdex.net
+Outgoing network traffic:nexac.com
+Outgoing network traffic:openx.net
+Outgoing network traffic:advertising.com
+Outgoing network traffic:bit.ly
+Outgoing network traffic:everesttech.net
+Outgoing network traffic:gwallet.com
+Outgoing network traffic:legolas-media.com
+Outgoing network traffic:bluekai.com
+Outgoing network traffic:eqads.com
+Outgoing network traffic:skimresources.com
+Outgoing network traffic:adsrv247.com
+Outgoing network traffic:domdex.com
+Outgoing network traffic:skinected.com
+Outgoing network traffic:connexity.net
+Outgoing network traffic:akamai.net
+Outgoing network traffic:contextweb.com
+Outgoing network traffic:adform.net
+Outgoing network traffic:agkn.com
+Outgoing network traffic:rlcdn.com
+Outgoing network traffic:exelator.com
