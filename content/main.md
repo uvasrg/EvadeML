@@ -31,13 +31,15 @@ Yuchen Zhou and David Evans. _Understanding and Monitoring Embedded Web Scripts_
 
 Full paper (16 pages): {{<pdflink "ScriptInspector.pdf" >}}
 
-### Downloads
+### Source Code
 
-Source code: <a href="https://github.com/Treeeater/JSAccessVisualizer">https://github.com/Treeeater/JSAccessVisualizer</a>  
-(Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.)
+<a href="https://github.com/Treeeater/JSAccessVisualizer">https://github.com/Treeeater/JSAccessVisualizer</a>  
+Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.
 
-[Policies (.zip)](/docs/policies.zip)
-[List of URLs for which we constructed policies (.xlsx)](/docs/urls.xlsx)
+### Policies
+
+[Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies) (or download a [.zip file with all policies](/docs/policies.zip))  
+[Spreadsheet with list of URLs and full policy data (.xlsx)](/docs/urls.xlsx)
 
 ### Authors
 
