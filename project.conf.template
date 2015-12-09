@@ -1,0 +1,25 @@
+[wepawet]
+username = xxx
+password = yyy
+
+[cuckoo]
+host = 127.0.0.1
+port = 12580
+# Single task timeout.
+timeout = 200
+
+[pdfrate]
+mimicus_dir = [Replace with a path to the mimicus folder]
+
+[hidost]
+exec_dir = [Replace with a path to the folder of Hidost executables]
+model_path = [Replace with a path to the pickled model file]
+feats_path = [Replace with a path to the feature set file .nppf]
+cache_dir = /tmp/hidost/cache_pdfs
+
+[detector_agent]
+host = 127.0.0.1
+port = 8010
+# For detection result cache.
+mongodb_uri = mongodb://user:pwd@localhost:27017/malware_detection_cache
+db_name = malware_detection_cache
