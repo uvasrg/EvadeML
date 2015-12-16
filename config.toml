@@ -5,7 +5,7 @@ subtitle = "Evading Machine Learning-based Malware Classifiers"
 
 [params]
     sidebartitle = "EvadeML"
-    sidebartagline = "Evading Machine Learning-based Malware Classifiers"
+    sidebartagline = "Evading Machine Learning Malware Classifiers"
     nodate = true
     noauthor = true
     noread = true
