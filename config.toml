@@ -13,5 +13,19 @@ subtitle = "Understanding and Monitoring Embedded Web Scripts"
     notoc=true
 
 [[menu.main]]
+name = "Advice"
+url = "/advice"
+
+[[menu.main]]
+name = "Time"
+url = "/time"
+
+[[menu.main]]
+name = "Teaching"
+url = "/teaching"
+
+[[menu.main]]
+name = "Research"
+url = "/research"
 
 [[menu.footer]]

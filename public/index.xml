@@ -9,57 +9,61 @@
     <atom:link href="http://scriptinspector.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>ScriptInspector: Monitoring Embedded Web Scripts</title>
+      <title>EvadeML: Evading Machine Learning-based Malware Classifiers</title>
       <link>http://scriptinspector.org/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://scriptinspector.org/main/</guid>
       <description>
 
-&lt;h3 id=&#34;understanding-and-monitoring-embedded-web-scripts:379caad01b6ea305187be199bcac1370&#34;&gt;Understanding and Monitoring Embedded Web Scripts&lt;/h3&gt;
+&lt;h3 id=&#34;evading-machine-learning-based-malware-classifiers:379caad01b6ea305187be199bcac1370&#34;&gt;Evading Machine Learning-based Malware Classifiers&lt;/h3&gt;
 
-&lt;p&gt;Modern web applications make frequent use of third-party scripts, often
-in ways that allow scripts loaded from external servers to make
-unrestricted changes to the embedding page and access citical resources
-including private user information.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EvadeML&lt;/strong&gt; is an evolutionary framework based on genetic programming
+  for automatically finding variants that evade detection by machine
+  learning-based malware classifiers.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;http://scriptinspector.org/images/overview.png&#34;&gt;&lt;img src=&#34;http://scriptinspector.org/images/overview.png&#34; alt=&#34;Overview&#34; width=&#34;500px&#34; height=&#34;372px&#34;&gt;&lt;/a&gt;
+&lt;a href=&#34;http://scriptinspector.org/images/method.png&#34;&gt;&lt;img src=&#34;http://scriptinspector.org/images/method.png&#34; alt=&#34;Overview&#34; width=&#34;533px&#34; height=&#34;170px&#34;&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;ScriptInspector&lt;/strong&gt; assists site administrators in understanding,
-monitoring, and restricting the behavior of third-party scripts embedded
-in their site.  ScriptInspector is a modified browser that can
-intercept, record, and check third-party script accesses to critical
-resources against security policies.  It works with a &lt;strong&gt;Visualizer&lt;/strong&gt;
-tool that allows users to conveniently view recorded script behaviors
-and candidate policies and a &lt;strong&gt;PolicyGenerator&lt;/strong&gt; tool that aids script
-providers and site administrators in writing policies.  Site
-administrators can manually refine these policies with minimal effort to
-produce policies that effectively and robustly limit the behavior of
-embedded scripts.&lt;/p&gt;
+&lt;p&gt;Machine learning is widely used to develop classifiers for security
+tasks. However, the robustness of these methods against motivated
+adversaries is uncertain. In this work, we propose a generic method to
+evaluate the robustness of classifiers under attack. The key idea is to
+stochastically manipulate a malicious sample to find a variant that
+preserves the malicious behavior but is classified as benign by the
+classifier. We present a general approach to search for evasive variants
+and report on results from experiments using our techniques against two
+PDF malware classifiers, PDFrate and Hidost. Our method is able to
+automatically find evasive variants for both classifiers for all of the
+500 malicious seeds in our study. Our results suggest a general method
+for evaluating classifiers used in security applications, and raise
+serious doubts about the effectiveness of classifiers based on
+superficial features in the presence of adversaries.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;http://scriptinspector.org/images/accumulated_evasion_by_trace_length.png&#34;&gt;&lt;img src=&#34;http://scriptinspector.org/images/accumulated_evasion_by_trace_length.png&#34; alt=&#34;Overview&#34; width=&#34;531px&#34; height=&#34;369px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;paper:379caad01b6ea305187be199bcac1370&#34;&gt;Paper&lt;/h3&gt;
 
-&lt;p&gt;Yuchen Zhou and David Evans. &lt;em&gt;Understanding and Monitoring Embedded Web Scripts&lt;/em&gt;.  &lt;a href=&#34;http://www.ieee-security.org/TC/SP2015/&#34;&gt;&lt;em&gt;36&lt;sup&gt;th&lt;/sup&gt; IEEE Symposium on Security and Privacy&lt;/em&gt;&lt;/a&gt; (&amp;ldquo;Oakland&amp;rdquo;). San Jose, CA. 18-20 May 2015.&lt;/p&gt;
+&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;em&gt;Automatically Evading
+Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and
+Distributed Systems Symposium
+2016&lt;/em&gt;&lt;/a&gt;,
+21-24 February 2016, San Diego, California.&lt;/p&gt;
 
-&lt;p&gt;Full paper (16 pages): [&lt;a href=&#34;http://scriptinspector.org/docs/ScriptInspector.pdf&#34;&gt;PDF&lt;/a&gt;]
-&lt;/p&gt;
+&lt;p&gt;Full paper (16 pages): (coming soon, email for preview) &amp;lt;!&amp;ndash;[&lt;a href=&#34; &amp;ndash;&amp;gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;source-code:379caad01b6ea305187be199bcac1370&#34;&gt;Source Code&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/Treeeater/JSAccessVisualizer&#34;&gt;https://github.com/Treeeater/JSAccessVisualizer&lt;/a&gt;&lt;br /&gt;
-Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.&lt;/p&gt;
-
-&lt;h3 id=&#34;policies:379caad01b6ea305187be199bcac1370&#34;&gt;Policies&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies&#34;&gt;Browse Policies&lt;/a&gt; (or download a &lt;a href=&#34;http://scriptinspector.org/docs/policies.zip&#34;&gt;.zip file with all policies&lt;/a&gt;)&lt;br /&gt;
-&lt;a href=&#34;http://scriptinspector.org/docs/urls.xlsx&#34;&gt;Spreadsheet with list of URLs and full policy data (.xlsx)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;authors:379caad01b6ea305187be199bcac1370&#34;&gt;Authors&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.yuchenzhou.info/&#34;&gt;Yuchen Zhou&lt;/a&gt; (University of Virginia; now at Palo Alto Networks)&lt;br /&gt;
-&lt;a href=&#34;http://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (University of Virginia)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mzweilin&#34;&gt;Weilin Xu&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt;
+&lt;a href=&#34;http://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

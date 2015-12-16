@@ -1,5 +1,5 @@
 GITHUB_PAGES_BRANCH=gh-pages
-SITENAME=ScriptInspector
+SITENAME=EvadeML
 
 html:
 	hugo --theme=srg

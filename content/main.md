@@ -1,47 +1,55 @@
 +++
-title = "ScriptInspector: Monitoring Embedded Web Scripts"
+title = "EvadeML: Evading Machine Learning-based Malware Classifiers"
 +++
 
-### Understanding and Monitoring Embedded Web Scripts
+### Evading Machine Learning-based Malware Classifiers
 
-Modern web applications make frequent use of third-party scripts, often
-in ways that allow scripts loaded from external servers to make
-unrestricted changes to the embedding page and access citical resources
-including private user information.
+**EvadeML** is an evolutionary framework based on genetic programming
+  for automatically finding variants that evade detection by machine
+  learning-based malware classifiers.
 
 <center>
-<a href="/images/overview.png"><img src="/images/overview.png" alt="Overview" width="500px" height="372px"></a>
+<a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="533px" height="170px"></a>
 </center>
 
-**ScriptInspector** assists site administrators in understanding,
-monitoring, and restricting the behavior of third-party scripts embedded
-in their site.  ScriptInspector is a modified browser that can
-intercept, record, and check third-party script accesses to critical
-resources against security policies.  It works with a **Visualizer**
-tool that allows users to conveniently view recorded script behaviors
-and candidate policies and a **PolicyGenerator** tool that aids script
-providers and site administrators in writing policies.  Site
-administrators can manually refine these policies with minimal effort to
-produce policies that effectively and robustly limit the behavior of
-embedded scripts.
+Machine learning is widely used to develop classifiers for security
+tasks. However, the robustness of these methods against motivated
+adversaries is uncertain. In this work, we propose a generic method to
+evaluate the robustness of classifiers under attack. The key idea is to
+stochastically manipulate a malicious sample to find a variant that
+preserves the malicious behavior but is classified as benign by the
+classifier. We present a general approach to search for evasive variants
+and report on results from experiments using our techniques against two
+PDF malware classifiers, PDFrate and Hidost. Our method is able to
+automatically find evasive variants for both classifiers for all of the
+500 malicious seeds in our study. Our results suggest a general method
+for evaluating classifiers used in security applications, and raise
+serious doubts about the effectiveness of classifiers based on
+superficial features in the presence of adversaries.
+
+<center>
+<a href="/images/accumulated_evasion_by_trace_length.png"><img src="/images/accumulated_evasion_by_trace_length.png" alt="Overview" width="531px" height="369px"></a>
+</center>
+
+
 
 ### Paper
 
-Yuchen Zhou and David Evans. _Understanding and Monitoring Embedded Web Scripts_.  [_36<sup>th</sup> IEEE Symposium on Security and Privacy_](http://www.ieee-security.org/TC/SP2015/) ("Oakland"). San Jose, CA. 18-20 May 2015. 
+Weilin Xu, Yanjun Qi, and David Evans. _Automatically Evading
+Classifiers A Case Study on PDF Malware Classifiers_.  [_Network and
+Distributed Systems Symposium
+2016_](https://www.internetsociety.org/events/ndss-symposium-2016),
+21-24 February 2016, San Diego, California.
 
-Full paper (16 pages): {{<pdflink "ScriptInspector.pdf" >}}
+Full paper (16 pages): (coming soon, email for preview) <!--{{<pdflink "EvadeML.pdf" >}} -->
 
 ### Source Code
 
-<a href="https://github.com/Treeeater/JSAccessVisualizer">https://github.com/Treeeater/JSAccessVisualizer</a>  
-Includes code for the ScriptInspector, Visualizer, and PolicyGenerator.
+<a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a>  
 
-### Policies
-
-[Browse Policies](https://github.com/uvasrg/ScriptInspector/tree/master/content/docs/policies) (or download a [.zip file with all policies](/docs/policies.zip))  
-[Spreadsheet with list of URLs and full policy data (.xlsx)](/docs/urls.xlsx)
 
 ### Authors
 
-[Yuchen Zhou](http://www.yuchenzhou.info/) (University of Virginia; now at Palo Alto Networks)  
-[David Evans](http://www.cs.virginia.edu/evans) (University of Virginia)
+[Weilin Xu](https://github.com/mzweilin)  
+[Yanjun Qi](http://www.cs.virginia.edu/yanjun/)
+[David Evans](http://www.cs.virginia.edu/evans) 
