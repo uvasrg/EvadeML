@@ -41,7 +41,7 @@ Distributed Systems Symposium
 2016_](https://www.internetsociety.org/events/ndss-symposium-2016),
 21-24 February 2016, San Diego, California.
 
-Full paper (16 pages): (coming soon, email for preview) <!--{{<pdflink "EvadeML.pdf" >}} -->
+Full paper (16 pages): (coming soon, email for preview) 
 
 ### Source Code
 
@@ -51,5 +51,5 @@ Full paper (16 pages): (coming soon, email for preview) <!--{{<pdflink "EvadeML.
 ### Authors
 
 [Weilin Xu](https://github.com/mzweilin)  
-[Yanjun Qi](http://www.cs.virginia.edu/yanjun/)
+[Yanjun Qi](http://www.cs.virginia.edu/yanjun/)  
 [David Evans](http://www.cs.virginia.edu/evans) 

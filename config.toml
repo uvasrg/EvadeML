@@ -1,31 +1,15 @@
-baseurl = "http://scriptinspector.org"
+baseurl = "http://evademl.org"
 languageCode = "en-us"
-title = "ScriptInspector"
-subtitle = "Understanding and Monitoring Embedded Web Scripts"
+title = "EvadeML"
+subtitle = "Evading Machine Learning-based Malware Classifiers"
 
 [params]
-    sidebartitle = "Script\nInspector"
-    sidebartagline = "Understanding and Monitoring Embedded Web Scripts"
+    sidebartitle = "EvadeML"
+    sidebartagline = "Evading Machine Learning-based Malware Classifiers"
     nodate = true
     noauthor = true
     noread = true
     nopaging=true
     notoc=true
-
-[[menu.main]]
-name = "Advice"
-url = "/advice"
-
-[[menu.main]]
-name = "Time"
-url = "/time"
-
-[[menu.main]]
-name = "Teaching"
-url = "/teaching"
-
-[[menu.main]]
-name = "Research"
-url = "/research"
 
 [[menu.footer]]
