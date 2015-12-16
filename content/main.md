@@ -9,7 +9,7 @@ title = "EvadeML: Evading Machine Learning-based Malware Classifiers"
   learning-based malware classifiers.
 
 <center>
-<a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="533px" height="170px"></a>
+<a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="650px" height="199px"></a>
 </center>
 
 Machine learning is widely used to develop classifiers for security
