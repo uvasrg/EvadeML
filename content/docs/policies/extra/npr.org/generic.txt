@@ -1,5 +1,0 @@
-root://DIV[@id='ad-desktop']>getSize
-root://DIV[@id='ad-88']>getSize
-//DIV[@id='ad-88']>!
-//DIV[@id='ad-desktop']>!
-//DIV[@id='main_sidebar']>document.write

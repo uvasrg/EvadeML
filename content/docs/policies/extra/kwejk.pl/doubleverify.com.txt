@@ -1,5 +1,0 @@
-
-//SCRIPT[@type='text/javascript'@src='http://.*doubleverify\.com.*']>SetId
-//IMG[@width='1'@height='1'@border='0'@style='display: none;'@src='http://.*bluekai\.com.*']>GetOuterHTML
-//IMG[@width='1'@height='1'@border='0'@style='display: none;'@src='http://.*exelator\.com.*']>GetOuterHTML
-//SECTION[@id='top_banner']>!

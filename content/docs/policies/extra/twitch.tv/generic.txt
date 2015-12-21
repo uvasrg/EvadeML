@@ -1,6 +1,0 @@
-
-//DIV[@id='sizzle_strip']>AppendChild
-//DIV[@id='Twitch_FP.*']>SetInnerHTML
-//DIV[@id='Twitch_FP.*']>RemoveChild
-//DIV[@id='Twitch_FP.*']>AppendChild
-//IFRAME[@id='dashboard-chat']>insideDOMAccess

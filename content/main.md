@@ -35,13 +35,13 @@ superficial features in the presence of adversaries.
 
 ### Paper
 
-Weilin Xu, Yanjun Qi, and David Evans. _Automatically Evading
-Classifiers A Case Study on PDF Malware Classifiers_.  [_Network and
+Weilin Xu, Yanjun Qi, and David Evans. [_Automatically Evading
+Classifiers A Case Study on PDF Malware Classifiers_](/data/evademl.pdf).  [_Network and
 Distributed Systems Symposium
 2016_](https://www.internetsociety.org/events/ndss-symposium-2016),
 21-24 February 2016, San Diego, California.
 
-Full paper (16 pages): (coming soon, email for preview) 
+Full paper (15 pages): [[PDF](/data/evademl.pdf)]
 
 ### Source Code
 

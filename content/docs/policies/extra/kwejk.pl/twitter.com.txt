@@ -1,5 +1,0 @@
-//LINK>GetType
-//OBJECT>GetBoundingClientRect
-//OBJECT>GetActualType
-//OBJECT>GetContentTypeForMIMEType
-//OBJECT>GetType

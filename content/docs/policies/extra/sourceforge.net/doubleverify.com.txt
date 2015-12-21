@@ -1,4 +1,0 @@
-//DIV[@id='leaderboard']>document.write
-//DIV[@id='leaderboard']>InsertBefore
-sub://DIV[@id='leaderboard']>GetNodeValue
-//SCRIPT>SetId

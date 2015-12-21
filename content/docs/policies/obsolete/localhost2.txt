@@ -1,2 +1,0 @@
-//DIV[@class='test test\d']
-//DIV[@id='ff']

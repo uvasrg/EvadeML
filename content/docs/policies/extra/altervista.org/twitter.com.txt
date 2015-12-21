@@ -1,2 +1,0 @@
-
-//DIV[@data-twttr-id='.*']>InsertBefore

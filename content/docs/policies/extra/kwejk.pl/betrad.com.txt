@@ -1,1 +1,0 @@
-//SECTION[@id='top_banner']>document.write

@@ -1,8 +1,0 @@
-//A>GetHref
-//A>GetProtocol
-//A>GetRel
-//A>GetHostname
-//A>GetPathname
-Navigator.userAgent accessed
-XMLHttpRequest sent
-Outgoing network traffic:viglink.com
