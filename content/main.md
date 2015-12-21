@@ -41,7 +41,7 @@ Distributed Systems Symposium
 2016_](https://www.internetsociety.org/events/ndss-symposium-2016),
 21-24 February 2016, San Diego, California.
 
-Full paper (15 pages): {{<pdflink "evademl.pdf" >}}
+Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
 
 ### Source Code
 
