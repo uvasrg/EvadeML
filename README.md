@@ -3,10 +3,11 @@ EvadeML v1.0
 =============
 
 ------------
-An evolutionary framework for evading machine learning-based malware classifiers.
+An Evolutionary Framework for Evading Machine Learning-based Malware Classifiers
 ------------
 
-By Weilin Xu, Yanjun Qi and David Evans, University of Virginia.
+[Weilin Xu](https://github.com/mzweilin), [Yanjun Qi](http://www.cs.virginia.edu/yanjun/), and [David Evans](http://www.cs.virginia.edu/evans/)  
+_University of Virginia_
 
 # Installation
 
