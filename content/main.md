@@ -17,13 +17,14 @@ including private user information.
 monitoring, and restricting the behavior of third-party scripts embedded
 in their site.  ScriptInspector is a modified browser that can
 intercept, record, and check third-party script accesses to critical
-resources against security policies.  It works with a **Visualizer**
-tool that allows users to conveniently view recorded script behaviors
-and candidate policies and a **PolicyGenerator** tool that aids script
-providers and site administrators in writing policies.  Site
-administrators can manually refine these policies with minimal effort to
-produce policies that effectively and robustly limit the behavior of
-embedded scripts.
+resources against security policies.  
+
+ScriptInspector includes a **Visualizer** tool that allows users to
+conveniently view recorded script behaviors and candidate policies and a
+**PolicyGenerator** tool that aids script providers and site
+administrators in writing policies.  Site administrators can manually
+refine these policies with minimal effort to produce policies that
+effectively and robustly limit the behavior of embedded scripts.
 
 ### Paper
 
