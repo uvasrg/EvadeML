@@ -11,7 +11,7 @@ title = "EvadeML: Evading Machine Learning-based Malware Classifiers"
 <center>
 <a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="650px" height="199px"></a>
 </center>
-
+<p>
 Machine learning is widely used to develop classifiers for security
 tasks. However, the robustness of these methods against motivated
 adversaries is uncertain. In this work, we propose a generic method to
@@ -20,12 +20,14 @@ stochastically manipulate a malicious sample to find a variant that
 preserves the malicious behavior but is classified as benign by the
 classifier. We present a general approach to search for evasive variants
 and report on results from experiments using our techniques against two
-PDF malware classifiers, PDFrate and Hidost. Our method is able to
-automatically find evasive variants for both classifiers for all of the
-500 malicious seeds in our study. Our results suggest a general method
-for evaluating classifiers used in security applications, and raise
-serious doubts about the effectiveness of classifiers based on
-superficial features in the presence of adversaries.
+PDF malware classifiers, PDFrate and Hidost. 
+
+Our method is able to automatically find evasive variants for both
+classifiers for all of the 500 malicious seeds in our study. Our results
+suggest a general method for evaluating classifiers used in security
+applications, and raise serious doubts about the effectiveness of
+classifiers based on superficial features in the presence of
+adversaries.
 
 <center>
 <a href="/images/accumulated_evasion_by_trace_length.png"><img src="/images/accumulated_evasion_by_trace_length.png" alt="Overview" width="531px" height="369px"></a>
@@ -41,6 +43,13 @@ Distributed Systems Symposium
 21-24 February 2016, San Diego, California.
 
 Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
+
+<center>
+<script async class="speakerdeck-embed" data-id="0a82f51fd6534cdbb58f3df1bcbc004f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br>
+<b>Weilin Xu's Talk at NDSS</b>
+</center>
+
+<a href="http://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails"><b>Blog Post</b></a>
 
 ### Source Code
 
