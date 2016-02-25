@@ -1,0 +1,5 @@
+root://DIV[@id='div-gpt-ad-.*']>getSize
+//DIV[@id='div-gpt-ad-.*']>!
+//DIV[@id='SF_.*']>!'
+sub://SECTION[@id='sidebar']>getSize
+//DIV[@class='textwidget']>document.write

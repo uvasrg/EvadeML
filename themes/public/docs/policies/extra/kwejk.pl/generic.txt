@@ -1,0 +1,2 @@
+//SECTION[@id='sky_right']>document.write
+//SECTION[@id='sky_left']>document.write

@@ -1,0 +1,3 @@
+
+//IMG[@title='Advertisement']>getSize
+//IMG[@title='Advertisement']>GetOuterHTML

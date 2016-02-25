@@ -1,0 +1,69 @@
+/* Styles for Heather - A Hyperminimal Jekyll Theme */
+
+/* BASSCSS Reset - http://jxnblk.github.io/basscss */
+body, h1, h2, h3, h4, h5, h6, dl, ol, ul, p,
+button, input, select, textarea {
+  margin: 0;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display: block;
+}
+
+
+body {
+  color: #333;
+  font-size: 100%;
+  line-height: 1.75;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 { line-height: 1.25; }
+h1, .h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+h2, .h2, h3, .h3, h4, h5, h6 { 
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+p, .p {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+small, .small { font-size: 16px; }
+
+@media screen and (min-width: 640px) {
+  h1, .h1 { font-size: 48px; }
+  h2, .h2 { font-size: 32px; }
+  p, .p   { font-size: 20px; }
+}
+
+a { color: #09c; text-decoration: none; }
+a:hover { color: #069; }
+h1 a { color: #333;}
+
+.wrap {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 32px 5% 64px 5%;
+}
+
+.m-0 { margin-top: 0; margin-bottom: 0; }
+.mb { margin-bottom: 64px; }
+
+.post { margin-bottom: 96px; }
+.post img { max-width: 100%; }
+
+.center { text-align: center; }
+.fl { float: left; }
+.fr { float: right; }
+
+.gray { color: #999; }
+

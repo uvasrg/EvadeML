@@ -1,0 +1,22 @@
+//SCRIPT>GetSrc
+//LINK>GetRel
+//LINK>GetHref
+/HTML[1]/BODY[1]>getSize
+/HTML[1]>getSize
+/HTML[1]>Contains
+//>GetId
+//>GetAttribute:id
+//>GetAttribute:data-cb-.*
+GetCookie
+SetCookie
+localStorage accessed
+navigator.mimetypes[].type read
+navigator.plugins[].description read
+navigator.plugins[].fileName read
+navigator.plugins[].name read
+Navigator.userAgent accessed
+screen.colorDepth read
+screen.height read
+screen.width read
+Outgoing network traffic:chartbeat.net
+Outgoing network traffic:chartbeat.com

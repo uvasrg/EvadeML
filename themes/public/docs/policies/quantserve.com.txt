@@ -1,0 +1,10 @@
+//META>GetContent
+GetCookie
+Outgoing network traffic:quantserve.com
+Navigator.cookieEnabled accessed
+Navigator.javaEnabled accessed
+SetCookie
+screen.colorDepth read
+screen.height read
+screen.width read
+localStorage accessed

@@ -1,0 +1,13 @@
+Outgoing network traffic:*
+Navigator.userAgent accessed
+//SCRIPT>GetSrc
+//SCRIPT>GetAttribute:src
+//>GetAttribute:id
+//>GetId
+//META>GetContent
+Outgoing network traffic:crwdcntrl.net
+/HTML[1]/BODY[1]>AppendChild:\[o\]<iframe[^]*>
+Outgoing network traffic:legolas-media.com
+//A>GetHref
+//A>GetAttribute:title
+//A>GetAttribute:href

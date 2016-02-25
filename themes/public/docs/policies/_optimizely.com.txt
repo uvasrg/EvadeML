@@ -1,0 +1,24 @@
+/HTML[1]>SetAttribute:id
+/HTML[1]>MozMatchesSelector
+/HTML[1]>GetAttribute:id
+localStorage accessed
+SetCookie
+GetCookie
+Navigator.vendor accessed
+Navigator.userAgent accessed
+Navigator.appVersion accessed
+Navigator.language accessed
+Outgoing network traffic:optimizely.com
+/HTML[1]>getSize
+/HTML[1]>RemoveChild:\[o\]<div>[^]*>
+/HTML[1]>RemoveChild:\[o\]<body[^]*>
+/HTML[1]>InsertBefore:\[o\]<div>[^]*>
+/HTML[1]>InsertBefore:\[o\]<body[^]*>
+/HTML[1]/HEAD[1]>InsertBefore:\[o\]<script[^]*>
+/HTML[1]/HEAD[1]>AppendChild:\[o\]<script[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>InsertBefore:\[o\]<div[^]*>
+/HTML[1]/BODY[1]>RemoveChild:\[o\]<section[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<section[^]*>
+/HTML[1]/BODY[1]>AppendChild:\[o\]<style>[^]*</style>
+/HTML[1]/BODY[1]>MozMatchesSelector

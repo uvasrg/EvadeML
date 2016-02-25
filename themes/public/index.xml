@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EvadeML</title>
+    <link>http://evademl.org/</link>
+    <description>Recent content on EvadeML</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://evademl.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>EvadeML: Evading Machine Learning-based Malware Classifiers</title>
+      <link>http://evademl.org/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://evademl.org/main/</guid>
+      <description>
+
+&lt;h3 id=&#34;evading-machine-learning-based-malware-classifiers:379caad01b6ea305187be199bcac1370&#34;&gt;Evading Machine Learning-based Malware Classifiers&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;EvadeML&lt;/strong&gt; is an evolutionary framework based on genetic programming
+  for automatically finding variants that evade detection by machine
+  learning-based malware classifiers.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;http://evademl.org/images/method.png&#34;&gt;&lt;img src=&#34;http://evademl.org/images/method.png&#34; alt=&#34;Overview&#34; width=&#34;650px&#34; height=&#34;199px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Machine learning is widely used to develop classifiers for security
+tasks. However, the robustness of these methods against motivated
+adversaries is uncertain. In this work, we propose a generic method to
+evaluate the robustness of classifiers under attack. The key idea is to
+stochastically manipulate a malicious sample to find a variant that
+preserves the malicious behavior but is classified as benign by the
+classifier. We present a general approach to search for evasive variants
+and report on results from experiments using our techniques against two
+PDF malware classifiers, PDFrate and Hidost. Our method is able to
+automatically find evasive variants for both classifiers for all of the
+500 malicious seeds in our study. Our results suggest a general method
+for evaluating classifiers used in security applications, and raise
+serious doubts about the effectiveness of classifiers based on
+superficial features in the presence of adversaries.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;http://evademl.org/images/accumulated_evasion_by_trace_length.png&#34;&gt;&lt;img src=&#34;http://evademl.org/images/accumulated_evasion_by_trace_length.png&#34; alt=&#34;Overview&#34; width=&#34;531px&#34; height=&#34;369px&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;paper:379caad01b6ea305187be199bcac1370&#34;&gt;Paper&lt;/h3&gt;
+
+&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;http://evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
+Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and
+Distributed Systems Symposium
+2016&lt;/em&gt;&lt;/a&gt;,
+21-24 February 2016, San Diego, California.&lt;/p&gt;
+
+&lt;p&gt;Full paper (15 pages): [&lt;a href=&#34;http://evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code:379caad01b6ea305187be199bcac1370&#34;&gt;Source Code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;authors:379caad01b6ea305187be199bcac1370&#34;&gt;Authors&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mzweilin&#34;&gt;Weilin Xu&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
