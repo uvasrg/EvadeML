@@ -32,7 +32,6 @@ superficial features in the presence of adversaries.
 </center>
 
 
-
 ### Paper
 
 Weilin Xu, Yanjun Qi, and David Evans. [_Automatically Evading
