@@ -26,7 +26,6 @@
 &lt;a href=&#34;http://evademl.org/images/method.png&#34;&gt;&lt;img src=&#34;http://evademl.org/images/method.png&#34; alt=&#34;Overview&#34; width=&#34;650px&#34; height=&#34;199px&#34;&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-<<<<<<< HEAD
 &lt;p&gt;Machine learning is widely used to develop classifiers for security
 tasks. However, the robustness of these methods against motivated
 adversaries is uncertain. In this work, we propose a generic method to
@@ -45,20 +44,6 @@ superficial features in the presence of adversaries.&lt;/p&gt;
 &lt;p&gt;&lt;center&gt;
 &lt;a href=&#34;http://evademl.org/images/accumulated_evasion_by_trace_length.png&#34;&gt;&lt;img src=&#34;http://evademl.org/images/accumulated_evasion_by_trace_length.png&#34; alt=&#34;Overview&#34; width=&#34;531px&#34; height=&#34;369px&#34;&gt;&lt;/a&gt;
 &lt;/center&gt;&lt;/p&gt;
-=======
-&lt;p&gt;&lt;strong&gt;ScriptInspector&lt;/strong&gt; assists site administrators in understanding,
-monitoring, and restricting the behavior of third-party scripts embedded
-in their site.  ScriptInspector is a modified browser that can
-intercept, record, and check third-party script accesses to critical
-resources against security policies.&lt;/p&gt;
-
-&lt;p&gt;ScriptInspector includes a &lt;strong&gt;Visualizer&lt;/strong&gt; tool that allows users to
-conveniently view recorded script behaviors and candidate policies and a
-&lt;strong&gt;PolicyGenerator&lt;/strong&gt; tool that aids script providers and site
-administrators in writing policies.  Site administrators can manually
-refine these policies with minimal effort to produce policies that
-effectively and robustly limit the behavior of embedded scripts.&lt;/p&gt;
->>>>>>> a18d37afa67fc18a2639a7fcab00e7a1d2a5134e
 
 &lt;h3 id=&#34;paper:379caad01b6ea305187be199bcac1370&#34;&gt;Paper&lt;/h3&gt;
 
