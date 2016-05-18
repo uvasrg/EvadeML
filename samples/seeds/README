@@ -1,1 +1,1 @@
-The sha1 checksum of each seed is available at utils/36vms_sigs.pickle along with the signature. 
+The hash of each selected seed is available at utils/36vms_sigs.pickle along with the signature. A text file <seeds_hash_list.txt> is also attached for your convenience. 
