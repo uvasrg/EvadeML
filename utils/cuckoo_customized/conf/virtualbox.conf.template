@@ -1,0 +1,255 @@
+[virtualbox]
+# Specify which VirtualBox mode you want to run your machines on.
+# Can be "gui", "sdl" or "headless". Refer to VirtualBox's official
+# documentation to understand the differences.
+mode = headless
+
+# Path to the local installation of the VBoxManage utility.
+path = /usr/bin/VBoxManage
+
+# Specify a comma-separated list of available machines to be used. For each
+# specified ID you have to define a dedicated section containing the details
+# on the respective machine. (E.g. cuckoo1,cuckoo2,cuckoo3)
+machines = cuckoox3, cuckoox4, cuckoox5, cuckoox6, cuckoox7, cuckoox8, cuckoox9, cuckoox10, cuckoox11, cuckoox12, cuckoox13, cuckoox14, cuckoox15, cuckoox16, cuckoox17, cuckoox18, cuckoox19, cuckoox20, cuckoox21, cuckoox22, cuckoox23, cuckoox24, cuckoox25, cuckoox26, cuckoox27, cuckoox28, cuckoox29, cuckoox30, cuckoox31, cuckoox32, cuckoox33, cuckoox34, cuckoox35, cuckoox36, cuckoox37, cuckoox38
+#, cuckoox39, cuckoox40, cuckoox41, cuckoox42, cuckoox43, cuckoox44, cuckoox45, cuckoox46, cuckoox47, cuckoox48, cuckoox49, cuckoox50
+
+[cuckoox3]
+label = cuckoox3
+platform = windows
+ip = 192.168.56.3
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox4]
+label = cuckoox4
+platform = windows
+ip = 192.168.56.4
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox5]
+label = cuckoox5
+platform = windows
+ip = 192.168.56.5
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox6]
+label = cuckoox6
+platform = windows
+ip = 192.168.56.6
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox7]
+label = cuckoox7
+platform = windows
+ip = 192.168.56.7
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox8]
+label = cuckoox8
+platform = windows
+ip = 192.168.56.8
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox9]
+label = cuckoox9
+platform = windows
+ip = 192.168.56.9
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox10]
+label = cuckoox10
+platform = windows
+ip = 192.168.56.10
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox11]
+label = cuckoox11
+platform = windows
+ip = 192.168.56.11
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox12]
+label = cuckoox12
+platform = windows
+ip = 192.168.56.12
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox13]
+label = cuckoox13
+platform = windows
+ip = 192.168.56.13
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox14]
+label = cuckoox14
+platform = windows
+ip = 192.168.56.14
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox15]
+label = cuckoox15
+platform = windows
+ip = 192.168.56.15
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox16]
+label = cuckoox16
+platform = windows
+ip = 192.168.56.16
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox17]
+label = cuckoox17
+platform = windows
+ip = 192.168.56.17
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox18]
+label = cuckoox18
+platform = windows
+ip = 192.168.56.18
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox19]
+label = cuckoox19
+platform = windows
+ip = 192.168.56.19
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox20]
+label = cuckoox20
+platform = windows
+ip = 192.168.56.20
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox21]
+label = cuckoox21
+platform = windows
+ip = 192.168.56.21
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox22]
+label = cuckoox22
+platform = windows
+ip = 192.168.56.22
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox23]
+label = cuckoox23
+platform = windows
+ip = 192.168.56.23
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox24]
+label = cuckoox24
+platform = windows
+ip = 192.168.56.24
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox25]
+label = cuckoox25
+platform = windows
+ip = 192.168.56.25
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox26]
+label = cuckoox26
+platform = windows
+ip = 192.168.56.26
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox27]
+label = cuckoox27
+platform = windows
+ip = 192.168.56.27
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox28]
+label = cuckoox28
+platform = windows
+ip = 192.168.56.28
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox29]
+label = cuckoox29
+platform = windows
+ip = 192.168.56.29
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox30]
+label = cuckoox30
+platform = windows
+ip = 192.168.56.30
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox31]
+label = cuckoox31
+platform = windows
+ip = 192.168.56.31
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox32]
+label = cuckoox32
+platform = windows
+ip = 192.168.56.32
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox33]
+label = cuckoox33
+platform = windows
+ip = 192.168.56.33
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox34]
+label = cuckoox34
+platform = windows
+ip = 192.168.56.34
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox35]
+label = cuckoox35
+platform = windows
+ip = 192.168.56.35
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox36]
+label = cuckoox36
+platform = windows
+ip = 192.168.56.36
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox37]
+label = cuckoox37
+platform = windows
+ip = 192.168.56.37
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox38]
+label = cuckoox38
+platform = windows
+ip = 192.168.56.38
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox39]
+label = cuckoox39
+platform = windows
+ip = 192.168.56.39
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox40]
+label = cuckoox40
+platform = windows
+ip = 192.168.56.40
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox41]
+label = cuckoox41
+platform = windows
+ip = 192.168.56.41
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox42]
+label = cuckoox42
+platform = windows
+ip = 192.168.56.42
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox43]
+label = cuckoox43
+platform = windows
+ip = 192.168.56.43
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox44]
+label = cuckoox44
+platform = windows
+ip = 192.168.56.44
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox45]
+label = cuckoox45
+platform = windows
+ip = 192.168.56.45
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox46]
+label = cuckoox46
+platform = windows
+ip = 192.168.56.46
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox47]
+label = cuckoox47
+platform = windows
+ip = 192.168.56.47
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox48]
+label = cuckoox48
+platform = windows
+ip = 192.168.56.48
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox49]
+label = cuckoox49
+platform = windows
+ip = 192.168.56.49
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
+[cuckoox50]
+label = cuckoox50
+platform = windows
+ip = 192.168.56.50
+tags = windows_xp_sp3,32_bit,acrobat_reader_8_1_1
