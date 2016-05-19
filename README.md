@@ -14,7 +14,7 @@ _University of Virginia_
 Several external libraries are required in the project.
 
 * A modified version of pdfrw for parsing PDF at https://github.com/mzweilin/pdfrw
-* Cuckoo Sandbox as the oracle at https://github.com/cuckoobox/cuckoo
+* Cuckoo Sandbox v1.2 as the oracle at https://github.com/cuckoosandbox/cuckoo/releases/tag/1.2
 * Target classifier PDFrate-Mimicus at https://github.com/srndic/mimicus
 * Target classifier Hidost at https://github.com/srndic/hidost
 
