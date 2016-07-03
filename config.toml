@@ -1,4 +1,4 @@
-baseurl = "http://evademl.org"
+baseurl = "//evademl.org"
 languageCode = "en-us"
 title = "EvadeML"
 subtitle = "Evading Machine Learning-based Malware Classifiers"
