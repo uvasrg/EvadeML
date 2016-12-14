@@ -54,8 +54,9 @@ Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
 <center>
 <video width="640" controls="controls">
 <source src="https://www.cs.virginia.edu/evans/talks/oreilly.mp4" type="video/mp4">
-</video><b>
-<b>David Evans' Talk at <a href="http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/53176">O'Reilly Security 2016</a>, New York City, 2 November 2016. [<a href="https://speakerdeck.com/evansuva/classifiers-under-attack">Speaker Deck</a>]
+</video><br>
+<b>Classifiers Under Attack</b><br>
+David Evans' Talk at <a href="http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/53176">O'Reilly Security 2016</a>, New York City, 2 November 2016. [<a href="https://speakerdeck.com/evansuva/classifiers-under-attack">Speaker Deck</a>]<br>
 </center>
 
 <center>
