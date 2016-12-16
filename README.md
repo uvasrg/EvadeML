@@ -29,14 +29,15 @@ vim project.conf
 
 # Running
 
-First, run a program to select several benign PDF files as external genome.
-```
-$ ./utils/generate_ext_genome.py [classifier_name] [benign_sample_folder] [file_number]
-```
 
-Then start the centralized detection agent with pre-defined malware signatures.
+First start the centralized detection agent with pre-defined malware signatures.
 ```
 $ ./utils/detection_agent_server.py ./utils/36vms_sigs.pickle
+```
+
+Second, run a program to select several benign PDF files as external genome.
+```
+$ ./utils/generate_ext_genome.py [classifier_name] [benign_sample_folder] [file_number]
 ```
 
 Now we can start the main program `./gp.py` with a long list of arguments. The helper script `./batch.py` should be helpful in large scale experiments.
