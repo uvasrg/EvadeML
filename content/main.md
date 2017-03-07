@@ -52,6 +52,11 @@ Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
 ### Talks
 
 <center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br>
+David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans">USENIX Enigma 2017</a>, Oakland, CA, 1 February 2017. [<A href="https://speakerdeck.com/evansuva/classifiers-under-attack-1">Speaker Deck</a>]</br>
+</center>
+
+<center>
 <video width="640" controls="controls">
 <source src="https://www.cs.virginia.edu/evans/talks/oreilly.mp4" type="video/mp4">
 </video><br>
