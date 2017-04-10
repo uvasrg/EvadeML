@@ -6,7 +6,19 @@
   </url>
   
   <url>
+    <loc>//evademl.org/gpevasion/</loc>
+  </url>
+  
+  <url>
     <loc>//evademl.org/main/</loc>
+  </url>
+  
+  <url>
+    <loc>//evademl.org/squeezing/</loc>
+  </url>
+  
+  <url>
+    <loc>//evademl.org/talks/</loc>
   </url>
   
 </urlset>

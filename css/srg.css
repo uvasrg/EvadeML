@@ -34,6 +34,16 @@ a.pure-button:hover, a.pure-button:focus {
 	color: inherit;
 	text-decoration: none;
 }
+a.hlink {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.hlink:hover,focus {
+  text-decoration: underline;
+  color: #FFFF88;
+}
+
 a.pure-button-primary:hover, a.pure-button-primary:focus {
 	color: #fff;
 }
@@ -44,6 +54,7 @@ p a {
 h1 {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 700; 
+        text-align: center;
 }
 .center {
 	text-align: center;
@@ -173,7 +184,17 @@ h2.brand-group {
 h1.post-title a {
 	text-decoration: none;
 	color: #111111;
+        padding-bottom: 20px;
+   	text-align: center;
 }
+
+img {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .post-date {
 	color: #E54028;
 	font-family: 'Libre Baskerville', serif;
@@ -495,4 +516,33 @@ hr.thin {
         top: 0;
         bottom: 0;
     }
+}
+
+table {
+  background: #F8F8FF;
+  width: 85%;
+  align: center;
+  padding: 0.5rem;
+  text-align: left;
+  border: 1px solid #666;
+  border-collapse: collapse;
+  border-spacing: 0.5rem;
+}
+
+.brand-tagline {
+  font-size: 1.4rem;
+  margin-top: 0.25rem;
+}
+
+h2 {
+   background: #D8BFD8;
+   text-align: center;
+   font-size: 1.3rem;
+   padding: 0.2rem;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #666;
+    text-align: center;
 }

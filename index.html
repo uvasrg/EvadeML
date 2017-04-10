@@ -63,17 +63,17 @@
     <div id="layout" class="pure-g">
         <div class="sidebar pure-u-1 pure-u-md-1-4">
   <div class="header">
-    <h2 class="brand-group">
+    <p class="brand-group">
 
 <a href="https://www.cs.virginia.edu/yanjun/gQdata.htm">Maching Learning Group</a><br>
 and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
 <a href="http://www.cs.virginia.edu">University of Virginia</a>
-</h2>
+</p>
 
 
 
     <a href="//evademl.org"><h1 class="brand-title">EvadeML</h1></a>
-    <h2 class="brand-tagline">Evading Machine Learning Malware Classifiers</h2>
+    <p class="brand-tagline">Machine Learning in the Presence of Adversaries</p>
 
 
 
@@ -87,85 +87,91 @@ and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
             <a name="top"></a>
             
 
-
 <section id="main">
   <div>
     
         
+    
+        
+           
 
-<h3 id="evading-machine-learning-based-malware-classifiers">Evading Machine Learning-based Malware Classifiers</h3>
+<h1 id="is-robust-machine-learning-possible">Is Robust Machine Learning Possible?</h1>
 
-<p><strong>EvadeML</strong> is an evolutionary framework based on genetic programming
-  for automatically finding variants that evade detection by machine
-  learning-based malware classifiers.</p>
+<p>Machine learning has shown remarkable success in solving complex
+classification problems, but current machine learning techniques
+produce models that are vulnerable to adversaries who may wish to
+confuse them, especially when used for security applications like
+malware classification.</p>
 
-<p><center>
-<a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="650px" height="199px"></a>
-</center>
-<p>
-Machine learning is widely used to develop classifiers for security
-tasks. However, the robustness of these methods against motivated
-adversaries is uncertain. In this work, we propose a generic method to
-evaluate the robustness of classifiers under attack. The key idea is to
-stochastically manipulate a malicious sample to find a variant that
-preserves the malicious behavior but is classified as benign by the
-classifier. We present a general approach to search for evasive variants
-and report on results from experiments using our techniques against two
-PDF malware classifiers, PDFrate and Hidost.</p>
+<p><img align="right" src="/images/mlassumption.png" width=600></p>
 
-<p>Our method is able to automatically find evasive variants for both
-classifiers for all of the 500 malicious seeds in our study. Our results
-suggest a general method for evaluating classifiers used in security
-applications, and raise serious doubts about the effectiveness of
-classifiers based on superficial features in the presence of
-adversaries.</p>
+<p>The key assumption of machine learning is that a model that is trained
+on training data will perform well in deployment because the training
+data is representative of the data that will be seen when the
+classifier is deployed.</p>
 
-<p><center>
-<a href="/images/accumulated_evasion_by_trace_length.png"><img src="/images/accumulated_evasion_by_trace_length.png" alt="Overview" width="531px" height="369px"></a>
-</center></p>
+<p>When machine learning classifiers are used in security applications,
+however, adversaries may be able to generate samples that exploit the
+invalidity of this assumption.</p>
 
-<h3 id="paper">Paper</h3>
+<p>Our project is focused on understanding, evaluating, and improving the
+effectiveness of machine learning methods in the presence of motivated
+and sophisticated adversaries.</p>
+
+<h2 id="projects">Projects</h2>
+
+<section style="display: table;width: 100%">
+  <header style="display: table-row; padding: 0.5rem">
+    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
+<a href="/gpevasion" class="hlink">Genetic&nbsp;Programming</a>
+    </div>
+        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
+    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
+<a href="/squeezing" class="hlink">Feature Squeezing</a>
+    </div>
+  </header>
+  <div style="display: table-row;">
+    <div style="display: table-cell;">
+    <a href="/gpevasion"><img src="/images/geneticsearch.png" alt="Genetic Search" width="100%" align="center"></a><br>
+Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
+    </div>
+    <div style="display: table-cell;"></div>
+    <div style="display: table-cell;text-align:center">
+    <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
+Reducing the search space for adversaries by coalescing inputs.<br>
+<font size="-1" style="color:#666;">(The top row shows L<sub>0</sub> adversarial examples, squeezed by median smoothing.)</font>
+</div>
+  </div>
+</section>
+
+<h2 id="papers">Papers</h2>
+
+<p>Weilin Xu, David Evans, Yanjun Qi. <a href="https://arxiv.org/abs/1704.01155"><em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em></a>. arXiv preprint, 4 April 2017. [<a href="https://arxiv.org/pdf/1704.01155.pdf">PDF</a>]</p>
 
 <p>Weilin Xu, Yanjun Qi, and David Evans. <a href="/docs/evademl.pdf"><em>Automatically Evading
-Classifiers A Case Study on PDF Malware Classifiers</em></a>.  <a href="https://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and
-Distributed Systems Symposium
-2016</em></a>,
-21-24 February 2016, San Diego, California.</p>
+Classifiers A Case Study on PDF Malware Classifiers</em></a>.  <a href="https://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and Distributed Systems Symposium 2016</em></a>, 21-24 February 2016, San Diego, California. Full paper (15 pages): [<a href="/docs/evademl.pdf">PDF</a>]</p>
 
-<p>Full paper (15 pages): [<a href="/docs/evademl.pdf">PDF</a>]</p>
+<h2 id="talks">Talks</h2>
 
-<h3 id="source-code">Source Code</h3>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br>
+David Evans&rsquo; Talk at <a href="https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans">USENIX Enigma 2017</a>, Oakland, CA, 1 February 2017. [<A href="https://speakerdeck.com/evansuva/classifiers-under-attack-1">Speaker Deck</a>]</br></p>
 
-<p><a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a></p>
+<p><a href="talks/">More Talks&hellip;</a></p>
 
-<h3 id="talks">Talks</h3>
+<h2 id="team">Team</h2>
 
-<p><center>
-<iframe width="640" height="360" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br>
-David Evans&rsquo; Talk at <a href="https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans">USENIX Enigma 2017</a>, Oakland, CA, 1 February 2017. [<A href="https://speakerdeck.com/evansuva/classifiers-under-attack-1">Speaker Deck</a>]</br>
-</center></p>
+<p><a href="http://www.cs.virginia.edu/~wx4ed/">Weilin Xu</a> (Lead PhD Student, leading work on <a href="/squeezing">Feature Squeezing</a> and <a href="/gpevasion">Genetic Evasion</a>)<br />
+Anant Kharkar (Undergraduate Researcher working on <a href="/gpevasion">Genetic Evasion</a>)<br />
+Helen Simecek (Undergraduate Researcher working on <a href="/gpevasion">Genetic Evasion</a>)</p>
 
-<p><center>
-<video width="640" controls="controls">
-<source src="https://www.cs.virginia.edu/evans/talks/oreilly.mp4" type="video/mp4">
-</video><br>
-<b>Classifiers Under Attack</b><br>
-David Evans&rsquo; Talk at <a href="http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/53176">O&rsquo;Reilly Security 2016</a>, New York City, 2 November 2016. [<a href="https://speakerdeck.com/evansuva/classifiers-under-attack">Speaker Deck</a>]<br>
-</center></p>
+<p><a href="https://www.cs.virginia.edu/evans">David Evans</a> (Faculty Co-Advisor)<br />
+<a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> (Faculty Co-Advisor)</p>
 
-<p><center>
-<script async class="speakerdeck-embed" width="640" data-id="0a82f51fd6534cdbb58f3df1bcbc004f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br>
-<b>Weilin Xu&rsquo;s Talk at NDSS 2016</b>
-</center></p>
-
-<p><a href="http://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails"><b>Blog Post</b></a></p>
-
-<h3 id="authors">Authors</h3>
-
-<p><a href="https://github.com/mzweilin">Weilin Xu</a><br />
-<a href="http://www.cs.virginia.edu/yanjun/">Yanjun Qi</a><br />
-<a href="http://www.cs.virginia.edu/evans">David Evans</a></p>
-
+        
+    
+        
+    
+        
     
   </div>
 </section>
