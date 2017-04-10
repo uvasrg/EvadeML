@@ -7,11 +7,12 @@
             <a name="top"></a>
             {{ partial "listtop.html" . }}
 
-
 <section id="main">
   <div>
-    {{ range first 1 .Site.Pages }}
-        {{ .Content }}
+    {{ range .Site.Pages }}
+        {{ if eq .Type "index" }}
+           {{ .Content }}
+        {{ end }}
     {{ end }}
   </div>
 </section>

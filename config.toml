@@ -1,11 +1,11 @@
 baseurl = "//evademl.org"
 languageCode = "en-us"
 title = "EvadeML"
-subtitle = "Evading Machine Learning-based Malware Classifiers"
+subtitle = "Adversarial Machine Learning"
 
 [params]
     sidebartitle = "EvadeML"
-    sidebartagline = "Evading Machine Learning Malware Classifiers"
+    sidebartagline = "Machine Learning in the Presence of Adversaries"
     nodate = true
     noauthor = true
     noread = true

@@ -3,7 +3,7 @@
     {{ partial "sidebarheader.html" . }}
 
     {{ if .Site.Params.sidebartitle }}<a href="{{ .Site.BaseURL}}"><h1 class="brand-title">{{ .Site.Params.sidebartitle }}</h1></a>{{ end }}
-    {{ if .Site.Params.sidebartagline }}<h2 class="brand-tagline">{{ .Site.Params.sidebartagline }}</h2>{{ end }}
+    {{ if .Site.Params.sidebartagline }}<p class="brand-tagline">{{ .Site.Params.sidebartagline }}</p>{{ end }}
 
 <!--
     <nav class="nav">
