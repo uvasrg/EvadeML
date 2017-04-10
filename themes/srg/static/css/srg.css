@@ -500,6 +500,7 @@ hr.thin {
 	.content {
         padding: 2rem 3rem 0;
         margin-left: 25%;
+        max-width: 52rem;
     }
 
     .content-banner-image {
@@ -515,6 +516,7 @@ hr.thin {
         position: fixed;
         top: 0;
         bottom: 0;
+        max-width: 18rem;
     }
 }
 
