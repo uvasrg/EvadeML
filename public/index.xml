@@ -204,11 +204,11 @@ model, such as adversarial training.&lt;/p&gt;
 &lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;The figure shows the histogram of the &lt;em&gt;L&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; scores on
-the MNIST dataset between the original and squeezed sample, for
-non-adversarial examples as well as adversarial examples generated
-using the Fast Gradient Sign Method and the Jacobian-based Saliency
-Map Approach. The detection accuracy is 99.74% (only 22 out of 5000
-fast positives).&lt;/p&gt;
+the MNIST dataset between the original and squeezed sample, for 1000
+non-adversarial examples as well as 1000 adversarial examples
+generated using both the Fast Gradient Sign Method and the
+Jacobian-based Saliency Map Approach. Over the full MNIST testing set,
+the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
 
 &lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
 
