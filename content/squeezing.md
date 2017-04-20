@@ -51,6 +51,10 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).
 
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](https://arxiv.org/abs/1704.01155). arXiv preprint, 4 April 2017. [[PDF](https://arxiv.org/pdf/1704.01155.pdf)]
 
+### Code
+
+[https://github.com/uvasrg/FeatureSqueezing](https://github.com/uvasrg/FeatureSqueezing) (includes all the code needed to reproduce the experiments in the paper)
+
 ## Team
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student)  
