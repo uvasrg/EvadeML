@@ -45,7 +45,7 @@ Distributed Systems Symposium
 ### Talks
 
 [**Classifiers Under Attack**](https://youtu.be/XYJamxDROOs), David Evans' talk at [_USENIX Enigma 2017_](https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans) (1 February 2017)  
-[**Automatically Evading Classifiers**](<a href="http://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails">), Weilin Xu's talk at NDSS 2016 (24 February 2016)  
+[**Automatically Evading Classifiers**](//www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails), Weilin Xu's talk at NDSS 2016 (24 February 2016)  
 [More talks...](/talks)
 
 ### Source Code
