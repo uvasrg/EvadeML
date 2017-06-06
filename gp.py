@@ -123,7 +123,7 @@ class GPPdf:
             self.logger.info("Sorted fitness: %s" % sorted(scores, reverse=True))
             
             if max(scores) > self.fitness_threshold:
-                best_score = max(scores)
+                self.best_score = max(scores)
                 self.logger.info("Already got a high score [%.2f]>%.2f variant, break the GP process." % (max(scores), self.fitness_threshold))
                 
                 # Store the success traces.
@@ -140,8 +140,8 @@ class GPPdf:
                 break
             elif self.generation == max_gen:
                 self.logger.info("Failed at max generation.")
-                if max(scores) > self.seed_fitness:
-                    best_gen, best_vid, best_score = self.get_best_variant(1, self.generation)
+                if max(scores) >= self.seed_fitness:
+                    best_gen, best_vid, self.best_score = self.get_best_variant(1, self.generation)
                     promising_trace = self.load_variant_trace(best_gen, best_vid)
 
                     self.logger.info("Save the promising trace %.2f of %d:%d" % (best_score, best_gen, best_vid))
@@ -174,8 +174,8 @@ class GPPdf:
 
             self.generation = self.generation + 1
 
-        self.logger.info("Stopped the GP process with max fitness %.2f." % best_score)
-        touch(os.path.join(self.job_dir, result_flag % best_score))
+        self.logger.info("Stopped the GP process with max fitness %.2f." % self.best_score)
+        touch(os.path.join(self.job_dir, result_flag % self.best_score))
         return True
 
     def initial_population(self):
