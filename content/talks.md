@@ -4,6 +4,11 @@ title = "Talks"
 
 Selected talks about our work on adversarial machine learning.
 
+### Are We Playing the Wrong Game?
+
+<script async class="speakerdeck-embed" data-id="450d6c5f23dd452b8504ac4b8c1bbf84" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br>
+David Evans' Talk at <a href="https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning">Berkeley ICSI</a>, 8 June 2017.
+
 ### Classifiers Under Attack
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen align="center"></iframe><br>

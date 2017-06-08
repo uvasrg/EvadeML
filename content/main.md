@@ -54,7 +54,10 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 
 ## Papers
 
-Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](https://arxiv.org/abs/1704.01155). arXiv preprint, 4 April 2017. [[PDF](https://arxiv.org/pdf/1704.01155.pdf)]
+Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing Mitigates and Detects
+Carlini/Wagner Adversarial Examples_](https://arxiv.org/abs/1705.10686). arXiv preprint, 30 May 2017. [[PDF](https://arxiv.org/pdf/1705.10686.pdf), 3 pages]
+
+Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](https://arxiv.org/abs/1704.01155). arXiv preprint, 4 April 2017. [[PDF](https://arxiv.org/pdf/1704.01155.pdf), 17 pages]
 
 Weilin Xu, Yanjun Qi, and David Evans. [_Automatically Evading
 Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Network and Distributed Systems Symposium 2016_](https://www.internetsociety.org/events/ndss-symposium-2016), 21-24 February 2016, San Diego, California. Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
@@ -62,6 +65,11 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 ## Talks
 
+<p>
+<script async class="speakerdeck-embed" data-id="450d6c5f23dd452b8504ac4b8c1bbf84" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br>
+David Evans' Talk at <a href="https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning">Berkeley ICSI</a>, 8 June 2017.
+</p>
+<p>
 <iframe width="640" height="360" src="https://www.youtube.com/embed/XYJamxDROOs" frameborder="0" allowfullscreen></iframe><br>
 David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans">USENIX Enigma 2017</a>, Oakland, CA, 1 February 2017. [<A href="https://speakerdeck.com/evansuva/classifiers-under-attack-1">Speaker Deck</a>]</br>
 
@@ -69,9 +77,9 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 
 ## Code
 
-[https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML)  
-[https://github.com/uvasrg/FeatureSqueezing](https://github.com/uvasrg/FeatureSqueezing) 
-
+**Genetic Evasion:** [https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML) (Weilin Xu)  
+**Feature Squeezing:** [https://github.com/uvasrg/FeatureSqueezing](https://github.com/uvasrg/FeatureSqueezing) (Weilin Xu)  
+**Adversarial Learning Playground**: [https://github.com/QData/AdversarialDNN-Playground](https://github.com/QData/AdversarialDNN-Playground) (Andrew Norton)
 
 ## Team
 
