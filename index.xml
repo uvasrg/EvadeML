@@ -135,22 +135,31 @@ Reducing the search space for adversaries by coalescing inputs.&lt;br&gt;
 
 &lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
 
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1704.01155&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 4 April 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1704.01155.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1705.10686&#34;&gt;&lt;em&gt;Feature Squeezing Mitigates and Detects
+Carlini/Wagner Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 30 May 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1705.10686.pdf&#34;&gt;PDF&lt;/a&gt;, 3 pages]&lt;/p&gt;
+
+&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1704.01155&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 4 April 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1704.01155.pdf&#34;&gt;PDF&lt;/a&gt;, 17 pages]&lt;/p&gt;
 
 &lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
 Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed Systems Symposium 2016&lt;/em&gt;&lt;/a&gt;, 21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
 
 &lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
 
-&lt;p&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/XYJamxDROOs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
+&lt;p&gt;&lt;p&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;450d6c5f23dd452b8504ac4b8c1bbf84&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br&gt;
+David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning&#34;&gt;Berkeley ICSI&lt;/a&gt;, 8 June 2017.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/XYJamxDROOs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
 David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans&#34;&gt;USENIX Enigma 2017&lt;/a&gt;, Oakland, CA, 1 February 2017. [&lt;A href=&#34;https://speakerdeck.com/evansuva/classifiers-under-attack-1&#34;&gt;Speaker Deck&lt;/a&gt;]&lt;/br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;talks/&#34;&gt;More Talks&amp;hellip;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://github.com/uvasrg/FeatureSqueezing&#34;&gt;https://github.com/uvasrg/FeatureSqueezing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Genetic Evasion:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt; (Weilin Xu)&lt;br /&gt;
+&lt;strong&gt;Feature Squeezing:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/FeatureSqueezing&#34;&gt;https://github.com/uvasrg/FeatureSqueezing&lt;/a&gt; (Weilin Xu)&lt;br /&gt;
+&lt;strong&gt;Adversarial Learning Playground&lt;/strong&gt;: &lt;a href=&#34;https://github.com/QData/AdversarialDNN-Playground&#34;&gt;https://github.com/QData/AdversarialDNN-Playground&lt;/a&gt; (Andrew Norton)&lt;/p&gt;
 
 &lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
 
@@ -241,6 +250,11 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       <description>
 
 &lt;p&gt;Selected talks about our work on adversarial machine learning.&lt;/p&gt;
+
+&lt;h3 id=&#34;are-we-playing-the-wrong-game&#34;&gt;Are We Playing the Wrong Game?&lt;/h3&gt;
+
+&lt;p&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;450d6c5f23dd452b8504ac4b8c1bbf84&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br&gt;
+David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning&#34;&gt;Berkeley ICSI&lt;/a&gt;, 8 June 2017.&lt;/p&gt;
 
 &lt;h3 id=&#34;classifiers-under-attack&#34;&gt;Classifiers Under Attack&lt;/h3&gt;
 
