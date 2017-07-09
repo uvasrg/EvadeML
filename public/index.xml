@@ -9,6 +9,16 @@
     <atom:link href="//evademl.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Adversarial DNN Playground</title>
+      <link>//evademl.org/playground/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//evademl.org/playground/</guid>
+      <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; URL=&#39;http://qdev2.cs.virginia.edu:9000/index&#39;&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Automatically Evading Classifiers</title>
       <link>//evademl.org/gpevasion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
