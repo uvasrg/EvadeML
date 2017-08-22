@@ -87,6 +87,22 @@ Helen Simecek (Undergraduate Researcher)&lt;/p&gt;
     </item>
     
     <item>
+      <title>EvadeML-Zoo</title>
+      <link>//evademl.org/zoo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//evademl.org/zoo/</guid>
+      <description>
+
+&lt;p&gt;EvadeML-Zoo is a benchmarking and visualization tool for Adversarial Machine Learning.&lt;/p&gt;
+
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/mzweilin/EvadeML-Zoo&#34;&gt;https://github.com/mzweilin/EvadeML-Zoo&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>EvadeML: Evading Machine Learning Classifiers</title>
       <link>//evademl.org/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -175,6 +191,7 @@ David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference
 
 &lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (Lead PhD Student, leading work on &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;Feature Squeezing&lt;/a&gt; and &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;)&lt;br /&gt;
 Anant Kharkar (Undergraduate Researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;)&lt;br /&gt;
+&lt;a href=&#34;http://www.noahdkim.com/&#34;&gt;Noah Kim&lt;/a&gt; (Undergraduate Researcher working on &lt;a href=&#34;//evademl.org/zoo&#34;&gt;EvadeML-Zoo&lt;/a&gt;)
 Helen Simecek (Undergraduate Researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (Faculty Co-Advisor)&lt;br /&gt;
