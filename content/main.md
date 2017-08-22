@@ -85,7 +85,7 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student, leading work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion))  
 Anant Kharkar (Undergraduate Researcher working on [Genetic Evasion](/gpevasion))  
-[Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher working on [EvadeML-Zoo](/zoo))
+[Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher working on [EvadeML-Zoo](/zoo))  
 Helen Simecek (Undergraduate Researcher working on [Genetic Evasion](/gpevasion))  
 
 [David Evans](https://www.cs.virginia.edu/evans) (Faculty Co-Advisor)  
