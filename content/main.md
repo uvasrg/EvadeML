@@ -54,6 +54,9 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 
 ## Papers
 
+Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
+[_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
+
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing Mitigates and Detects
 Carlini/Wagner Adversarial Examples_](https://arxiv.org/abs/1705.10686). arXiv preprint, 30 May 2017. [[PDF](https://arxiv.org/pdf/1705.10686.pdf), 3 pages]
 
