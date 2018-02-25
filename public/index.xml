@@ -172,13 +172,21 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
 
 &lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
 
-&lt;p&gt;&lt;p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;br&gt;
+Weilin Xu&amp;rsquo;s talk at &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.
+&lt;center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
 &lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;450d6c5f23dd452b8504ac4b8c1bbf84&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br&gt;
 David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning&#34;&gt;Berkeley ICSI&lt;/a&gt;, 8 June 2017.
-&lt;/p&gt;
-&lt;p&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;cener&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/XYJamxDROOs&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
-David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans&#34;&gt;USENIX Enigma 2017&lt;/a&gt;, Oakland, CA, 1 February 2017. [&lt;A href=&#34;https://speakerdeck.com/evansuva/classifiers-under-attack-1&#34;&gt;Speaker Deck&lt;/a&gt;]&lt;/br&gt;&lt;/p&gt;
+David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans&#34;&gt;USENIX Enigma 2017&lt;/a&gt;, Oakland, CA, 1 February 2017. [&lt;A href=&#34;https://speakerdeck.com/evansuva/classifiers-under-attack-1&#34;&gt;Speaker Deck&lt;/a&gt;]&lt;/br&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;talks/&#34;&gt;More Talks&amp;hellip;&lt;/a&gt;&lt;/p&gt;
 
@@ -279,6 +287,14 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       <description>
 
 &lt;p&gt;Selected talks about our work on adversarial machine learning.&lt;/p&gt;
+
+&lt;h3 id=&#34;feature-squeezing&#34;&gt;Feature Squeezing&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;br&gt;
+Weilin Xu&amp;rsquo;s talk at &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.
+&lt;center&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;are-we-playing-the-wrong-game&#34;&gt;Are We Playing the Wrong Game?&lt;/h3&gt;
 

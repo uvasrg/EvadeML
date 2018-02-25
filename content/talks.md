@@ -4,6 +4,14 @@ title = "Talks"
 
 Selected talks about our work on adversarial machine learning.
 
+### Feature Squeezing
+
+<center>
+<script async class="speakerdeck-embed" data-id="cdfcf454436240e4ab1a6c4d594e5c7a" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center><br>
+Weilin Xu's talk at <a href="http://www.ndss-symposium.org/ndss2018/">Network and Distributed System Security Symposium 2018</a>. San Diego, CA. 21 February 2018.
+<center>
+
 ### Are We Playing the Wrong Game?
 
 <script async class="speakerdeck-embed" data-id="450d6c5f23dd452b8504ac4b8c1bbf84" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script><br>
