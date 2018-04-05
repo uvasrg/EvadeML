@@ -89,7 +89,9 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 **EvadeML-Zoo:** [https://github.com/mzweilin/EvadeML-Zoo](https://github.com/mzweilin/EvadeML-Zoo)
 
 **Genetic Evasion:** [https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML) (Weilin Xu)  
+
 **Feature Squeezing:** [https://github.com/uvasrg/FeatureSqueezing](https://github.com/uvasrg/FeatureSqueezing) (Weilin Xu) (supersceded by the EvadeML-Zoo toolkit)
+
 **Adversarial Learning Playground**: [https://github.com/QData/AdversarialDNN-Playground](https://github.com/QData/AdversarialDNN-Playground) (Andrew Norton) (mostly supersceded by the EvadeML-Zoo toolkit)
 
 ## Team
