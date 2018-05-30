@@ -105,8 +105,12 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student, leading work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion))  
 [Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
-Helen Simecek (Undergraduate Researcher working on [Genetic Evasion](/gpevasion))  
 [Fnu Suya](https://github.com/suyeecav) (PhD student, working on evaluating attack cost)  
+
+Johannes Johnson (Undergraduate researcher working on malware classification and evasion, since summer 2018)  
+Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
+Helen Simecek (Undergraduate researcher working on [Genetic Evasion](/gpevasion), since 2017)  
+Matthew Wallace (Undergraduate researcher working on natural language deception, since summer 2018)
 
 [David Evans](https://www.cs.virginia.edu/evans) (Faculty Co-Advisor)  
 [Yanjun Qi](https://www.cs.virginia.edu/yanjun/) (Faculty Co-Advisor for Weilin Xu)  
@@ -116,4 +120,4 @@ Helen Simecek (Undergraduate Researcher working on [Genetic Evasion](/gpevasion)
 
 Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
 [Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher worked on [EvadeML-Zoo](/zoo), 2017)  
-Felix Park (Undergradaute Researcher, worked on color-award preprocessors, 2017-2018)  
+Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)  
