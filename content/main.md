@@ -67,6 +67,17 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 ## Talks
 
 <center>
+<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
+</p>
+<p>
+<script async class="speakerdeck-embed"
+	data-id="9d2c5bf9b3444a8a992762f5cd6ea7fe"
+	data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</center><br>
+
+David Evans' keynote talk at the <a href="https://www.ieee-security.org/TC/SPW2018/DLS/#"><em>1st Deep Learning and Security Workshop</em></a> (co-located with the 39th <em>IEEE Symposium on Security and Privacy</em>). San Francisco, California. 24 May 2018.
+
+<center>
 <script async class="speakerdeck-embed" data-id="cdfcf454436240e4ab1a6c4d594e5c7a" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </center><br>
 Weilin Xu's talk at <a href="http://www.ndss-symposium.org/ndss2018/">Network and Distributed System Security Symposium 2018</a>. San Diego, CA. 21 February 2018.
@@ -97,9 +108,16 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 ## Team
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student, leading work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion))  
-Anant Kharkar (Undergraduate Researcher working on [Genetic Evasion](/gpevasion))  
-[Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher working on [EvadeML-Zoo](/zoo))  
+[Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
 Helen Simecek (Undergraduate Researcher working on [Genetic Evasion](/gpevasion))  
+[Fnu Suya](https://github.com/suyeecav) (PhD student, working on evaluating attack cost)  
 
 [David Evans](https://www.cs.virginia.edu/evans) (Faculty Co-Advisor)  
-[Yanjun Qi](https://www.cs.virginia.edu/yanjun/) (Faculty Co-Advisor)  
+[Yanjun Qi](https://www.cs.virginia.edu/yanjun/) (Faculty Co-Advisor for Weilin Xu)  
+[Yuan Tian](https://www.ytian.info/) (Faculty Co-Advisor for Fnu Suya) 
+
+### Alumni
+
+Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
+[Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher worked on [EvadeML-Zoo](/zoo), 2017)  
+Felix Park (Undergradaute Researcher, worked on color-award preprocessors, 2017-2018)  
