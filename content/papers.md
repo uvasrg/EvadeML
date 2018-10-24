@@ -3,7 +3,7 @@ title = "Papers"
 +++
 
 Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](https://arxiv.org/abs/1810.09225). arXiv
-prepring, 22 October 2018. [[PDF](https://arxiv.org/pdf/1810.09225.pdf)]
+preprint, 22 October 2018. [[PDF](https://arxiv.org/pdf/1810.09225.pdf)]
 
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
 [_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
