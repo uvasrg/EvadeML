@@ -57,12 +57,10 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
 [_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
 
-Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing Mitigates and Detects
-Carlini/Wagner Adversarial Examples_](https://arxiv.org/abs/1705.10686). arXiv preprint, 30 May 2017. [[PDF](https://arxiv.org/pdf/1705.10686.pdf), 3 pages]
-
 Weilin Xu, Yanjun Qi, and David Evans. [_Automatically Evading
 Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Network and Distributed Systems Symposium 2016_](https://www.internetsociety.org/events/ndss-symposium-2016), 21-24 February 2016, San Diego, California. Full paper (15 pages): [[PDF](/docs/evademl.pdf)]
 
+[More Papers...](papers/)
 
 ## Talks
 
@@ -105,9 +103,9 @@ David Evans' Talk at <a href="https://www.usenix.org/conference/enigma2017/confe
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student, leading work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion))  
 [Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
-[Fnu Suya](https://github.com/suyeecav) (PhD student, working on evaluating attack cost)  
+[Fnu Suya](https://github.com/suyeecav) (PhD student, working on batch attacks)  
+[Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, working on cost-sensitive adversarial robustness)
 
-Johannes Johnson (Undergraduate researcher working on malware classification and evasion, since summer 2018)  
 Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
 Helen Simecek (Undergraduate researcher working on [Genetic Evasion](/gpevasion), since 2017)  
 Matthew Wallace (Undergraduate researcher working on natural language deception, since summer 2018)
@@ -118,6 +116,7 @@ Matthew Wallace (Undergraduate researcher working on natural language deception,
 
 ### Alumni
 
+Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)  
 Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
 [Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher worked on [EvadeML-Zoo](/zoo), 2017)  
 Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)  

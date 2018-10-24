@@ -4,6 +4,14 @@ title = "Talks"
 
 Selected talks about our work on adversarial machine learning.
 
+### Mutually Assured Destruction and the Impending AI Apocalypse
+
+<center>
+<p><script async class="speakerdeck-embed" data-id="5f72d8151bae4c5a9bb54ab33372f125" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" width="650"></script></p>
+</center>
+				
+Keynote talk at <a href="https://www.usenix.org/conference/woot18/workshop-program">USENIX Workshop of Offensive Technologies</a>, Baltimore, Maryland, 13 August 2018.
+
 ### Is "adversarial examples" an Adversarial Example?
 
 <center>

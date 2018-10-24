@@ -164,11 +164,10 @@ Reducing the search space for adversaries by coalescing inputs.&lt;br&gt;
 &lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
 &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
 
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1705.10686&#34;&gt;&lt;em&gt;Feature Squeezing Mitigates and Detects
-Carlini/Wagner Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 30 May 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1705.10686.pdf&#34;&gt;PDF&lt;/a&gt;, 3 pages]&lt;/p&gt;
-
 &lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
 Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed Systems Symposium 2016&lt;/em&gt;&lt;/a&gt;, 21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;papers/&#34;&gt;More Papers&amp;hellip;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
 
@@ -211,10 +210,10 @@ David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference
 
 &lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (Lead PhD Student, leading work on &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;Feature Squeezing&lt;/a&gt; and &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;)&lt;br /&gt;
 &lt;a href=&#34;https://sites.google.com/site/mahmadjonas/&#34;&gt;Mainuddin Ahmad Jonas&lt;/a&gt; (PhD student, working on adversarial examples)&lt;br /&gt;
-&lt;a href=&#34;https://github.com/suyeecav&#34;&gt;Fnu Suya&lt;/a&gt; (PhD student, working on evaluating attack cost)&lt;/p&gt;
+&lt;a href=&#34;https://github.com/suyeecav&#34;&gt;Fnu Suya&lt;/a&gt; (PhD student, working on batch attacks)&lt;br /&gt;
+&lt;a href=&#34;https://people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; (PhD student, working on cost-sensitive adversarial robustness)&lt;/p&gt;
 
-&lt;p&gt;Johannes Johnson (Undergraduate researcher working on malware classification and evasion, since summer 2018)&lt;br /&gt;
-Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
+&lt;p&gt;Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
 Helen Simecek (Undergraduate researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, since 2017)&lt;br /&gt;
 Matthew Wallace (Undergraduate researcher working on natural language deception, since summer 2018)&lt;/p&gt;
 
@@ -224,7 +223,8 @@ Matthew Wallace (Undergraduate researcher working on natural language deception,
 
 &lt;h3 id=&#34;alumni&#34;&gt;Alumni&lt;/h3&gt;
 
-&lt;p&gt;Anant Kharkar (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2016-2018)&lt;br /&gt;
+&lt;p&gt;Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)&lt;br /&gt;
+Anant Kharkar (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2016-2018)&lt;br /&gt;
 &lt;a href=&#34;http://www.noahdkim.com/&#34;&gt;Noah Kim&lt;/a&gt; (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/zoo&#34;&gt;EvadeML-Zoo&lt;/a&gt;, 2017)&lt;br /&gt;
 Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)&lt;/p&gt;
 </description>
@@ -301,6 +301,30 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
     </item>
     
     <item>
+      <title>Papers</title>
+      <link>//evademl.org/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//evademl.org/papers/</guid>
+      <description>&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv
+prepring, 22 October 2018. [&lt;a href=&#34;https://arxiv.org/pdf/1810.09225.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
+&lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;Qixue Xiao, Kang Li, Deyue Zhang, and Weilin Xu. &lt;a href=&#34;https://arxiv.org/abs/1711.11008&#34;&gt;&lt;em&gt;Security Risks in Deep Learning Implementations&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018. [&lt;a href=&#34;https://arxiv.org/pdf/1711.11008.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1705.10686&#34;&gt;&lt;em&gt;Feature Squeezing Mitigates and Detects
+Carlini/Wagner Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 30 May 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1705.10686.pdf&#34;&gt;PDF&lt;/a&gt;, 3 pages]&lt;/p&gt;
+
+&lt;p&gt;Ji Gao, Beilun Wang, Zeming Lin, Weilin Xu, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1702.06763&#34;&gt;&lt;em&gt;DeepCloak: Masking Deep Neural Network Models for Robustness against Adversarial Samples&lt;/em&gt;&lt;/a&gt;. ICLR Workshops, 24-26 April 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1702.06763.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
+Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed Systems Symposium 2016&lt;/em&gt;&lt;/a&gt;, 21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Talks</title>
       <link>//evademl.org/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -309,6 +333,14 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       <description>
 
 &lt;p&gt;Selected talks about our work on adversarial machine learning.&lt;/p&gt;
+
+&lt;h3 id=&#34;mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;Mutually Assured Destruction and the Impending AI Apocalypse&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;p&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5f72d8151bae4c5a9bb54ab33372f125&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34; width=&#34;650&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018.&lt;/p&gt;
 
 &lt;h3 id=&#34;is-adversarial-examples-an-adversarial-example&#34;&gt;Is &amp;ldquo;adversarial examples&amp;rdquo; an Adversarial Example?&lt;/h3&gt;
 
