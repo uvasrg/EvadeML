@@ -307,7 +307,7 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       
       <guid>//evademl.org/papers/</guid>
       <description>&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv
-prepring, 22 October 2018. [&lt;a href=&#34;https://arxiv.org/pdf/1810.09225.pdf&#34;&gt;PDF&lt;/a&gt;&lt;/p&gt;
+prepring, 22 October 2018. [&lt;a href=&#34;https://arxiv.org/pdf/1810.09225.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
 
 &lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
 &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
