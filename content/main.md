@@ -54,6 +54,10 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 
 ## Papers
 
+Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](https://arxiv.org/abs/1810.09225). In <a
+href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
+href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="https://arxiv.org/pdf/1810.09225.pdf">PDF</a>]
+
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
 [_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
 
@@ -64,6 +68,19 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 ## Talks
 
+<p>
+<a href="https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650"\
+><b>Can
+    Machine Learning Ever Be Trustworthy?</b></a>. University of Maryland, <a href="https://ece.umd.edu/events/distinguished-colloquium-series">Booz
+    Allen Hamilton Distinguished Colloquium</a>. 7&nbsp;December
+2018. [<a href="https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy">SpeakerDeck</a>]
+[<a href="https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650">Video</a>]
+</p>
+<p>
+<a href="https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse"><b>Mutually
+    Assured Destruction and the Impending AI Apocalypse</b></a>.  Opening keynote, <a href="https://www.usenix.org/conference/woot18">12<sup>th</sup> USENIX Workshop on Offensive Technologies</a> 2018. (Co-located with <em>USENIX Security Symposium</em>.) Baltimore, Maryland. 13 August 2018. [<a href="https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse">SpeakerDeck</a>]
+</p>
+<p>
 <center>
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
 </p>
