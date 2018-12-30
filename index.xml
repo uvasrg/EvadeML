@@ -161,6 +161,10 @@ Reducing the search space for adversaries by coalescing inputs.&lt;br&gt;
 
 &lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
 
+&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
+href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
+href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/pdf/1810.09225.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
 &lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
 &lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
 
@@ -171,7 +175,20 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
 
 &lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
 
-&lt;p&gt;&lt;center&gt;
+&lt;p&gt;&lt;p&gt;
+&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;\
+&gt;&lt;b&gt;Can
+    Machine Learning Ever Be Trustworthy?&lt;/b&gt;&lt;/a&gt;. University of Maryland, &lt;a href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;Booz
+    Allen Hamilton Distinguished Colloquium&lt;/a&gt;. 7&amp;nbsp;December
+2018. [&lt;a href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;]
+[&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt;]
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;&lt;b&gt;Mutually
+    Assured Destruction and the Impending AI Apocalypse&lt;/b&gt;&lt;/a&gt;.  Opening keynote, &lt;a href=&#34;https://www.usenix.org/conference/woot18&#34;&gt;12&lt;sup&gt;th&lt;/sup&gt; USENIX Workshop on Offensive Technologies&lt;/a&gt; 2018. (Co-located with &lt;em&gt;USENIX Security Symposium&lt;/em&gt;.) Baltimore, Maryland. 13 August 2018. [&lt;a href=&#34;https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;SpeakerDeck&lt;/a&gt;]
+&lt;/p&gt;
+&lt;p&gt;
+&lt;center&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;/center&gt;&lt;br&gt;&lt;/p&gt;
