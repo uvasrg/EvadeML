@@ -202,9 +202,11 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
 
 &lt;p&gt;&lt;strong&gt;Genetic Evasion:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt; (Weilin Xu)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Feature Squeezing:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/FeatureSqueezing&#34;&gt;https://github.com/uvasrg/FeatureSqueezing&lt;/a&gt; (Weilin Xu) (supersceded by the EvadeML-Zoo toolkit)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cost-Sensitive Robustness:&lt;/strong&gt; &lt;a href=&#34;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&#34;&gt;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&lt;/a&gt; (Xiao Zhang)&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Adversarial Learning Playground&lt;/strong&gt;: &lt;a href=&#34;https://github.com/QData/AdversarialDNN-Playground&#34;&gt;https://github.com/QData/AdversarialDNN-Playground&lt;/a&gt; (Andrew Norton) (mostly supersceded by the EvadeML-Zoo toolkit)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Feature Squeezing:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/FeatureSqueezing&#34;&gt;https://github.com/uvasrg/FeatureSqueezing&lt;/a&gt; (Weilin Xu) (supersceded by the EvadeML-Zoo toolkit)&lt;/p&gt;
 
 &lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
 
