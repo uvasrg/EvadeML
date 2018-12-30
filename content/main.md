@@ -93,9 +93,9 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 **EvadeML-Zoo:** [https://github.com/mzweilin/EvadeML-Zoo](https://github.com/mzweilin/EvadeML-Zoo)
 
-**Genetic Evasion:** [https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML) (Weilin Xu)  
+**Genetic Evasion:** [https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML) (Weilin&nbsp;Xu)  
 
-**Cost-Sensitive Robustness:** [https://github.com/xiaozhanguva/Cost-Sensitive-Robustness](https://github.com/xiaozhanguva/Cost-Sensitive-Robustness) (Xiao Zhang)
+**Cost-Sensitive Robustness:** [https://github.com/xiaozhanguva/Cost-Sensitive-Robustness](https://github.com/xiaozhanguva/Cost-Sensitive-Robustness) (Xiao&nbsp;Zhang)
 
 **Adversarial Learning Playground**: [https://github.com/QData/AdversarialDNN-Playground](https://github.com/QData/AdversarialDNN-Playground) (Andrew Norton) (mostly supersceded by the EvadeML-Zoo toolkit)
 
