@@ -4,6 +4,13 @@ title = "Talks"
 
 Selected talks about our work on adversarial machine learning.
 
+
+### Can Machine Learning Ever Be Trustworthy?
+
+University of Maryland, <a  href="https://ece.umd.edu/events/distinguished-colloquium-series">Booz Allen Hamilton Distinguished Colloquium</a>. 7&nbsp;December 2018. [<a  href="https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy">SpeakerDeck</a>]
+    [<a
+    href="https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650">Video</a>]
+
 ### Mutually Assured Destruction and the Impending AI Apocalypse
 
 <center>
