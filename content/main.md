@@ -54,9 +54,9 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 
 ## Papers
 
-Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](https://arxiv.org/abs/1810.09225). In <a
+Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](/docs/cost-sensitive-robustness.pdf). In <a
 href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
-href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="https://arxiv.org/pdf/1810.09225.pdf">PDF</a>]
+href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]
 
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
 [_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
