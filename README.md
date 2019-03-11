@@ -1,7 +1,5 @@
    <p align="center"><font color="red"><b>
-  This is not the main EvadeML repo. Please use:  
-  <a href="https://github.com/mzweilin/EvadeML-Zoo">https://github.com/mzweilin/EvadeML-Zoo</a>
-  
+  For EvadeML-Zoo see: <a href="https://github.com/mzweilin/EvadeML-Zoo">https://github.com/mzweilin/EvadeML-Zoo</a>
    </b></font>
    </p>
   
