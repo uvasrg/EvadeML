@@ -2,8 +2,11 @@
 title = "Papers"
 +++
 
-Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](https://arxiv.org/abs/1810.09225). arXiv
-preprint, 22 October 2018. [[PDF](https://arxiv.org/pdf/1810.09225.pdf)]
+Xiao Zhang<sup>*</sup>, Saeed Mahloujifar<sup>*</sup>, Mohammad Mahmooday, and David Evans. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/concentration-robustness.pdf). In [_Debugging Machine Learning Models_](https://debug-ml-iclr2019.github.io/) and [_Safe Machine Learning: Specification, Robustness and Assurance_](https://sites.google.com/view/safeml-iclr2019), workshops attached to m>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [[PDF](/docs/concentration-robustness.pdf)] [[Post](https://jeffersonswheel.org/empirically-measuring-concentration/)]
+
+Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](/docs/cost-sensitive-robustness.pdf). In <a
+href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
+href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]
 
 Weilin Xu, David Evans, Yanjun Qi. [_Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks_](/docs/featuresqueezing.pdf). 
 [_2018 Network and Distributed System Security Symposium_](https://www.ndss-symposium.org/ndss2018/). 18-21 February, San Diego, California. Full paper (15 pages): [[PDF](/docs/featuresqueezing.pdf)]
