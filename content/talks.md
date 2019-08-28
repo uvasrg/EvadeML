@@ -4,6 +4,10 @@ title = "Talks"
 
 Selected talks about our work on adversarial machine learning.
 
+### Trustworthy Machine Learning
+
+Mini-course at <a href="http://www.sti.uniurb.it/events/fosad19/"><em>19th International School on Foundations of Security Analysis and Design</em></a>. Bertinoro, Italy. 26&ndash;28 August 2019.
+[<a href="https://jeffersonswheel.org/fosad2019/">Slides</a>]
 
 ### Can Machine Learning Ever Be Trustworthy?
 
