@@ -2,7 +2,8 @@
 title = "Papers"
 +++
 
-Xiao Zhang<sup><font size="-2">&#9733;</font></sup>, Saeed Mahloujifar<sup><font size="-2">&#9733;</font></sup>, Mohammad Mahmooday, and David Evans. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/concentration-robustness.pdf). In [_Debugging Machine Learning Models_](https://debug-ml-iclr2019.github.io/) and [_Safe Machine Learning: Specification, Robustness and Assurance_](https://sites.google.com/view/safeml-iclr2019), workshops attached to m>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [[PDF](/docs/concentration-robustness.pdf)] [[Post](https://jeffersonswheel.org/empirically-measuring-concentration/)]
+Saeed Mahloujifar<sup><font size="-2">&#9733;</font></sup>, Xiao Zhang<sup><font size="-2">&#9733;</font></sup>, Mohammad Mahmooday, and David Evans. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/). Vancouver, December 2019. (Earlier versions appeared in [_Debugging Machine Learning Models_](https://debug-ml-iclr2019.github.io/) and [_Safe Machine Learning: Specification, Robustness and Assurance_](https://sites.google.com/view/safeml-iclr2019), workshops attached to m>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[Post](https://jeffersonswheel.org/empirically-measuring-concentration/)]
+
 
 Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](/docs/cost-sensitive-robustness.pdf). In <a
 href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
