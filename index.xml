@@ -161,9 +161,9 @@ Reducing the search space for adversaries by coalescing inputs.&lt;br&gt;
 
 &lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
 
-&lt;p&gt;Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. &lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;29&lt;sup&gt;th&lt;/sup&gt; USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Boston, MA. August 12&amp;ndash;14, 2020. [&lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;ArXiV&lt;/a&gt;] [&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. &lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;29&lt;sup&gt;th&lt;/sup&gt; USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Boston, MA. August 12&amp;ndash;14, 2020. [&lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;arXiV&lt;/a&gt;] [&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
 
-&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmooday, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to m&amp;gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmooday, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to m&amp;gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
 
 &lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
 href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
@@ -203,6 +203,10 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
 
 &lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 
+&lt;p&gt;&lt;strong&gt;Hybrid Batch Attacks:&lt;/strong&gt; &lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;https://github.com/suyeecav/Hybrid-Attack&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Empirically Measuring Concentration:&lt;/strong&gt; &lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;EvadeML-Zoo:&lt;/strong&gt; &lt;a href=&#34;https://github.com/mzweilin/EvadeML-Zoo&#34;&gt;https://github.com/mzweilin/EvadeML-Zoo&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Genetic Evasion:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt; (Weilin&amp;nbsp;Xu)&lt;/p&gt;
@@ -215,14 +219,10 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
 
 &lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (Lead PhD Student, leading work on &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;Feature Squeezing&lt;/a&gt; and &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;)&lt;br /&gt;
+&lt;p&gt;&lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Chen&lt;/a&gt; (PhD student, working on adversarial natural language processing)&lt;br /&gt;
 &lt;a href=&#34;https://sites.google.com/site/mahmadjonas/&#34;&gt;Mainuddin Ahmad Jonas&lt;/a&gt; (PhD student, working on adversarial examples)&lt;br /&gt;
 &lt;a href=&#34;https://github.com/suyeecav&#34;&gt;Fnu Suya&lt;/a&gt; (PhD student, working on batch attacks)&lt;br /&gt;
 &lt;a href=&#34;https://people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; (PhD student, working on cost-sensitive adversarial robustness)&lt;/p&gt;
-
-&lt;p&gt;Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
-Helen Simecek (Undergraduate researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, since 2017)&lt;br /&gt;
-Matthew Wallace (Undergraduate researcher working on natural language deception, since summer 2018)&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (Faculty Co-Advisor)&lt;br /&gt;
 &lt;a href=&#34;https://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt; (Faculty Co-Advisor for Weilin Xu)&lt;br /&gt;
@@ -230,10 +230,15 @@ Matthew Wallace (Undergraduate researcher working on natural language deception,
 
 &lt;h3 id=&#34;alumni&#34;&gt;Alumni&lt;/h3&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (PhD Student who initiated project, lead work on &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;Feature Squeezing&lt;/a&gt; and &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, now at Intel Research, Oregon)&lt;/p&gt;
+
 &lt;p&gt;Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)&lt;br /&gt;
 Anant Kharkar (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2016-2018)&lt;br /&gt;
 &lt;a href=&#34;http://www.noahdkim.com/&#34;&gt;Noah Kim&lt;/a&gt; (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/zoo&#34;&gt;EvadeML-Zoo&lt;/a&gt;, 2017)&lt;br /&gt;
-Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)&lt;/p&gt;
+Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)
+Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)&lt;br /&gt;
+Helen Simecek (Undergraduate researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2017-2019)&lt;br /&gt;
+Matthew Wallace (Undergraduate researcher working on natural language deception, 2018-2019; now at University of Wisconsin)&lt;/p&gt;
 </description>
     </item>
     
@@ -315,7 +320,7 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       <guid>//evademl.org/papers/</guid>
       <description>&lt;p&gt;Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. &lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;29&lt;sup&gt;th&lt;/sup&gt; USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Boston, MA. August 12&amp;ndash;14, 2020. [&lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;ArXiV&lt;/a&gt;] [&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
 
-&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmooday, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to m&amp;gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmooday, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to m&amp;gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
 
 &lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
 href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
