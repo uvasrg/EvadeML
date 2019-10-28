@@ -54,9 +54,9 @@ Reducing the search space for adversaries by coalescing inputs.<br>
 
 ## Papers
 
-Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. [_Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries_](/docs/hybridbatch.pdf). In [_29<sup>th</sup> USENIX Security Symposium_](https://www.usenix.org/conference/usenixsecurity20). Boston, MA. August 12&ndash;14, 2020. [[PDF](/docs/hybridbatch.pdf)] [[ArXiV](https://arxiv.org/abs/1908.07000)] [[Code](https://github.com/suyeecav/Hybrid-Attack)]
+Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. [_Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries_](/docs/hybridbatch.pdf). In [_29<sup>th</sup> USENIX Security Symposium_](https://www.usenix.org/conference/usenixsecurity20). Boston, MA. August 12&ndash;14, 2020. [[PDF](/docs/hybridbatch.pdf)] [[arXiV](https://arxiv.org/abs/1908.07000)] [[Code](https://github.com/suyeecav/Hybrid-Attack)]
 
-Saeed Mahloujifar<sup><font size="-2">&#9733;</font></sup>, Xiao Zhang<sup><font size="-2">&#9733;</font></sup>, Mohammad Mahmooday, and David Evans. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/). Vancouver, December 2019. (Earlier versions appeared in [_Debugging Machine Learning Models_](https://debug-ml-iclr2019.github.io/) and [_Safe Machine Learning: Specification, Robustness and Assurance_](https://sites.google.com/view/safeml-iclr2019), workshops attached to m>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[Post](https://jeffersonswheel.org/empirically-measuring-concentration/)] [[Code](https://github.com/xiaozhanguva/Measure-Concentration)]
+Saeed Mahloujifar<sup><font size="-2">&#9733;</font></sup>, Xiao Zhang<sup><font size="-2">&#9733;</font></sup>, Mohammad Mahmooday, and David Evans. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/). Vancouver, December 2019. (Earlier versions appeared in [_Debugging Machine Learning Models_](https://debug-ml-iclr2019.github.io/) and [_Safe Machine Learning: Specification, Robustness and Assurance_](https://sites.google.com/view/safeml-iclr2019), workshops attached to m>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[arXiv](https://arxiv.org/abs/1905.12202)] [[Post](https://jeffersonswheel.org/empirically-measuring-concentration/)] [[Code](https://github.com/xiaozhanguva/Measure-Concentration)]
 
 Xiao Zhang and David Evans. [_Cost-Sensitive Robustness against Adversarial Examples_](/docs/cost-sensitive-robustness.pdf). In <a
 href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
@@ -96,6 +96,10 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 ## Code
 
+**Hybrid Batch Attacks:** [https://github.com/suyeecav/Hybrid-Attack](https://github.com/suyeecav/Hybrid-Attack)
+
+**Empirically Measuring Concentration:** [https://github.com/xiaozhanguva/Measure-Concentration](https://github.com/xiaozhanguva/Measure-Concentration)
+
 **EvadeML-Zoo:** [https://github.com/mzweilin/EvadeML-Zoo](https://github.com/mzweilin/EvadeML-Zoo)
 
 **Genetic Evasion:** [https://github.com/uvasrg/EvadeML](https://github.com/uvasrg/EvadeML) (Weilin&nbsp;Xu)  
@@ -108,14 +112,10 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 ## Team
 
-[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (Lead PhD Student, leading work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion))  
+[Hannah Chen](https://hannahxchen.github.io/) (PhD student, working on adversarial natural language processing)  
 [Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
 [Fnu Suya](https://github.com/suyeecav) (PhD student, working on batch attacks)  
 [Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, working on cost-sensitive adversarial robustness)
-
-Yuancheng Lin (Undergraduate researchers working on adversarial examples, since summer 2018)
-Helen Simecek (Undergraduate researcher working on [Genetic Evasion](/gpevasion), since 2017)  
-Matthew Wallace (Undergraduate researcher working on natural language deception, since summer 2018)
 
 [David Evans](https://www.cs.virginia.edu/evans) (Faculty Co-Advisor)  
 [Yanjun Qi](https://www.cs.virginia.edu/yanjun/) (Faculty Co-Advisor for Weilin Xu)  
@@ -123,7 +123,13 @@ Matthew Wallace (Undergraduate researcher working on natural language deception,
 
 ### Alumni
 
+[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, lead work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon)  
+
 Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)  
 Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
 [Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher worked on [EvadeML-Zoo](/zoo), 2017)  
+Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)
 Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)  
+Helen Simecek (Undergraduate researcher working on [Genetic Evasion](/gpevasion), 2017-2019)  
+Matthew Wallace (Undergraduate researcher working on natural language deception, 2018-2019; now at University of Wisconsin)
+
