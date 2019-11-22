@@ -63,7 +63,7 @@ achieved by robust models.
 
 ### Papers
 
-<a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/) (_spotlight presentation_). Vancouver, December 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[arXiv](https://arxiv.org/abs/1905.12202)] 
+<a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/) ([_spotlight presentation_](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792)). Vancouver, December 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[arXiv](https://arxiv.org/abs/1905.12202)] 
 
 Preliminary version presented at <a
 href="https://sites.google.com/view/safeml-iclr2019">Safe Machine
