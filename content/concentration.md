@@ -30,16 +30,17 @@ samples converges to the actual concentration asymptotically.
 
 To solve the empirical concentration problem, we propose heuristic
 algorithms to find error regions with small expansion under both
-$\ell_\infty$ and $\ell_2$ metrics. For instance, our algorithm for
-$\ell_\infty$ starts by sorting the dataset based on the empirical
-density estimated using k-nearest neighbor, and then obtains $T$
-rectangular data clusters by performing k-means clustering on the
-top-$q$ densest images. After expanding each of the rectangles by
-$\epsilon$, the error region $\mathcal{E}$ is then specified as the
-complement of the expanded rectangles (the reddish region in the
-following figure). Finally, we search for the best error region by
-tuning the number of rectangles $T$ and the initial coverage
-percentile $q$.
+$\ell_\infty$ and $\ell_2$ metrics. 
+
+For instance, our algorithm for $\ell_\infty$ starts by sorting the
+dataset based on the empirical density estimated using k-nearest
+neighbor, and then obtains $T$ rectangular data clusters by performing
+k-means clustering on the top-$q$ densest images. After expanding each
+of the rectangles by $\epsilon$, the error region $\mathcal{E}$ is
+then specified as the complement of the expanded rectangles (the
+reddish region in the following figure). Finally, we search for the
+best error region by tuning the number of rectangles $T$ and the
+initial coverage percentile $q$.
 
 <img src="/images/concentration/alg.png" width="80%" align="center"></center>
 
