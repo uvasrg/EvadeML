@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Empirically Measuring Concentration // EvadeML
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.17" />
+
+  <meta property="og:title" content="Empirically Measuring Concentration" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="//evademl.org/concentration/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="//evademl.org/css/srg.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/rotunda.png">
+  <link rel="shortcut icon" href="/rotunda.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="EvadeML" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <p class="brand-group">
+
+<a href="https://www.cs.virginia.edu/yanjun/gQdata.htm">Maching Learning Group</a><br>
+and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
+<a href="http://www.cs.virginia.edu">University of Virginia</a>
+</p>
+
+
+
+    <a href="//evademl.org"><h1 class="brand-title">EvadeML</h1></a>
+    <p class="brand-tagline">Machine Learning in the Presence of Adversaries</p>
+
+
+
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/concentration/">Empirically Measuring Concentration</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	
+            
+
+			
+			
+
+			
+
+			
+
+            
+
+<h2 id="estimating-the-intrinsic-robustness-for-image-benchmarks">Estimating the Intrinsic Robustness for Image Benchmarks</h2>
+
+<p>Recent theoretical results, starting with Gilmer et al.&rsquo;s
+<a href="https://aipavilion.github.io/"><em>Adversarial Spheres</em></a> (2018), show
+that if inputs are drawn from a concentrated metric probability space,
+then adversarial examples with small perturbation are inevitable. The
+key insight from this line of research is that <a href="https://en.wikipedia.org/wiki/Concentration_of_measure&quot;"><em>concentration of
+measure</em></a>
+gives lower bound on adversarial risk for a large collection of
+classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
+which further implies the impossibility results for robust learning
+against adversarial examples.</p>
+
+<p><center><img src="/images/concentration/advRisk.png" width="80%" align="center"></center></p>
+
+<p>However, it is not clear whether these theoretical results apply to
+actual distributions such as images. This work presents a method for
+empirically measuring and bounding the concentration of a concrete
+dataset which is proven to converge to the actual concentration. More
+specifically, we prove that by simultaneously increasing the sample
+size and a complexity parameter of the selected collection of subsets
+$\mathcal{G}$, the concentration of the empirical measure based on
+samples converges to the actual concentration asymptotically.</p>
+
+<p><center><img src="/images/concentration/theory.png" width="70%" align="center"></center></p>
+
+<p>To solve the empirical concentration problem, we propose heuristic
+algorithms to find error regions with small expansion under both
+$\ell_\infty$ and $\ell<em>2$ metrics. For instance, our algorithm for
+$\ell</em>\infty$ starts by sorting the dataset based on the empirical
+density estimated using k-nearest neighbor, and then obtains $T$
+rectangular data clusters by performing k-means clustering on the
+top-$q$ densest images. After expanding each of the rectangles by
+$\epsilon$, the error region $\mathcal{E}$ is then specified as the
+complement of the expanded rectangles (the reddish region in the
+following figure). Finally, we search for the best error region by
+tuning the number of rectangles $T$ and the initial coverage
+percentile $q$.</p>
+
+<p><img src="/images/concentration/alg.png" width="80%" align="center"></center></p>
+
+<p>Based on the proposed algorithm, we empirically measure the
+concentration for image benchmarks, such as MNIST and
+CIFAR-10. Compared with state-of-the-art robustly trained models, our
+estimated bound shows that, for most settings, there exists a large
+gap between the robust error achieved by the best current models and
+the theoretical limits implied by concentration.</p>
+
+<p><img src="/images/concentration/experiments.png" width="100%" align="center"><br></center></p>
+
+<p>This suggests the concentration of measure is not the only reason
+behind the vulnerability of existing classifiers to adversarial
+perturbations. Thus, either there is room for improving the robustness
+of image classifiers or a need for deeper understanding of the reasons
+for the gap between intrinsic robustness and the actual robustness
+achieved by robust models.</p>
+
+<h3 id="papers">Papers</h3>
+
+<p><a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><em>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a></em>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <b><em>Empirically Measuring Concentration: Fundamental Limits to Intrisic Robustness</em></b> [<a href="https://arxiv.org/pdf/1905.12202.pdf">ArXiv</a>] [<a href="https://drive.google.com/file/d/1_bQ0AFR7_-GVDpnDWNUirBW3tqGeGJHF/view">Poster</a>] [<a href="https://drive.google.com/file/d/1UIzRxpAT2fWsreTcMM1YGWRV0EyCaY50/view">Slides</a>]  [<a href="https://github.com/xiaozhanguva/Measure-Concentration">Code</a>] <br>
+<em>In Proc. of the <a href="https://nips.cc/Conferences/2019">Thirty-third Conference on Neural Information Processing Systems</a> (NeurIPS), Vancouver, Canada, 2019.</em> <b>(spotlight presentation)</b><br>
+(Also presented at <a href="https://sites.google.com/view/safeml-iclr2019">Safe Machine Learning</a> and <a href="https://debug-ml-iclr2019.github.io/">Debugging ML Models</a> workshops at ICLR 2019, as well as <a href="https://sites.google.com/view/udlworkshop2019/">Uncertainty &amp; Robustness in Deep Learning</a> workshop at ICML 2019.)<br>
+</p></p>
+
+<h3 id="code">Code</h3>
+
+<p><a href="https://github.com/xiaozhanguva/Measure-Concentration"><em>https://github.com/xiaozhanguva/Measure-Concentration</em></a></p>
+
+	
+			
+
+			
+
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+
+
+	<p></p>
+</div>
+
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>
