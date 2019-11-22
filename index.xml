@@ -153,10 +153,16 @@ achieved by robust models.&lt;/p&gt;
 
 &lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;em&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;/em&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;b&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits to Intrisic Robustness&lt;/em&gt;&lt;/b&gt; [&lt;a href=&#34;https://arxiv.org/pdf/1905.12202.pdf&#34;&gt;ArXiv&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1_bQ0AFR7_-GVDpnDWNUirBW3tqGeGJHF/view&#34;&gt;Poster&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1UIzRxpAT2fWsreTcMM1YGWRV0EyCaY50/view&#34;&gt;Slides&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;] &lt;br&gt;
-&lt;em&gt;In Proc. of the &lt;a href=&#34;https://nips.cc/Conferences/2019&#34;&gt;Thirty-third Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS), Vancouver, Canada, 2019.&lt;/em&gt; &lt;b&gt;(spotlight presentation)&lt;/b&gt;&lt;br&gt;
-(Also presented at &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;Safe Machine Learning&lt;/a&gt; and &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;Debugging ML Models&lt;/a&gt; workshops at ICLR 2019, as well as &lt;a href=&#34;https://sites.google.com/view/udlworkshop2019/&#34;&gt;Uncertainty &amp;amp; Robustness in Deep Learning&lt;/a&gt; workshop at ICML 2019.)&lt;br&gt;
-&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;b&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits to Intrisic Robustness&lt;/em&gt;&lt;/b&gt; [&lt;a href=&#34;https://arxiv.org/pdf/1905.12202.pdf&#34;&gt;ArXiv&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1_bQ0AFR7_-GVDpnDWNUirBW3tqGeGJHF/view&#34;&gt;Poster&lt;/a&gt;] [&lt;a href=&#34;https://drive.google.com/file/d/1UIzRxpAT2fWsreTcMM1YGWRV0EyCaY50/view&#34;&gt;Slides&lt;/a&gt;]  [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;] &lt;br&gt;
+&lt;em&gt;In Proc. of the &lt;a href=&#34;https://nips.cc/Conferences/2019&#34;&gt;Thirty-third Conference on Neural Information Processing Systems&lt;/a&gt; (NeurIPS), Vancouver, Canada, 2019.&lt;/em&gt; (spotlight presentation).&lt;/p&gt;
+
+&lt;p&gt;Preliminary version presented at &lt;a
+href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;Safe Machine
+Learning&lt;/a&gt; and &lt;a
+href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;Debugging ML Models&lt;/a&gt;
+workshops at ICLR 2019, as well as &lt;a
+href=&#34;https://sites.google.com/view/udlworkshop2019/&#34;&gt;Uncertainty &amp;amp;
+Robustness in Deep Learning&lt;/a&gt; workshop at ICML 2019.&lt;/p&gt;
 
 &lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 
