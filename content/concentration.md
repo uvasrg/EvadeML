@@ -62,10 +62,17 @@ achieved by robust models.
 
 ### Papers
 
-<a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a>*, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a>*, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <b><em>Empirically Measuring Concentration: Fundamental Limits to Intrisic Robustness</em></b> [<a href="https://arxiv.org/pdf/1905.12202.pdf">ArXiv</a>] [<a href="https://drive.google.com/file/d/1_bQ0AFR7_-GVDpnDWNUirBW3tqGeGJHF/view">Poster</a>] [<a href="https://drive.google.com/file/d/1UIzRxpAT2fWsreTcMM1YGWRV0EyCaY50/view">Slides</a>]  [<a href="https://github.com/xiaozhanguva/Measure-Concentration">Code</a>] <br>
-<em>In Proc. of the <a href="https://nips.cc/Conferences/2019">Thirty-third Conference on Neural Information Processing Systems</a> (NeurIPS), Vancouver, Canada, 2019.</em> <b>(spotlight presentation)</b><br>
-(Also presented at <a href="https://sites.google.com/view/safeml-iclr2019">Safe Machine Learning</a> and <a href="https://debug-ml-iclr2019.github.io/">Debugging ML Models</a> workshops at ICLR 2019, as well as <a href="https://sites.google.com/view/udlworkshop2019/">Uncertainty & Robustness in Deep Learning</a> workshop at ICML 2019.)<br>
-</p>
+<a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. <b><em>Empirically Measuring Concentration: Fundamental Limits to Intrisic Robustness</em></b> [<a href="https://arxiv.org/pdf/1905.12202.pdf">ArXiv</a>] [<a href="https://drive.google.com/file/d/1_bQ0AFR7_-GVDpnDWNUirBW3tqGeGJHF/view">Poster</a>] [<a href="https://drive.google.com/file/d/1UIzRxpAT2fWsreTcMM1YGWRV0EyCaY50/view">Slides</a>]  [<a href="https://github.com/xiaozhanguva/Measure-Concentration">Code</a>] <br>
+<em>In Proc. of the <a href="https://nips.cc/Conferences/2019">Thirty-third Conference on Neural Information Processing Systems</a> (NeurIPS), Vancouver, Canada, 2019.</em> (spotlight presentation). 
+
+Preliminary version presented at <a
+href="https://sites.google.com/view/safeml-iclr2019">Safe Machine
+Learning</a> and <a
+href="https://debug-ml-iclr2019.github.io/">Debugging ML Models</a>
+workshops at ICLR 2019, as well as <a
+href="https://sites.google.com/view/udlworkshop2019/">Uncertainty &
+Robustness in Deep Learning</a> workshop at ICML 2019.
+
 
 ### Code
 
