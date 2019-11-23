@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Cost-Sensitive Robustness // EvadeML
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.17" />
+
+  <meta property="og:title" content="Cost-Sensitive Robustness" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="//evademl.org/costsensitive/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="//evademl.org/css/srg.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/rotunda.png">
+  <link rel="shortcut icon" href="/rotunda.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="EvadeML" />
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\[","\]"], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      messageStyle: "none",
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+  </script>
+
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    <p class="brand-group">
+
+<a href="https://www.cs.virginia.edu/yanjun/gQdata.htm">Maching Learning Group</a><br>
+and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
+<a href="http://www.cs.virginia.edu">University of Virginia</a>
+</p>
+
+
+
+    <a href="//evademl.org"><h1 class="brand-title">EvadeML</h1></a>
+    <p class="brand-tagline">Machine Learning in the Presence of Adversaries</p>
+
+
+
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/costsensitive/">Cost-Sensitive Robustness</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	
+            
+
+			
+			
+
+			
+
+			
+
+            
+
+<p>Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications.</p>
+
+<p>We advocate for cost-sensitive robustness as the criteria for
+measuring the classifier&rsquo;s performance for specific tasks. We encode
+the potential harm of different adversarial transformations in a cost
+matrix, and propose a general objective function to adapt the robust
+training method of Wong &amp; Kolter (2018) to optimize for cost-sensitive
+robustness. Our experiments on simple MNIST and CIFAR10 models and a
+variety of cost matrices show that the proposed approach can produce
+models with substantially reduced cost-sensitive robust error, while
+maintaining classification accuracy.</p>
+
+<p><center>
+<img src="/images/protecteven.png" width="70%">
+<div class="caption" align="left" style="padding-left:5rem;padding-right:5rem">
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+</center></p>
+
+<p><center>
+<a href="/docs/cost-sensitive-poster.pdf"><img src="/images/cost-sensitive-poster-small.png" width="90%" align="center"></a>
+</center></p>
+
+<h3 id="paper">Paper</h3>
+
+<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <a
+href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
+href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]</p>
+
+<h3 id="code">Code</h3>
+
+<p><a href="https://github.com/xiaozhanguva/Cost-Sensitive-Robustness"><em>https://github.com/xiaozhanguva/Cost-Sensitive-Robustness</em></a></p>
+
+	
+			
+
+			
+
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+
+
+	<p></p>
+</div>
+
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>
