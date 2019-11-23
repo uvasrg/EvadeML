@@ -31,7 +31,7 @@ and sophisticated adversaries.
 <section style="display: table;width: 100%">
   <header style="display: table-row; padding: 0.5rem">
     <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
-<a href="/gpevasion" class="hlink">Genetic&nbsp;Programming</a>
+<a href="/concentration" class="hlink">Measuring Concentration</a>
     </div>
         <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
     <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
@@ -40,15 +40,45 @@ and sophisticated adversaries.
   </header>
   <div style="display: table-row;">
     <div style="display: table-cell;">
+    <a href="/concentration"><img src="/images/concentration/alg.png" alt="Empirically Measuring Concentration" width="100%" align="center"></a><br>
+Method to empirically
+measure concentration of real datasets, finding that it does not
+explain the lack of robustness of state-of-the-art models.<br></br>
+    </div>
+
+    <div style="display: table-cell;"></div>
+
+    <div style="display: table-cell;text-align:left;">
+    <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
+Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
+</div>
+
+ </div>
+
+
+  <header style="display: table-row; padding: 0.5rem">
+    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
+<a href="/costsensitive" class="hlink">Cost-Sensitive Robustness</a>
+    </div>
+        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
+    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
+<a href="/gpevasion" class="hlink">Genetic&nbsp;Programming</a>
+    </div>
+
+  </header>
+  <div style="display: table-row;">
+
+    <div style="display: table-cell;padding:0">
+    <center><a href="/costsensitive"><img src="/images/cost-sensitive-cifar.png" alt="Cost-Senstivie Robustness" width="80%" align="center"></a></center>
+<!--Focus robust training on transitions given by a cost matrix to make security-critical transitions robust.-->
+    </div>
+
+    <div style="display: table-cell;"></div>
+    <div style="display: table-cell;">
     <a href="/gpevasion"><img src="/images/geneticsearch.png" alt="Genetic Search" width="100%" align="center"></a><br>
 Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
     </div>
-    <div style="display: table-cell;"></div>
-    <div style="display: table-cell;text-align:center">
-    <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
-Reducing the search space for adversaries by coalescing inputs.<br>
-<font size="-1" style="color:#666;">(The top row shows L<sub>0</sub> adversarial examples, squeezed by median smoothing.)</font>
-</div>
+
   </div>
 </section>
 

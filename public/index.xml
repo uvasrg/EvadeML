@@ -87,6 +87,52 @@ Helen Simecek (Undergraduate Researcher)&lt;/p&gt;
     </item>
     
     <item>
+      <title>Cost-Sensitive Robustness</title>
+      <link>//evademl.org/costsensitive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//evademl.org/costsensitive/</guid>
+      <description>
+
+&lt;p&gt;Several recent works have developed methods for training classifiers
+that are certifiably robust against norm-bounded adversarial
+perturbations. However, these methods assume that all the adversarial
+transformations provide equal value for adversaries, which is seldom
+the case in real-world applications.&lt;/p&gt;
+
+&lt;p&gt;We advocate for cost-sensitive robustness as the criteria for
+measuring the classifier&amp;rsquo;s performance for specific tasks. We encode
+the potential harm of different adversarial transformations in a cost
+matrix, and propose a general objective function to adapt the robust
+training method of Wong &amp;amp; Kolter (2018) to optimize for cost-sensitive
+robustness. Our experiments on simple MNIST and CIFAR10 models and a
+variety of cost matrices show that the proposed approach can produce
+models with substantially reduced cost-sensitive robust error, while
+maintaining classification accuracy.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;//evademl.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
+&lt;div class=&#34;caption&#34; align=&#34;left&#34; style=&#34;padding-left:5rem;padding-right:5rem&#34;&gt;
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;a href=&#34;//evademl.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//evademl.org/images/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
+
+&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
+href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
+href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
+
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Empirically Measuring Concentration</title>
       <link>//evademl.org/concentration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,7 +145,7 @@ Helen Simecek (Undergraduate Researcher)&lt;/p&gt;
 &lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
 &lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
 that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable. The
+then adversarial examples with small perturbation are inevitable.c The
 key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure&amp;quot;&#34;&gt;&lt;em&gt;concentration of
 measure&lt;/em&gt;&lt;/a&gt;
 gives lower bound on adversarial risk for a large collection of
@@ -222,7 +268,7 @@ and sophisticated adversaries.&lt;/p&gt;
 &lt;section style=&#34;display: table;width: 100%&#34;&gt;
   &lt;header style=&#34;display: table-row; padding: 0.5rem&#34;&gt;
     &lt;div style=&#34;display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%&#34;&gt;
-&lt;a href=&#34;//evademl.org/gpevasion&#34; class=&#34;hlink&#34;&gt;Genetic&amp;nbsp;Programming&lt;/a&gt;
+&lt;a href=&#34;//evademl.org/concentration&#34; class=&#34;hlink&#34;&gt;Measuring Concentration&lt;/a&gt;
     &lt;/div&gt;
         &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%&#34;&#34;&gt;&lt;/div&gt;
     &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;&#34;&gt;
@@ -231,15 +277,45 @@ and sophisticated adversaries.&lt;/p&gt;
   &lt;/header&gt;
   &lt;div style=&#34;display: table-row;&#34;&gt;
     &lt;div style=&#34;display: table-cell;&#34;&gt;
+    &lt;a href=&#34;//evademl.org/concentration&#34;&gt;&lt;img src=&#34;//evademl.org/images/concentration/alg.png&#34; alt=&#34;Empirically Measuring Concentration&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Method to empirically
+measure concentration of real datasets, finding that it does not
+explain the lack of robustness of state-of-the-art models.&lt;br&gt;&lt;/br&gt;
+    &lt;/div&gt;
+
+    &lt;div style=&#34;display: table-cell;&#34;&gt;&lt;/div&gt;
+
+    &lt;div style=&#34;display: table-cell;text-align:left;&#34;&gt;
+    &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;&lt;img src=&#34;//evademl.org/images/squeezing.png&#34; alt=&#34;Feature Squeezing&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
+Reduce search space for adversaries by coalescing inputs. &lt;font style=&#34;color:#666;line-spacing:0.5;&#34; size=&#34;-1&#34;&gt;(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)&lt;/font&gt;
+&lt;/div&gt;
+
+ &lt;/div&gt;
+
+
+  &lt;header style=&#34;display: table-row; padding: 0.5rem&#34;&gt;
+    &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;&#34;&gt;
+&lt;a href=&#34;//evademl.org/costsensitive&#34; class=&#34;hlink&#34;&gt;Cost-Sensitive Robustness&lt;/a&gt;
+    &lt;/div&gt;
+        &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%&#34;&#34;&gt;&lt;/div&gt;
+    &lt;div style=&#34;display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%&#34;&gt;
+&lt;a href=&#34;//evademl.org/gpevasion&#34; class=&#34;hlink&#34;&gt;Genetic&amp;nbsp;Programming&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/header&gt;
+  &lt;div style=&#34;display: table-row;&#34;&gt;
+
+    &lt;div style=&#34;display: table-cell;padding:0&#34;&gt;
+    &lt;center&gt;&lt;a href=&#34;//evademl.org/costsensitive&#34;&gt;&lt;img src=&#34;//evademl.org/images/cost-sensitive-cifar.png&#34; alt=&#34;Cost-Senstivie Robustness&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;
+&lt;!--Focus robust training on transitions given by a cost matrix to make security-critical transitions robust.--&gt;
+    &lt;/div&gt;
+
+    &lt;div style=&#34;display: table-cell;&#34;&gt;&lt;/div&gt;
+    &lt;div style=&#34;display: table-cell;&#34;&gt;
     &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;&lt;img src=&#34;//evademl.org/images/geneticsearch.png&#34; alt=&#34;Genetic Search&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
 Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
     &lt;/div&gt;
-    &lt;div style=&#34;display: table-cell;&#34;&gt;&lt;/div&gt;
-    &lt;div style=&#34;display: table-cell;text-align:center&#34;&gt;
-    &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;&lt;img src=&#34;//evademl.org/images/squeezing.png&#34; alt=&#34;Feature Squeezing&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Reducing the search space for adversaries by coalescing inputs.&lt;br&gt;
-&lt;font size=&#34;-1&#34; style=&#34;color:#666;&#34;&gt;(The top row shows L&lt;sub&gt;0&lt;/sub&gt; adversarial examples, squeezed by median smoothing.)&lt;/font&gt;
-&lt;/div&gt;
+
   &lt;/div&gt;
 &lt;/section&gt;
 

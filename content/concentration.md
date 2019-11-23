@@ -7,7 +7,7 @@ title = "Empirically Measuring Concentration"
 Recent theoretical results, starting with Gilmer et al.'s
 [_Adversarial Spheres_](https://aipavilion.github.io/) (2018), show
 that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable. The
+then adversarial examples with small perturbation are inevitable.c The
 key insight from this line of research is that [_concentration of
 measure_](https://en.wikipedia.org/wiki/Concentration_of_measure">)
 gives lower bound on adversarial risk for a large collection of
