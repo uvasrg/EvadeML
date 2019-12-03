@@ -184,7 +184,9 @@ reddish region in the following figure). Finally, we search for the
 best error region by tuning the number of rectangles $T$ and the
 initial coverage percentile $q$.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;//evademl.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+&lt;img src=&#34;//evademl.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Based on the proposed algorithm, we empirically measure the
 concentration for image benchmarks, such as MNIST and
