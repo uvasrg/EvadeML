@@ -4,6 +4,10 @@ title = "Empirically Measuring Concentration"
 
 ## Estimating the Intrinsic Robustness for Image Benchmarks 
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7yFcqwNWxwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 Recent theoretical results, starting with Gilmer et al.'s
 [_Adversarial Spheres_](https://aipavilion.github.io/) (2018), show
 that if inputs are drawn from a concentrated metric probability space,
