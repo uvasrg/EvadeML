@@ -142,6 +142,10 @@ href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt
 
 &lt;h2 id=&#34;estimating-the-intrinsic-robustness-for-image-benchmarks&#34;&gt;Estimating the Intrinsic Robustness for Image Benchmarks&lt;/h2&gt;
 
+&lt;p&gt;&lt;center&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/7yFcqwNWxwQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
 &lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
 &lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
 that if inputs are drawn from a concentrated metric probability space,
