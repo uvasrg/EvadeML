@@ -46,7 +46,9 @@ reddish region in the following figure). Finally, we search for the
 best error region by tuning the number of rectangles $T$ and the
 initial coverage percentile $q$.
 
-<img src="/images/concentration/alg.png" width="80%" align="center"></center>
+<center>
+<img src="/images/concentration/alg.png" width="80%" align="center">
+</center>
 
 Based on the proposed algorithm, we empirically measure the
 concentration for image benchmarks, such as MNIST and
