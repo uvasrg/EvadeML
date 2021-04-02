@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EvadeML</title>
-    <link>//evademl.org/index.xml</link>
+    <link>//evademl.org/</link>
     <description>Recent content on EvadeML</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//evademl.org/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="//evademl.org/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Adversarial DNN Playground</title>
@@ -14,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/playground/</guid>
-      <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; URL=&#39;http://qdev2.cs.virginia.edu:9000/index&#39;&#34;/&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -24,66 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/gpevasion/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;EvadeML&lt;/strong&gt; is an evolutionary framework based on genetic programming
-  for automatically finding variants that evade detection by machine
-  learning-based malware classifiers.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//evademl.org/images/method.png&#34;&gt;&lt;img src=&#34;//evademl.org/images/method.png&#34; alt=&#34;Overview&#34; width=&#34;650px&#34; height=&#34;199px&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;
-&lt;p&gt;
-Machine learning is widely used to develop classifiers for security
-tasks. However, the robustness of these methods against motivated
-adversaries is uncertain. In this work, we propose a generic method to
-evaluate the robustness of classifiers under attack. The key idea is to
-stochastically manipulate a malicious sample to find a variant that
-preserves the malicious behavior but is classified as benign by the
-classifier. We present a general approach to search for evasive variants
-and report on results from experiments using our techniques against two
-PDF malware classifiers, PDFrate and Hidost.&lt;/p&gt;
-
-&lt;p&gt;Our method is able to automatically find evasive variants for both
-classifiers for all of the 500 malicious seeds in our study. Our results
-suggest a general method for evaluating classifiers used in security
-applications, and raise serious doubts about the effectiveness of
-classifiers based on superficial features in the presence of
-adversaries.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//evademl.org/images/accumulated_evasion_by_trace_length.png&#34;&gt;&lt;img src=&#34;//evademl.org/images/accumulated_evasion_by_trace_length.png&#34; alt=&#34;Overview&#34; width=&#34;531px&#34; height=&#34;369px&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
-Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and
-Distributed Systems Symposium
-2016&lt;/em&gt;&lt;/a&gt;,
-21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;talks&#34;&gt;Talks&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/XYJamxDROOs&#34;&gt;&lt;strong&gt;Classifiers Under Attack&lt;/strong&gt;&lt;/a&gt;, David Evans&amp;rsquo; talk at &lt;a href=&#34;https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans&#34;&gt;&lt;em&gt;USENIX Enigma 2017&lt;/em&gt;&lt;/a&gt; (1 February 2017)&lt;br /&gt;
-&lt;a href=&#34;//www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails&#34;&gt;&lt;strong&gt;Automatically Evading Classifiers&lt;/strong&gt;&lt;/a&gt;, Weilin Xu&amp;rsquo;s talk at NDSS 2016 (24 February 2016)&lt;br /&gt;
-&lt;a href=&#34;//evademl.org/talks&#34;&gt;More talks&amp;hellip;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;source-code&#34;&gt;Source Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (Lead PhD Student)&lt;br /&gt;
-Anant Kharkar (Undergraduate Researcher)&lt;br /&gt;
-Helen Simecek (Undergraduate Researcher)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt; (Faculty Co-Advisor)&lt;br /&gt;
-&lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (Faculty Co-Advisor)&lt;/p&gt;
-</description>
+      <description>EvadeML is an evolutionary framework based on genetic programming for automatically finding variants that evade detection by machine learning-based malware classifiers.
+Our method is able to automatically find evasive variants for both classifiers for all of the 500 malicious seeds in our study. Our results suggest a general method for evaluating classifiers used in security applications, and raise serious doubts about the effectiveness of classifiers based on superficial features in the presence of adversaries.</description>
     </item>
     
     <item>
@@ -92,44 +35,8 @@ Helen Simecek (Undergraduate Researcher)&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/costsensitive/</guid>
-      <description>
-
-&lt;p&gt;Several recent works have developed methods for training classifiers
-that are certifiably robust against norm-bounded adversarial
-perturbations. However, these methods assume that all the adversarial
-transformations provide equal value for adversaries, which is seldom
-the case in real-world applications.&lt;/p&gt;
-
-&lt;p&gt;We advocate for cost-sensitive robustness as the criteria for
-measuring the classifier&amp;rsquo;s performance for specific tasks. We encode
-the potential harm of different adversarial transformations in a cost
-matrix, and propose a general objective function to adapt the robust
-training method of Wong &amp;amp; Kolter (2018) to optimize for cost-sensitive
-robustness. Our experiments on simple MNIST and CIFAR10 models and a
-variety of cost matrices show that the proposed approach can produce
-models with substantially reduced cost-sensitive robust error, while
-maintaining classification accuracy.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;//evademl.org/images/protecteven.png&#34; width=&#34;70%&#34;&gt;
-&lt;div class=&#34;caption&#34; align=&#34;left&#34; style=&#34;padding-left:5rem;padding-right:5rem&#34;&gt;
-This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;//evademl.org/docs/cost-sensitive-poster.pdf&#34;&gt;&lt;img src=&#34;//evademl.org/images/cost-sensitive-poster-small.png&#34; width=&#34;90%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
-href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
-href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Several recent works have developed methods for training classifiers that are certifiably robust against norm-bounded adversarial perturbations. However, these methods assume that all the adversarial transformations provide equal value for adversaries, which is seldom the case in real-world applications.
+We advocate for cost-sensitive robustness as the criteria for measuring the classifier&amp;rsquo;s performance for specific tasks. We encode the potential harm of different adversarial transformations in a cost matrix, and propose a general objective function to adapt the robust training method of Wong &amp;amp; Kolter (2018) to optimize for cost-sensitive robustness.</description>
     </item>
     
     <item>
@@ -138,88 +45,7 @@ href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/concentration/</guid>
-      <description>
-
-&lt;h2 id=&#34;estimating-the-intrinsic-robustness-for-image-benchmarks&#34;&gt;Estimating the Intrinsic Robustness for Image Benchmarks&lt;/h2&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/7yFcqwNWxwQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Recent theoretical results, starting with Gilmer et al.&amp;rsquo;s
-&lt;a href=&#34;https://aipavilion.github.io/&#34;&gt;&lt;em&gt;Adversarial Spheres&lt;/em&gt;&lt;/a&gt; (2018), show
-that if inputs are drawn from a concentrated metric probability space,
-then adversarial examples with small perturbation are inevitable.c The
-key insight from this line of research is that &lt;a href=&#34;https://en.wikipedia.org/wiki/Concentration_of_measure&amp;quot;&#34;&gt;&lt;em&gt;concentration of
-measure&lt;/em&gt;&lt;/a&gt;
-gives lower bound on adversarial risk for a large collection of
-classifiers (e.g. imperfect classifiers with risk at least $\alpha$),
-which further implies the impossibility results for robust learning
-against adversarial examples.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//evademl.org/images/concentration/advRisk.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;However, it is not clear whether these theoretical results apply to
-actual distributions such as images. This work presents a method for
-empirically measuring and bounding the concentration of a concrete
-dataset which is proven to converge to the actual concentration. More
-specifically, we prove that by simultaneously increasing the sample
-size and a complexity parameter of the selected collection of subsets
-$\mathcal{G}$, the concentration of the empirical measure based on
-samples converges to the actual concentration asymptotically.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//evademl.org/images/concentration/theory.png&#34; width=&#34;70%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;To solve the empirical concentration problem, we propose heuristic
-algorithms to find error regions with small expansion under both
-$\ell_\infty$ and $\ell_2$ metrics.&lt;/p&gt;
-
-&lt;p&gt;For instance, our algorithm for $\ell_\infty$ starts by sorting the
-dataset based on the empirical density estimated using k-nearest
-neighbor, and then obtains $T$ rectangular data clusters by performing
-k-means clustering on the top-$q$ densest images. After expanding each
-of the rectangles by $\epsilon$, the error region $\mathcal{E}$ is
-then specified as the complement of the expanded rectangles (the
-reddish region in the following figure). Finally, we search for the
-best error region by tuning the number of rectangles $T$ and the
-initial coverage percentile $q$.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;//evademl.org/images/concentration/alg.png&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on the proposed algorithm, we empirically measure the
-concentration for image benchmarks, such as MNIST and
-CIFAR-10. Compared with state-of-the-art robustly trained models, our
-estimated bound shows that, for most settings, there exists a large
-gap between the robust error achieved by the best current models and
-the theoretical limits implied by concentration.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;//evademl.org/images/concentration/experiments.png&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;br&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;This suggests the concentration of measure is not the only reason
-behind the vulnerability of existing classifiers to adversarial
-perturbations. Thus, either there is room for improving the robustness
-of image classifiers or a need for deeper understanding of the reasons
-for the gap between intrinsic robustness and the actual robustness
-achieved by robust models.&lt;/p&gt;
-
-&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/~sm5fd/&#34;&gt;Saeed Mahloujifar&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt;&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, &lt;a href=&#34;https://www.cs.virginia.edu/~mohammad/&#34;&gt;Mohamood Mahmoody&lt;/a&gt; and &lt;a href=&#34;https://www.cs.virginia.edu/evans/&#34;&gt;David Evans&lt;/a&gt;. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt; (&lt;a href=&#34;https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792&#34;&gt;&lt;em&gt;spotlight presentation&lt;/em&gt;&lt;/a&gt;). Vancouver, December 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Preliminary version presented at &lt;a
-href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;Safe Machine
-Learning&lt;/a&gt; and &lt;a
-href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;Debugging ML Models&lt;/a&gt;
-workshops at ICLR 2019, as well as &lt;a
-href=&#34;https://sites.google.com/view/udlworkshop2019/&#34;&gt;Uncertainty &amp;amp;
-Robustness in Deep Learning&lt;/a&gt; workshop at ICML 2019.&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;&lt;em&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Estimating the Intrinsic Robustness for Image Benchmarks Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.g. imperfect classifiers with risk at least $\alpha$), which further implies the impossibility results for robust learning against adversarial examples.</description>
     </item>
     
     <item>
@@ -228,14 +54,8 @@ Robustness in Deep Learning&lt;/a&gt; workshop at ICML 2019.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/zoo/</guid>
-      <description>
-
-&lt;p&gt;EvadeML-Zoo is a benchmarking and visualization tool for Adversarial Machine Learning.&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/mzweilin/EvadeML-Zoo&#34;&gt;https://github.com/mzweilin/EvadeML-Zoo&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>EvadeML-Zoo is a benchmarking and visualization tool for Adversarial Machine Learning.
+Code https://github.com/mzweilin/EvadeML-Zoo</description>
     </item>
     
     <item>
@@ -244,168 +64,8 @@ Robustness in Deep Learning&lt;/a&gt; workshop at ICML 2019.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/main/</guid>
-      <description>
-
-&lt;h1 id=&#34;is-robust-machine-learning-possible&#34;&gt;Is Robust Machine Learning Possible?&lt;/h1&gt;
-
-&lt;p&gt;Machine learning has shown remarkable success in solving complex
-classification problems, but current machine learning techniques
-produce models that are vulnerable to adversaries who may wish to
-confuse them, especially when used for security applications like
-malware classification.&lt;/p&gt;
-
-&lt;p&gt;&lt;img align=&#34;right&#34; src=&#34;//evademl.org/images/mlassumption.png&#34; width=600&gt;&lt;/p&gt;
-
-&lt;p&gt;The key assumption of machine learning is that a model that is trained
-on training data will perform well in deployment because the training
-data is representative of the data that will be seen when the
-classifier is deployed.&lt;/p&gt;
-
-&lt;p&gt;When machine learning classifiers are used in security applications,
-however, adversaries may be able to generate samples that exploit the
-invalidity of this assumption.&lt;/p&gt;
-
-&lt;p&gt;Our project is focused on understanding, evaluating, and improving the
-effectiveness of machine learning methods in the presence of motivated
-and sophisticated adversaries.&lt;/p&gt;
-
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-
-&lt;section style=&#34;display: table;width: 100%&#34;&gt;
-  &lt;header style=&#34;display: table-row; padding: 0.5rem&#34;&gt;
-    &lt;div style=&#34;display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%&#34;&gt;
-&lt;a href=&#34;//evademl.org/concentration&#34; class=&#34;hlink&#34;&gt;Measuring Concentration&lt;/a&gt;
-    &lt;/div&gt;
-        &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%&#34;&#34;&gt;&lt;/div&gt;
-    &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;&#34;&gt;
-&lt;a href=&#34;//evademl.org/squeezing&#34; class=&#34;hlink&#34;&gt;Feature Squeezing&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/header&gt;
-  &lt;div style=&#34;display: table-row;&#34;&gt;
-    &lt;div style=&#34;display: table-cell;&#34;&gt;
-    &lt;a href=&#34;//evademl.org/concentration&#34;&gt;&lt;img src=&#34;//evademl.org/images/concentration/alg.png&#34; alt=&#34;Empirically Measuring Concentration&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Method to empirically
-measure concentration of real datasets, finding that it does not
-explain the lack of robustness of state-of-the-art models.&lt;br&gt;&lt;/br&gt;
-    &lt;/div&gt;
-
-    &lt;div style=&#34;display: table-cell;&#34;&gt;&lt;/div&gt;
-
-    &lt;div style=&#34;display: table-cell;text-align:left;&#34;&gt;
-    &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;&lt;img src=&#34;//evademl.org/images/squeezing.png&#34; alt=&#34;Feature Squeezing&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Reduce search space for adversaries by coalescing inputs. &lt;font style=&#34;color:#666;line-spacing:0.5;&#34; size=&#34;-1&#34;&gt;(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)&lt;/font&gt;
-&lt;/div&gt;
-
- &lt;/div&gt;
-
-
-  &lt;header style=&#34;display: table-row; padding: 0.5rem&#34;&gt;
-    &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;&#34;&gt;
-&lt;a href=&#34;//evademl.org/costsensitive&#34; class=&#34;hlink&#34;&gt;Cost-Sensitive Robustness&lt;/a&gt;
-    &lt;/div&gt;
-        &lt;div style=&#34;display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%&#34;&#34;&gt;&lt;/div&gt;
-    &lt;div style=&#34;display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%&#34;&gt;
-&lt;a href=&#34;//evademl.org/gpevasion&#34; class=&#34;hlink&#34;&gt;Genetic&amp;nbsp;Programming&lt;/a&gt;
-    &lt;/div&gt;
-
-  &lt;/header&gt;
-  &lt;div style=&#34;display: table-row;&#34;&gt;
-
-    &lt;div style=&#34;display: table-cell;padding:0&#34;&gt;
-    &lt;center&gt;&lt;a href=&#34;//evademl.org/costsensitive&#34;&gt;&lt;img src=&#34;//evademl.org/images/cost-sensitive-cifar.png&#34; alt=&#34;Cost-Senstivie Robustness&#34; width=&#34;80%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;/center&gt;
-&lt;!--Focus robust training on transitions given by a cost matrix to make security-critical transitions robust.--&gt;
-    &lt;/div&gt;
-
-    &lt;div style=&#34;display: table-cell;&#34;&gt;&lt;/div&gt;
-    &lt;div style=&#34;display: table-cell;&#34;&gt;
-    &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;&lt;img src=&#34;//evademl.org/images/geneticsearch.png&#34; alt=&#34;Genetic Search&#34; width=&#34;100%&#34; align=&#34;center&#34;&gt;&lt;/a&gt;&lt;br&gt;
-Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
-
-&lt;p&gt;Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. &lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;29&lt;sup&gt;th&lt;/sup&gt; USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Boston, MA. August 12&amp;ndash;14, 2020. [&lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;arXiV&lt;/a&gt;] [&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmoody, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to &lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
-href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
-href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
-&lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
-Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed Systems Symposium 2016&lt;/em&gt;&lt;/a&gt;, 21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;papers/&#34;&gt;More Papers&amp;hellip;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;
-
-&lt;p&gt;&lt;p&gt;
-&lt;a href=&#34;https://jeffersonswheel.org/fosad2019/&#34;&gt;&lt;b&gt;Trustworthy Machine Learning&lt;/b&gt;&lt;/a&gt;. Mini-course at &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th International School on Foundations of Security Analysis and Design&lt;/em&gt;&lt;/a&gt;. Bertinoro, Italy. 26&amp;ndash;28 August 2019.
-&lt;/p&gt;
-&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;&lt;b&gt;Can
-    Machine Learning Ever Be Trustworthy?&lt;/b&gt;&lt;/a&gt;. University of Maryland, &lt;a href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;Booz
-    Allen Hamilton Distinguished Colloquium&lt;/a&gt;. 7&amp;nbsp;December
-2018. [&lt;a href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;]
-[&lt;a href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt;]
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;&lt;b&gt;Mutually
-    Assured Destruction and the Impending AI Apocalypse&lt;/b&gt;&lt;/a&gt;.  Opening keynote, &lt;a href=&#34;https://www.usenix.org/conference/woot18&#34;&gt;12&lt;sup&gt;th&lt;/sup&gt; USENIX Workshop on Offensive Technologies&lt;/a&gt; 2018. (Co-located with &lt;em&gt;USENIX Security Symposium&lt;/em&gt;.) Baltimore, Maryland. 13 August 2018. [&lt;a href=&#34;https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;SpeakerDeck&lt;/a&gt;]
-&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=sFhD6ABghf8&#34;&gt;&lt;b&gt;Is &amp;ldquo;Adversarial Examples&amp;rdquo; an Adversarial Example&lt;/b&gt;&lt;/a&gt;. Keynote talk at &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018. [&lt;a href=&#34;https://speakerdeck.com/evansuva/is-adversarial-examples-an-adversarial-example&#34;&gt;SpeakerDeck&lt;/a&gt;]
-&lt;center&gt;
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
-&lt;/p&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;talks/&#34;&gt;More Talks&amp;hellip;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Hybrid Batch Attacks:&lt;/strong&gt; &lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;https://github.com/suyeecav/Hybrid-Attack&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Empirically Measuring Concentration:&lt;/strong&gt; &lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;https://github.com/xiaozhanguva/Measure-Concentration&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;EvadeML-Zoo:&lt;/strong&gt; &lt;a href=&#34;https://github.com/mzweilin/EvadeML-Zoo&#34;&gt;https://github.com/mzweilin/EvadeML-Zoo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Genetic Evasion:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/EvadeML&#34;&gt;https://github.com/uvasrg/EvadeML&lt;/a&gt; (Weilin&amp;nbsp;Xu)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cost-Sensitive Robustness:&lt;/strong&gt; &lt;a href=&#34;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&#34;&gt;https://github.com/xiaozhanguva/Cost-Sensitive-Robustness&lt;/a&gt; (Xiao&amp;nbsp;Zhang)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Adversarial Learning Playground&lt;/strong&gt;: &lt;a href=&#34;https://github.com/QData/AdversarialDNN-Playground&#34;&gt;https://github.com/QData/AdversarialDNN-Playground&lt;/a&gt; (Andrew Norton) (mostly supersceded by the EvadeML-Zoo toolkit)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Feature Squeezing:&lt;/strong&gt; &lt;a href=&#34;https://github.com/uvasrg/FeatureSqueezing&#34;&gt;https://github.com/uvasrg/FeatureSqueezing&lt;/a&gt; (Weilin Xu) (supersceded by the EvadeML-Zoo toolkit)&lt;/p&gt;
-
-&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://hannahxchen.github.io/&#34;&gt;Hannah Chen&lt;/a&gt; (PhD student, working on adversarial natural language processing)&lt;br /&gt;
-&lt;a href=&#34;https://sites.google.com/site/mahmadjonas/&#34;&gt;Mainuddin Ahmad Jonas&lt;/a&gt; (PhD student, working on adversarial examples)&lt;br /&gt;
-&lt;a href=&#34;https://github.com/suyeecav&#34;&gt;Fnu Suya&lt;/a&gt; (PhD student, working on batch attacks)&lt;br /&gt;
-&lt;a href=&#34;https://people.virginia.edu/~xz7bc/&#34;&gt;Xiao Zhang&lt;/a&gt; (PhD student, working on cost-sensitive adversarial robustness)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (Faculty Co-Advisor)&lt;br /&gt;
-&lt;a href=&#34;https://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt; (Faculty Co-Advisor for Weilin Xu)&lt;br /&gt;
-&lt;a href=&#34;https://www.ytian.info/&#34;&gt;Yuan Tian&lt;/a&gt; (Faculty Co-Advisor for Fnu Suya)&lt;/p&gt;
-
-&lt;h3 id=&#34;alumni&#34;&gt;Alumni&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (PhD Student who initiated project, lead work on &lt;a href=&#34;//evademl.org/squeezing&#34;&gt;Feature Squeezing&lt;/a&gt; and &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, now at Intel Research, Oregon)&lt;/p&gt;
-
-&lt;p&gt;Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)&lt;br /&gt;
-Anant Kharkar (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2016-2018)&lt;br /&gt;
-&lt;a href=&#34;http://www.noahdkim.com/&#34;&gt;Noah Kim&lt;/a&gt; (Undergraduate Researcher worked on &lt;a href=&#34;//evademl.org/zoo&#34;&gt;EvadeML-Zoo&lt;/a&gt;, 2017)&lt;br /&gt;
-Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)
-Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)&lt;br /&gt;
-Helen Simecek (Undergraduate researcher working on &lt;a href=&#34;//evademl.org/gpevasion&#34;&gt;Genetic Evasion&lt;/a&gt;, 2017-2019)&lt;br /&gt;
-Matthew Wallace (Undergraduate researcher working on natural language deception, 2018-2019; now at University of Wisconsin)&lt;/p&gt;
-</description>
+      <description>Is Robust Machine Learning Possible? Machine learning has shown remarkable success in solving complex classification problems, but current machine learning techniques produce models that are vulnerable to adversaries who may wish to confuse them, especially when used for security applications like malware classification.
+The key assumption of machine learning is that a model that is trained on training data will perform well in deployment because the training data is representative of the data that will be seen when the classifier is deployed.</description>
     </item>
     
     <item>
@@ -414,68 +74,7 @@ Matthew Wallace (Undergraduate researcher working on natural language deception,
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/squeezing/</guid>
-      <description>
-
-&lt;h2 id=&#34;detecting-adversarial-examples-in-deep-neural-networks&#34;&gt;Detecting Adversarial Examples in Deep Neural Networks&lt;/h2&gt;
-
-&lt;p&gt;Although deep neural networks (DNNs) have achieved great success in
-many computer vision tasks, recent studies have shown they are
-vulnerable to adversarial examples.  Such examples, typically
-generated by adding small but purposeful distortions, can frequently
-fool DNN models. Previous studies to defend against adversarial
-examples mostly focused on refining the DNN models. They have either
-shown limited success or suffer from expensive computation. We propose
-a new strategy, &lt;em&gt;feature squeezing&lt;/em&gt;, that can be used to harden DNN
-models by detecting adversarial examples. Feature squeezing reduces
-the search space available to an adversary by coalescing samples that
-correspond to many different feature vectors in the original space
-into a single sample.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//evademl.org/images/squeezing.png&#34; width=&#34;50%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;By comparing a DNN model’s prediction on the original input with that
-on the squeezed input, feature squeezing detects adversarial examples
-with high accuracy and few false positives.  If the original and
-squeezed examples produce substantially different outputs from the
-model, the input is likely to be adversarial. By measuring the
-disagreement among predictions and selecting a threshold value, our
-system outputs the correct prediction for legitimate examples and
-rejects adversarial inputs.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//evademl.org/images/squeezingframework.png&#34; width=&#34;75%&#34; align=&#34;center&#34;&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;So far, we have explored two instances of feature squeezing: reducing
-the color bit depth of each pixel and smoothing using a spatial
-filter. These strategies are straightforward, inexpensive, and
-complementary to defensive methods that operate on the underlying
-model, such as adversarial training.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;//evademl.org/images/jointdetection.png&#34; width=&#34;75%&#34; align=&#34;center&#34;&gt;&lt;br&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;The figure shows the histogram of the &lt;em&gt;L&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; scores on
-the MNIST dataset between the original and squeezed sample, for 1000
-non-adversarial examples as well as 1000 adversarial examples
-generated using both the Fast Gradient Sign Method and the
-Jacobian-based Saliency Map Approach. Over the full MNIST testing set,
-the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
-
-&lt;h3 id=&#34;paper&#34;&gt;Paper&lt;/h3&gt;
-
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
-&lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://evademl.org/zoo/&#34;&gt;http://evademl.org/zoo/&lt;/a&gt; (includes all the code needed to reproduce the experiments in the paper)&lt;/p&gt;
-
-&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.cs.virginia.edu/~wx4ed/&#34;&gt;Weilin Xu&lt;/a&gt; (Lead PhD Student)&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.cs.virginia.edu/yanjun/&#34;&gt;Yanjun Qi&lt;/a&gt; (Facutly Co-Advisor)&lt;br /&gt;
-&lt;a href=&#34;https://www.cs.virginia.edu/evans&#34;&gt;David Evans&lt;/a&gt; (Faculty Co-Advisor)&lt;/p&gt;
-</description>
+      <description>Detecting Adversarial Examples in Deep Neural Networks Although deep neural networks (DNNs) have achieved great success in many computer vision tasks, recent studies have shown they are vulnerable to adversarial examples. Such examples, typically generated by adding small but purposeful distortions, can frequently fool DNN models. Previous studies to defend against adversarial examples mostly focused on refining the DNN models. They have either shown limited success or suffer from expensive computation.</description>
     </item>
     
     <item>
@@ -484,27 +83,9 @@ the detection accuracy is 99.74% (only 22 out of 5000 fast positives).&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/papers/</guid>
-      <description>&lt;p&gt;Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. &lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;&lt;em&gt;Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://www.usenix.org/conference/usenixsecurity20&#34;&gt;&lt;em&gt;29&lt;sup&gt;th&lt;/sup&gt; USENIX Security Symposium&lt;/em&gt;&lt;/a&gt;. Boston, MA. August 12&amp;ndash;14, 2020. [&lt;a href=&#34;//evademl.org/docs/hybridbatch.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1908.07000&#34;&gt;ArXiV&lt;/a&gt;] [&lt;a href=&#34;https://github.com/suyeecav/Hybrid-Attack&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Saeed Mahloujifar&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Xiao Zhang&lt;sup&gt;&lt;font size=&#34;-2&#34;&gt;&amp;#9733;&lt;/font&gt;&lt;/sup&gt;, Mohammad Mahmoody, and David Evans. &lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;&lt;em&gt;Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness&lt;/em&gt;&lt;/a&gt;. In &lt;a href=&#34;https://nips.cc/Conferences/2019/&#34;&gt;&lt;em&gt;NeurIPS 2019&lt;/em&gt;&lt;/a&gt;. Vancouver, December 2019. (Earlier versions appeared in &lt;a href=&#34;https://debug-ml-iclr2019.github.io/&#34;&gt;&lt;em&gt;Debugging Machine Learning Models&lt;/em&gt;&lt;/a&gt; and &lt;a href=&#34;https://sites.google.com/view/safeml-iclr2019&#34;&gt;&lt;em&gt;Safe Machine Learning: Specification, Robustness and Assurance&lt;/em&gt;&lt;/a&gt;, workshops attached to &lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;//evademl.org/docs/empirically-measuring-concentration.pdf&#34;&gt;PDF&lt;/a&gt;] [&lt;a href=&#34;https://arxiv.org/abs/1905.12202&#34;&gt;arXiv&lt;/a&gt;] [&lt;a href=&#34;https://jeffersonswheel.org/empirically-measuring-concentration/&#34;&gt;Post&lt;/a&gt;] [&lt;a href=&#34;https://github.com/xiaozhanguva/Measure-Concentration&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Xiao Zhang and David Evans. &lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;&lt;em&gt;Cost-Sensitive Robustness against Adversarial Examples&lt;/em&gt;&lt;/a&gt;. In &lt;a
-href=&#34;https://iclr.cc/Conferences/2019&#34;&gt;&lt;em&gt;Seventh International Conference on Learning Representations&lt;/em&gt;&lt;/a&gt; (ICLR). New Orleans. May 2019. [&lt;a href=&#34;https://arxiv.org/abs/1810.09225&#34;&gt;arXiv&lt;/a&gt;] [&lt;a
-href=&#34;https://openreview.net/forum?id=BygANhA9tQ&#34;&gt;OpenReview&lt;/a&gt;] [&lt;a href=&#34;//evademl.org/docs/cost-sensitive-robustness.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;&lt;em&gt;Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks&lt;/em&gt;&lt;/a&gt;.
-&lt;a href=&#34;https://www.ndss-symposium.org/ndss2018/&#34;&gt;&lt;em&gt;2018 Network and Distributed System Security Symposium&lt;/em&gt;&lt;/a&gt;. 18-21 February, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/featuresqueezing.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Qixue Xiao, Kang Li, Deyue Zhang, and Weilin Xu. &lt;a href=&#34;https://arxiv.org/abs/1711.11008&#34;&gt;&lt;em&gt;Security Risks in Deep Learning Implementations&lt;/em&gt;&lt;/a&gt;. &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018. [&lt;a href=&#34;https://arxiv.org/pdf/1711.11008.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Weilin Xu, David Evans, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1705.10686&#34;&gt;&lt;em&gt;Feature Squeezing Mitigates and Detects
-Carlini/Wagner Adversarial Examples&lt;/em&gt;&lt;/a&gt;. arXiv preprint, 30 May 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1705.10686.pdf&#34;&gt;PDF&lt;/a&gt;, 3 pages]&lt;/p&gt;
-
-&lt;p&gt;Ji Gao, Beilun Wang, Zeming Lin, Weilin Xu, Yanjun Qi. &lt;a href=&#34;https://arxiv.org/abs/1702.06763&#34;&gt;&lt;em&gt;DeepCloak: Masking Deep Neural Network Models for Robustness against Adversarial Samples&lt;/em&gt;&lt;/a&gt;. ICLR Workshops, 24-26 April 2017. [&lt;a href=&#34;https://arxiv.org/pdf/1702.06763.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;Weilin Xu, Yanjun Qi, and David Evans. &lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;&lt;em&gt;Automatically Evading
-Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a href=&#34;https://www.internetsociety.org/events/ndss-symposium-2016&#34;&gt;&lt;em&gt;Network and Distributed Systems Symposium 2016&lt;/em&gt;&lt;/a&gt;, 21-24 February 2016, San Diego, California. Full paper (15 pages): [&lt;a href=&#34;//evademl.org/docs/evademl.pdf&#34;&gt;PDF&lt;/a&gt;]&lt;/p&gt;
-</description>
+      <description>Jack Prescott, Xiao Zhang, and David Evans. Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces. In Ninth International Conference on Learning Representations (ICLR). May 2021. [arXiv, Open Review] [Code]
+Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries. In 29thUSENIX Security Symposium. Boston, MA. August 12–14, 2020. [PDF] [ArXiV] [Code]
+Saeed Mahloujifar★, Xiao Zhang★, Mohammad Mahmoody, and David Evans.</description>
     </item>
     
     <item>
@@ -513,72 +94,10 @@ Classifiers A Case Study on PDF Malware Classifiers&lt;/em&gt;&lt;/a&gt;.  &lt;a
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/talks/</guid>
-      <description>
-
-&lt;p&gt;Selected talks about our work on adversarial machine learning.&lt;/p&gt;
-
-&lt;h3 id=&#34;trustworthy-machine-learning&#34;&gt;Trustworthy Machine Learning&lt;/h3&gt;
-
-&lt;p&gt;Mini-course at &lt;a href=&#34;http://www.sti.uniurb.it/events/fosad19/&#34;&gt;&lt;em&gt;19th International School on Foundations of Security Analysis and Design&lt;/em&gt;&lt;/a&gt;. Bertinoro, Italy. 26&amp;ndash;28 August 2019.
-[&lt;a href=&#34;https://jeffersonswheel.org/fosad2019/&#34;&gt;Slides&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;can-machine-learning-ever-be-trustworthy&#34;&gt;Can Machine Learning Ever Be Trustworthy?&lt;/h3&gt;
-
-&lt;p&gt;University of Maryland, &lt;a  href=&#34;https://ece.umd.edu/events/distinguished-colloquium-series&#34;&gt;Booz Allen Hamilton Distinguished Colloquium&lt;/a&gt;. 7&amp;nbsp;December 2018. [&lt;a  href=&#34;https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy&#34;&gt;SpeakerDeck&lt;/a&gt;]
-    [&lt;a
-    href=&#34;https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650&#34;&gt;Video&lt;/a&gt;]&lt;/p&gt;
-
-&lt;h3 id=&#34;mutually-assured-destruction-and-the-impending-ai-apocalypse&#34;&gt;Mutually Assured Destruction and the Impending AI Apocalypse&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;p&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;5f72d8151bae4c5a9bb54ab33372f125&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34; width=&#34;650&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Keynote talk at &lt;a href=&#34;https://www.usenix.org/conference/woot18/workshop-program&#34;&gt;USENIX Workshop of Offensive Technologies&lt;/a&gt;, Baltimore, Maryland, 13 August 2018.&lt;/p&gt;
-
-&lt;h3 id=&#34;is-adversarial-examples-an-adversarial-example&#34;&gt;Is &amp;ldquo;adversarial examples&amp;rdquo; an Adversarial Example?&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;br&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34;
-    data-id=&#34;9d2c5bf9b3444a8a992762f5cd6ea7fe&#34;
-    data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;David Evans&amp;rsquo; keynote talk at the &lt;a href=&#34;https://www.ieee-security.org/TC/SPW2018/DLS/#&#34;&gt;&lt;em&gt;1st Deep Learning and Security Workshop&lt;/em&gt;&lt;/a&gt; (co-located with the 39th &lt;em&gt;IEEE Symposium on Security and Privacy&lt;/em&gt;). San Francisco, California. 24 May 2018.&lt;/p&gt;
-
-&lt;h3 id=&#34;feature-squeezing&#34;&gt;Feature Squeezing&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;cdfcf454436240e4ab1a6c4d594e5c7a&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;br&gt;
-Weilin Xu&amp;rsquo;s talk at &lt;a href=&#34;http://www.ndss-symposium.org/ndss2018/&#34;&gt;Network and Distributed System Security Symposium 2018&lt;/a&gt;. San Diego, CA. 21 February 2018.
-&lt;center&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;are-we-playing-the-wrong-game&#34;&gt;Are We Playing the Wrong Game?&lt;/h3&gt;
-
-&lt;p&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;450d6c5f23dd452b8504ac4b8c1bbf84&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br&gt;
-David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.icsi.berkeley.edu/icsi/events/2017/06/adversarial-machine-learning&#34;&gt;Berkeley ICSI&lt;/a&gt;, 8 June 2017.&lt;/p&gt;
-
-&lt;h3 id=&#34;classifiers-under-attack&#34;&gt;Classifiers Under Attack&lt;/h3&gt;
-
-&lt;p&gt;&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/XYJamxDROOs&#34; frameborder=&#34;0&#34; allowfullscreen align=&#34;center&#34;&gt;&lt;/iframe&gt;&lt;br&gt;
-David Evans&amp;rsquo; Talk at &lt;a href=&#34;https://www.usenix.org/conference/enigma2017/conference-program/presentation/evans&#34;&gt;USENIX Enigma 2017&lt;/a&gt;, Oakland, CA, 1 February 2017. [&lt;A href=&#34;https://speakerdeck.com/evansuva/classifiers-under-attack-1&#34;&gt;Speaker Deck&lt;/a&gt;]&lt;/br&gt;
- &lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;video width=&#34;640&#34; source src=&#34;https://www.cs.virginia.edu/evans/talks/oreilly.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;br&gt;
-David Evans&#39; Talk at &lt;a href=&#34;http://conferences.oreilly.com/security/network-data-security-ny/public/schedule/detail/53176&#34;&gt;O&#39;Reilly Security 2016&lt;/a&gt;, New York City, 2 November 2016. [&lt;a href=&#34;https://speakerdeck.com/evansuva/classifiers-under-attack&#34;&gt;Speaker Deck&lt;/a&gt;]&lt;br&gt;
-&lt;/p&gt;
-
-&lt;h3 id=&#34;automatically-evading-classifiers&#34;&gt;Automatically Evading Classifiers&lt;/h3&gt;
-
-&lt;p&gt;&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;0a82f51fd6534cdbb58f3df1bcbc004f&#34; data-ratio=&#34;1.77777777777778&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;&lt;br&gt;
-&lt;b&gt;Weilin Xu&amp;rsquo;s Talk at NDSS 2016&lt;/b&gt; (&lt;a href=&#34;http://www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails&#34;&gt;Blog Post)&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Selected talks about our work on adversarial machine learning.
+Trustworthy Machine Learning Mini-course at 19th International School on Foundations of Security Analysis and Design. Bertinoro, Italy. 26–28 August 2019. [Slides]
+Can Machine Learning Ever Be Trustworthy? University of Maryland, Booz Allen Hamilton Distinguished Colloquium. 7 December 2018. [SpeakerDeck] [Video]
+Mutually Assured Destruction and the Impending AI Apocalypse Keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018.</description>
     </item>
     
   </channel>

@@ -28,61 +28,106 @@ and sophisticated adversaries.
 
 ## Projects
 
-<section style="display: table;width: 100%">
-  <header style="display: table-row; padding: 0.5rem">
-    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
-<a href="/concentration" class="hlink">Measuring Concentration</a>
-    </div>
-        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
-    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
-<a href="/squeezing" class="hlink">Feature Squeezing</a>
-    </div>
-  </header>
-  <div style="display: table-row;">
-    <div style="display: table-cell;">
-    <a href="/concentration"><img src="/images/concentration/alg.png" alt="Empirically Measuring Concentration" width="100%" align="center"></a><br>
-Method to empirically
-measure concentration of real datasets, finding that it does not
-explain the lack of robustness of state-of-the-art models.<br></br>
-    </div>
-
-    <div style="display: table-cell;"></div>
-
-    <div style="display: table-cell;text-align:left;">
-    <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
-Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
+<div class="row">
+<div class="column small-10 medium-5">
+<a href="https://uvasrg.github.io/robustrepresentations/" class="hlink"><b>Robust Representations</b></a>
 </div>
 
- </div>
+<div class="column small-10 medium-5">
+<a href="https://uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/" class="hlink"><b>Hybrid Batch Attacks</b></a>
+</div>
+</div>
+
+<section style="display: table;width: 100%">
+
+   <header style="display: table-row; padding: 0.5rem">
+   <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
 
 
-  <header style="display: table-row; padding: 0.5rem">
-    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
+   </div>
+   
+   <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
+   <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
+
+   <a href="https://uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/" class="hlink">Hybrid Batch Attacks</a>
+   </div>
+   </header>
+
+   <div style="display: table-row;">
+   <div style="display: table-cell;">
+
+<a href="https://uvasrg.github.io/robustrepresentations/"><img src="https://uvasrg.github.io/images/usenix2020/hybridattack.png" alt="Hybrid Batch Attack" width="100%" align="center"></a><br>   
+Query-efficient method to find adversarial examples for black-box victim model by combining transfer and optimization attacks, and by prioritizing easy-to-attack seeds.
+<br></br>
+
+   </div>
+
+   <div style="display: table-cell;"></div>
+
+   <div style="display: table-cell;text-align:left;">
+
+<a href="/squeezing"><img src="" alt="Feature Squeezing" width="100%" align="center"></a><br>
+Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
+   </div>
+   </div>
+
+   <section style="display: table;width: 100%">
+   <header style="display: table-row; padding: 0.5rem">
+   <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
+<a href="/concentration" class="hlink">Measuring Concentration</a>
+   </div>
+   <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
+   <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
+<a href="/squeezing" class="hlink">Feature Squeezing</a>
+   </div>
+   </header>
+   <div style="display: table-row;">
+   <div style="display: table-cell;">
+
+<a href="/concentration"><img src="/images/concentration/alg.png" alt="Empirically Measuring Concentration" width="100%" align="center"></a><br>
+Method to empirically measure concentration of real datasets, finding that it does not
+explain the lack of robustness of state-of-the-art models.<br></br>
+   </div>
+
+   <div style="display: table-cell;"></div>
+
+   <div style="display: table-cell;text-align:left;">
+   <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
+Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
+   </div>
+   </div>
+
+
+   <header style="display: table-row; padding: 0.5rem">
+   <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
 <a href="/costsensitive" class="hlink">Cost-Sensitive Robustness</a>
-    </div>
-        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
-    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
+   </div>
+   <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
+   <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
 <a href="/gpevasion" class="hlink">Genetic&nbsp;Programming</a>
-    </div>
+   </div>
+   </header>
 
-  </header>
-  <div style="display: table-row;">
+   <div style="display: table-row;">
+   <div style="display: table-cell;padding:0">
+   <center><a href="/costsensitive"><img src="/images/cost-sensitive-cifar.png" alt="Cost-Sensitive Robustness" width="80%" align="center"></a></center>
 
-    <div style="display: table-cell;padding:0">
-    <center><a href="/costsensitive"><img src="/images/cost-sensitive-cifar.png" alt="Cost-Senstivie Robustness" width="80%" align="center"></a></center>
 <!--Focus robust training on transitions given by a cost matrix to make security-critical transitions robust.-->
-    </div>
+   </div>
 
-    <div style="display: table-cell;"></div>
-    <div style="display: table-cell;">
-    <a href="/gpevasion"><img src="/images/geneticsearch.png" alt="Genetic Search" width="100%" align="center"></a><br>
+   <div style="display: table-cell;"></div>
+   <div style="display: table-cell;">
+   <a href="/gpevasion"><img src="/images/geneticsearch.png" alt="Genetic Search" width="100%" align="center"></a><br>
 Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
-    </div>
+   </div>
 
-  </div>
+   </div>
 </section>
 
 ## Papers
+
+Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans. [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://arxiv.org/abs/2103.12913). In [_Ninth International Conference on Learning Representations_](https://iclr.cc/Conferences/2021/) (ICLR). May 2021. [[arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)] [[Code](https://github.com/jackbprescott/EMC_HalfSpaces)]
+
 
 Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. [_Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries_](/docs/hybridbatch.pdf). In [_29<sup>th</sup> USENIX Security Symposium_](https://www.usenix.org/conference/usenixsecurity20). Boston, MA. August 12&ndash;14, 2020. [[PDF](/docs/hybridbatch.pdf)] [[arXiV](https://arxiv.org/abs/1908.07000)] [[Code](https://github.com/suyeecav/Hybrid-Attack)]
 
@@ -155,10 +200,10 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 [Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, lead work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon)  
 
-Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)  
+Johannes Johnson (Undergraduate researcher working on malware classification, summer 2018)  
 Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
 [Noah Kim](http://www.noahdkim.com/) (Undergraduate Researcher worked on [EvadeML-Zoo](/zoo), 2017)  
-Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)
+Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)  
 Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)  
 Helen Simecek (Undergraduate researcher working on [Genetic Evasion](/gpevasion), 2017-2019)  
 Matthew Wallace (Undergraduate researcher working on natural language deception, 2018-2019; now at University of Wisconsin)

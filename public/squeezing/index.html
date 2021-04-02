@@ -14,7 +14,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.71.0" />
 
   <meta property="og:title" content="Feature Squeezing" />
 <meta property="og:description" content="" />
@@ -42,7 +42,7 @@
   <link rel="shortcut icon" href="/rotunda.png">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="EvadeML" />
+
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -127,10 +127,7 @@ and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
 
 			
 
-            
-
-<h2 id="detecting-adversarial-examples-in-deep-neural-networks">Detecting Adversarial Examples in Deep Neural Networks</h2>
-
+            <h2 id="detecting-adversarial-examples-in-deep-neural-networks">Detecting Adversarial Examples in Deep Neural Networks</h2>
 <p>Although deep neural networks (DNNs) have achieved great success in
 many computer vision tasks, recent studies have shown they are
 vulnerable to adversarial examples.  Such examples, typically
@@ -143,9 +140,7 @@ models by detecting adversarial examples. Feature squeezing reduces
 the search space available to an adversary by coalescing samples that
 correspond to many different feature vectors in the original space
 into a single sample.</p>
-
-<p><center><img src="/images/squeezing.png" width="50%" align="center"></center></p>
-
+<!-- raw HTML omitted -->
 <p>By comparing a DNN model’s prediction on the original input with that
 on the squeezed input, feature squeezing detects adversarial examples
 with high accuracy and few false positives.  If the original and
@@ -154,39 +149,27 @@ model, the input is likely to be adversarial. By measuring the
 disagreement among predictions and selecting a threshold value, our
 system outputs the correct prediction for legitimate examples and
 rejects adversarial inputs.</p>
-
-<p><center><img src="/images/squeezingframework.png" width="75%" align="center"></center></p>
-
+<!-- raw HTML omitted -->
 <p>So far, we have explored two instances of feature squeezing: reducing
 the color bit depth of each pixel and smoothing using a spatial
 filter. These strategies are straightforward, inexpensive, and
 complementary to defensive methods that operate on the underlying
 model, such as adversarial training.</p>
-
-<p><center><img src="/images/jointdetection.png" width="75%" align="center"><br>
-</center></p>
-
-<p>The figure shows the histogram of the <em>L</em><sub>1</sub> scores on
+<!-- raw HTML omitted -->
+<p>The figure shows the histogram of the <!-- raw HTML omitted -->L<!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --> scores on
 the MNIST dataset between the original and squeezed sample, for 1000
 non-adversarial examples as well as 1000 adversarial examples
 generated using both the Fast Gradient Sign Method and the
 Jacobian-based Saliency Map Approach. Over the full MNIST testing set,
 the detection accuracy is 99.74% (only 22 out of 5000 fast positives).</p>
-
 <h3 id="paper">Paper</h3>
-
 <p>Weilin Xu, David Evans, Yanjun Qi. <a href="/docs/featuresqueezing.pdf"><em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em></a>.
 <a href="https://www.ndss-symposium.org/ndss2018/"><em>2018 Network and Distributed System Security Symposium</em></a>. 18-21 February, San Diego, California. Full paper (15 pages): [<a href="/docs/featuresqueezing.pdf">PDF</a>]</p>
-
 <h3 id="code">Code</h3>
-
 <p><a href="http://evademl.org/zoo/">http://evademl.org/zoo/</a> (includes all the code needed to reproduce the experiments in the paper)</p>
-
 <h2 id="team">Team</h2>
-
 <p><a href="http://www.cs.virginia.edu/~wx4ed/">Weilin Xu</a> (Lead PhD Student)</p>
-
-<p><a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> (Facutly Co-Advisor)<br />
+<p><a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> (Facutly Co-Advisor)<br>
 <a href="https://www.cs.virginia.edu/evans">David Evans</a> (Faculty Co-Advisor)</p>
 
 	

@@ -14,7 +14,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.71.0" />
 
   <meta property="og:title" content="Cost-Sensitive Robustness" />
 <meta property="og:description" content="" />
@@ -42,7 +42,7 @@
   <link rel="shortcut icon" href="/rotunda.png">
 
   
-  <link href="" rel="alternate" type="application/rss+xml" title="EvadeML" />
+
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -127,14 +127,11 @@ and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
 
 			
 
-            
-
-<p>Several recent works have developed methods for training classifiers
+            <p>Several recent works have developed methods for training classifiers
 that are certifiably robust against norm-bounded adversarial
 perturbations. However, these methods assume that all the adversarial
 transformations provide equal value for adversaries, which is seldom
 the case in real-world applications.</p>
-
 <p>We advocate for cost-sensitive robustness as the criteria for
 measuring the classifier&rsquo;s performance for specific tasks. We encode
 the potential harm of different adversarial transformations in a cost
@@ -144,25 +141,11 @@ robustness. Our experiments on simple MNIST and CIFAR10 models and a
 variety of cost matrices show that the proposed approach can produce
 models with substantially reduced cost-sensitive robust error, while
 maintaining classification accuracy.</p>
-
-<p><center>
-<img src="/images/protecteven.png" width="70%">
-<div class="caption" align="left" style="padding-left:5rem;padding-right:5rem">
-This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
-</center></p>
-
-<p><center>
-<a href="/docs/cost-sensitive-poster.pdf"><img src="/images/cost-sensitive-poster-small.png" width="90%" align="center"></a>
-</center></p>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h3 id="paper">Paper</h3>
-
-<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <a
-href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
-href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]</p>
-
+<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <!-- raw HTML omitted --><!-- raw HTML omitted -->Seventh International Conference on Learning Representations<!-- raw HTML omitted --><!-- raw HTML omitted --> (ICLR). New Orleans. May 2019. [<!-- raw HTML omitted -->arXiv<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->OpenReview<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->PDF<!-- raw HTML omitted -->]</p>
 <h3 id="code">Code</h3>
-
 <p><a href="https://github.com/xiaozhanguva/Cost-Sensitive-Robustness"><em>https://github.com/xiaozhanguva/Cost-Sensitive-Robustness</em></a></p>
 
 	

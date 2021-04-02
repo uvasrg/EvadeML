@@ -69,6 +69,8 @@ achieved by robust models.
 
 ### Papers
 
+Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans. [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://arxiv.org/abs/2103.12913). In [_Ninth International Conference on Learning Representations_](https://iclr.cc/Conferences/2021/) (ICLR). May 2021. [[arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)] [[Code](https://github.com/jackbprescott/EMC_HalfSpaces)]
+
 <a href="https://www.cs.virginia.edu/~sm5fd/">Saeed Mahloujifar</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.people.virginia.edu/~xz7bc/">Xiao Zhang</a><sup><font size="-2">&#9733;</font></sup>, <a href="https://www.cs.virginia.edu/~mohammad/">Mohamood Mahmoody</a> and <a href="https://www.cs.virginia.edu/evans/">David Evans</a>. [_Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness_](/docs/empirically-measuring-concentration.pdf). In [_NeurIPS 2019_](https://nips.cc/Conferences/2019/) ([_spotlight presentation_](https://nips.cc/Conferences/2019/ScheduleMultitrack?event=15792)). Vancouver, December 2019. [[PDF](/docs/empirically-measuring-concentration.pdf)] [[arXiv](https://arxiv.org/abs/1905.12202)] 
 
 Preliminary version presented at <a
