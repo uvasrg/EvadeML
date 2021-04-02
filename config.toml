@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "EvadeML"
 subtitle = "Adversarial Machine Learning"
 
+
+[markup.goldmark.renderer]
+unsafe= true
+
 [params]
     sidebartitle = "EvadeML"
     sidebartagline = "Machine Learning in the Presence of Adversaries"

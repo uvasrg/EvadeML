@@ -28,48 +28,6 @@ and sophisticated adversaries.
 
 ## Projects
 
-<div class="row">
-<div class="column small-10 medium-5">
-<a href="https://uvasrg.github.io/robustrepresentations/" class="hlink"><b>Robust Representations</b></a>
-</div>
-
-<div class="column small-10 medium-5">
-<a href="https://uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/" class="hlink"><b>Hybrid Batch Attacks</b></a>
-</div>
-</div>
-
-<section style="display: table;width: 100%">
-
-   <header style="display: table-row; padding: 0.5rem">
-   <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
-
-
-   </div>
-   
-   <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
-   <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
-
-   <a href="https://uvasrg.github.io/usenix-security-2020-hybrid-batch-attacks/" class="hlink">Hybrid Batch Attacks</a>
-   </div>
-   </header>
-
-   <div style="display: table-row;">
-   <div style="display: table-cell;">
-
-<a href="https://uvasrg.github.io/robustrepresentations/"><img src="https://uvasrg.github.io/images/usenix2020/hybridattack.png" alt="Hybrid Batch Attack" width="100%" align="center"></a><br>   
-Query-efficient method to find adversarial examples for black-box victim model by combining transfer and optimization attacks, and by prioritizing easy-to-attack seeds.
-<br></br>
-
-   </div>
-
-   <div style="display: table-cell;"></div>
-
-   <div style="display: table-cell;text-align:left;">
-
-<a href="/squeezing"><img src="" alt="Feature Squeezing" width="100%" align="center"></a><br>
-Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
-   </div>
-   </div>
 
    <section style="display: table;width: 100%">
    <header style="display: table-row; padding: 0.5rem">
