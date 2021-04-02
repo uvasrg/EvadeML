@@ -14,7 +14,7 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.71.0" />
 
   <meta property="og:title" content="EvadeML" />
 <meta property="og:description" content="" />
@@ -42,7 +42,7 @@
   <link rel="shortcut icon" href="/rotunda.png">
 
   
-  <link href="//evademl.org/index.xml" rel="alternate" type="application/rss+xml" title="EvadeML" />
+
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
@@ -118,168 +118,100 @@ and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
         
     
         
-           
-
-<h1 id="is-robust-machine-learning-possible">Is Robust Machine Learning Possible?</h1>
-
+    
+        
+    
+        
+           <h1 id="is-robust-machine-learning-possible">Is Robust Machine Learning Possible?</h1>
 <p>Machine learning has shown remarkable success in solving complex
 classification problems, but current machine learning techniques
 produce models that are vulnerable to adversaries who may wish to
 confuse them, especially when used for security applications like
 malware classification.</p>
-
-<p><img align="right" src="/images/mlassumption.png" width=600></p>
-
+<!-- raw HTML omitted -->
 <p>The key assumption of machine learning is that a model that is trained
 on training data will perform well in deployment because the training
 data is representative of the data that will be seen when the
 classifier is deployed.</p>
-
 <p>When machine learning classifiers are used in security applications,
 however, adversaries may be able to generate samples that exploit the
 invalidity of this assumption.</p>
-
 <p>Our project is focused on understanding, evaluating, and improving the
 effectiveness of machine learning methods in the presence of motivated
 and sophisticated adversaries.</p>
-
 <h2 id="projects">Projects</h2>
-
-<section style="display: table;width: 100%">
-  <header style="display: table-row; padding: 0.5rem">
-    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
-<a href="/concentration" class="hlink">Measuring Concentration</a>
-    </div>
-        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
-    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
-<a href="/squeezing" class="hlink">Feature Squeezing</a>
-    </div>
-  </header>
-  <div style="display: table-row;">
-    <div style="display: table-cell;">
-    <a href="/concentration"><img src="/images/concentration/alg.png" alt="Empirically Measuring Concentration" width="100%" align="center"></a><br>
-Method to empirically
-measure concentration of real datasets, finding that it does not
-explain the lack of robustness of state-of-the-art models.<br></br>
-    </div>
-
-    <div style="display: table-cell;"></div>
-
-    <div style="display: table-cell;text-align:left;">
-    <a href="/squeezing"><img src="/images/squeezing.png" alt="Feature Squeezing" width="100%" align="center"></a><br>
-Reduce search space for adversaries by coalescing inputs. <font style="color:#666;line-spacing:0.5;" size="-1">(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)</font>
-</div>
-
- </div>
-
-
-  <header style="display: table-row; padding: 0.5rem">
-    <div style="display: table-cell; padding: 0.5rem;color:#FFFFFF;background: #2c0f52;text-align: center;">
-<a href="/costsensitive" class="hlink">Cost-Sensitive Robustness</a>
-    </div>
-        <div style="display: table-cell; padding: 0.5rem;color:#000000;background: #FFFFFF;text-align: center; width:2%""></div>
-    <div style="display: table-cell; padding: 0.5rem; color:#FFFFFF;background:#663399;text-align: center;width: 49%">
-<a href="/gpevasion" class="hlink">Genetic&nbsp;Programming</a>
-    </div>
-
-  </header>
-  <div style="display: table-row;">
-
-    <div style="display: table-cell;padding:0">
-    <center><a href="/costsensitive"><img src="/images/cost-sensitive-cifar.png" alt="Cost-Senstivie Robustness" width="80%" align="center"></a></center>
-<!--Focus robust training on transitions given by a cost matrix to make security-critical transitions robust.-->
-    </div>
-
-    <div style="display: table-cell;"></div>
-    <div style="display: table-cell;">
-    <a href="/gpevasion"><img src="/images/geneticsearch.png" alt="Genetic Search" width="100%" align="center"></a><br>
-Evolutionary framework to automatically find variants that preserve malicious behavior but evade a target classifier.
-    </div>
-
-  </div>
-</section>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->Hybrid Batch Attacks<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><br>
+Query-efficient method to find adversarial examples for black-box victim model by combining transfer and optimization attacks, and by prioritizing easy-to-attack seeds.
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+Reduce search space for adversaries by coalescing inputs. <!-- raw HTML omitted -->(Top row shows $\ell_0$ adversarial examples, squeezed by median smoothing.)<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted -->
+Method to empirically measure concentration of real datasets, finding that it does not
+explain the lack of robustness of state-of-the-art models.<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <h2 id="papers">Papers</h2>
-
-<p>Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. <a href="/docs/hybridbatch.pdf"><em>Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries</em></a>. In <a href="https://www.usenix.org/conference/usenixsecurity20"><em>29<sup>th</sup> USENIX Security Symposium</em></a>. Boston, MA. August 12&ndash;14, 2020. [<a href="/docs/hybridbatch.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1908.07000">arXiV</a>] [<a href="https://github.com/suyeecav/Hybrid-Attack">Code</a>]</p>
-
-<p>Saeed Mahloujifar<sup><font size="-2">&#9733;</font></sup>, Xiao Zhang<sup><font size="-2">&#9733;</font></sup>, Mohammad Mahmoody, and David Evans. <a href="/docs/empirically-measuring-concentration.pdf"><em>Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness</em></a>. In <a href="https://nips.cc/Conferences/2019/"><em>NeurIPS 2019</em></a>. Vancouver, December 2019. (Earlier versions appeared in <a href="https://debug-ml-iclr2019.github.io/"><em>Debugging Machine Learning Models</em></a> and <a href="https://sites.google.com/view/safeml-iclr2019"><em>Safe Machine Learning: Specification, Robustness and Assurance</em></a>, workshops attached to <em>Seventh International Conference on Learning Representations</em> (ICLR). New Orleans. May 2019. [<a href="/docs/empirically-measuring-concentration.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1905.12202">arXiv</a>] [<a href="https://jeffersonswheel.org/empirically-measuring-concentration/">Post</a>] [<a href="https://github.com/xiaozhanguva/Measure-Concentration">Code</a>]</p>
-
-<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <a
-href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
-href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]</p>
-
+<p>Jack Prescott, <!-- raw HTML omitted -->Xiao Zhang<!-- raw HTML omitted -->, and David Evans. <a href="https://arxiv.org/abs/2103.12913"><em>Improved Estimation of Concentration Under ℓ<!-- raw HTML omitted -->p<!-- raw HTML omitted -->-Norm Distance Metrics Using Half Spaces</em></a>. In <a href="https://iclr.cc/Conferences/2021/"><em>Ninth International Conference on Learning Representations</em></a> (ICLR). May 2021. [<a href="https://arxiv.org/abs/2103.12913">arXiv</a>, <a href="https://openreview.net/forum?id=BUlyHkzjgmA">Open Review</a>] [<a href="https://github.com/jackbprescott/EMC_HalfSpaces">Code</a>]</p>
+<p>Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. <a href="/docs/hybridbatch.pdf"><em>Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries</em></a>. In <a href="https://www.usenix.org/conference/usenixsecurity20"><em>29<!-- raw HTML omitted -->th<!-- raw HTML omitted --> USENIX Security Symposium</em></a>. Boston, MA. August 12–14, 2020. [<a href="/docs/hybridbatch.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1908.07000">arXiV</a>] [<a href="https://github.com/suyeecav/Hybrid-Attack">Code</a>]</p>
+<p>Saeed Mahloujifar<!-- raw HTML omitted --><!-- raw HTML omitted -->★<!-- raw HTML omitted --><!-- raw HTML omitted -->, Xiao Zhang<!-- raw HTML omitted --><!-- raw HTML omitted -->★<!-- raw HTML omitted --><!-- raw HTML omitted -->, Mohammad Mahmoody, and David Evans. <a href="/docs/empirically-measuring-concentration.pdf"><em>Empirically Measuring Concentration: Fundamental Limits on Intrinsic Robustness</em></a>. In <a href="https://nips.cc/Conferences/2019/"><em>NeurIPS 2019</em></a>. Vancouver, December 2019. (Earlier versions appeared in <a href="https://debug-ml-iclr2019.github.io/"><em>Debugging Machine Learning Models</em></a> and <a href="https://sites.google.com/view/safeml-iclr2019"><em>Safe Machine Learning: Specification, Robustness and Assurance</em></a>, workshops attached to <!-- raw HTML omitted -->Seventh International Conference on Learning Representations<!-- raw HTML omitted --> (ICLR). New Orleans. May 2019. [<a href="/docs/empirically-measuring-concentration.pdf">PDF</a>] [<a href="https://arxiv.org/abs/1905.12202">arXiv</a>] [<a href="https://jeffersonswheel.org/empirically-measuring-concentration/">Post</a>] [<a href="https://github.com/xiaozhanguva/Measure-Concentration">Code</a>]</p>
+<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <!-- raw HTML omitted --><!-- raw HTML omitted -->Seventh International Conference on Learning Representations<!-- raw HTML omitted --><!-- raw HTML omitted --> (ICLR). New Orleans. May 2019. [<!-- raw HTML omitted -->arXiv<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->OpenReview<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->PDF<!-- raw HTML omitted -->]</p>
 <p>Weilin Xu, David Evans, Yanjun Qi. <a href="/docs/featuresqueezing.pdf"><em>Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks</em></a>.
 <a href="https://www.ndss-symposium.org/ndss2018/"><em>2018 Network and Distributed System Security Symposium</em></a>. 18-21 February, San Diego, California. Full paper (15 pages): [<a href="/docs/featuresqueezing.pdf">PDF</a>]</p>
-
 <p>Weilin Xu, Yanjun Qi, and David Evans. <a href="/docs/evademl.pdf"><em>Automatically Evading
 Classifiers A Case Study on PDF Malware Classifiers</em></a>.  <a href="https://www.internetsociety.org/events/ndss-symposium-2016"><em>Network and Distributed Systems Symposium 2016</em></a>, 21-24 February 2016, San Diego, California. Full paper (15 pages): [<a href="/docs/evademl.pdf">PDF</a>]</p>
-
 <p><a href="papers/">More Papers&hellip;</a></p>
-
 <h2 id="talks">Talks</h2>
-
-<p><p>
-<a href="https://jeffersonswheel.org/fosad2019/"><b>Trustworthy Machine Learning</b></a>. Mini-course at <a href="http://www.sti.uniurb.it/events/fosad19/"><em>19th International School on Foundations of Security Analysis and Design</em></a>. Bertinoro, Italy. 26&ndash;28 August 2019.
-</p>
-<a href="https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650"><b>Can
-    Machine Learning Ever Be Trustworthy?</b></a>. University of Maryland, <a href="https://ece.umd.edu/events/distinguished-colloquium-series">Booz
-    Allen Hamilton Distinguished Colloquium</a>. 7&nbsp;December
-2018. [<a href="https://speakerdeck.com/evansuva/can-machine-learning-ever-be-trustworthy">SpeakerDeck</a>]
-[<a href="https://vid.umd.edu/detsmediasite/Play/e8009558850944bfb2cac477f8d741711d?catalog=74740199-303c-49a2-9025-2dee0a195650">Video</a>]
-</p>
-<p>
-<a href="https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse"><b>Mutually
-    Assured Destruction and the Impending AI Apocalypse</b></a>.  Opening keynote, <a href="https://www.usenix.org/conference/woot18">12<sup>th</sup> USENIX Workshop on Offensive Technologies</a> 2018. (Co-located with <em>USENIX Security Symposium</em>.) Baltimore, Maryland. 13 August 2018. [<a href="https://speakerdeck.com/evansuva/mutually-assured-destruction-and-the-impending-ai-apocalypse">SpeakerDeck</a>]
-</p>
-<p>
-<a href="https://www.youtube.com/watch?v=sFhD6ABghf8"><b>Is &ldquo;Adversarial Examples&rdquo; an Adversarial Example</b></a>. Keynote talk at <a href="https://www.ieee-security.org/TC/SPW2018/DLS/#"><em>1st Deep Learning and Security Workshop</em></a> (co-located with the 39th <em>IEEE Symposium on Security and Privacy</em>). San Francisco, California. 24 May 2018. [<a href="https://speakerdeck.com/evansuva/is-adversarial-examples-an-adversarial-example">SpeakerDeck</a>]
-<center>
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/sFhD6ABghf8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br>
-</p>
-</center></p>
-
+<!-- raw HTML omitted -->
 <p><a href="talks/">More Talks&hellip;</a></p>
-
 <h2 id="code">Code</h2>
-
 <p><strong>Hybrid Batch Attacks:</strong> <a href="https://github.com/suyeecav/Hybrid-Attack">https://github.com/suyeecav/Hybrid-Attack</a></p>
-
 <p><strong>Empirically Measuring Concentration:</strong> <a href="https://github.com/xiaozhanguva/Measure-Concentration">https://github.com/xiaozhanguva/Measure-Concentration</a></p>
-
 <p><strong>EvadeML-Zoo:</strong> <a href="https://github.com/mzweilin/EvadeML-Zoo">https://github.com/mzweilin/EvadeML-Zoo</a></p>
-
-<p><strong>Genetic Evasion:</strong> <a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a> (Weilin&nbsp;Xu)</p>
-
-<p><strong>Cost-Sensitive Robustness:</strong> <a href="https://github.com/xiaozhanguva/Cost-Sensitive-Robustness">https://github.com/xiaozhanguva/Cost-Sensitive-Robustness</a> (Xiao&nbsp;Zhang)</p>
-
+<p><strong>Genetic Evasion:</strong> <a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a> (Weilin Xu)</p>
+<p><strong>Cost-Sensitive Robustness:</strong> <a href="https://github.com/xiaozhanguva/Cost-Sensitive-Robustness">https://github.com/xiaozhanguva/Cost-Sensitive-Robustness</a> (Xiao Zhang)</p>
 <p><strong>Adversarial Learning Playground</strong>: <a href="https://github.com/QData/AdversarialDNN-Playground">https://github.com/QData/AdversarialDNN-Playground</a> (Andrew Norton) (mostly supersceded by the EvadeML-Zoo toolkit)</p>
-
 <p><strong>Feature Squeezing:</strong> <a href="https://github.com/uvasrg/FeatureSqueezing">https://github.com/uvasrg/FeatureSqueezing</a> (Weilin Xu) (supersceded by the EvadeML-Zoo toolkit)</p>
-
 <h2 id="team">Team</h2>
-
-<p><a href="https://hannahxchen.github.io/">Hannah Chen</a> (PhD student, working on adversarial natural language processing)<br />
-<a href="https://sites.google.com/site/mahmadjonas/">Mainuddin Ahmad Jonas</a> (PhD student, working on adversarial examples)<br />
-<a href="https://github.com/suyeecav">Fnu Suya</a> (PhD student, working on batch attacks)<br />
+<p><a href="https://hannahxchen.github.io/">Hannah Chen</a> (PhD student, working on adversarial natural language processing)<br>
+<a href="https://sites.google.com/site/mahmadjonas/">Mainuddin Ahmad Jonas</a> (PhD student, working on adversarial examples)<br>
+<a href="https://github.com/suyeecav">Fnu Suya</a> (PhD student, working on batch attacks)<br>
 <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a> (PhD student, working on cost-sensitive adversarial robustness)</p>
-
-<p><a href="https://www.cs.virginia.edu/evans">David Evans</a> (Faculty Co-Advisor)<br />
-<a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> (Faculty Co-Advisor for Weilin Xu)<br />
+<p><a href="https://www.cs.virginia.edu/evans">David Evans</a> (Faculty Co-Advisor)<br>
+<a href="https://www.cs.virginia.edu/yanjun/">Yanjun Qi</a> (Faculty Co-Advisor for Weilin Xu)<br>
 <a href="https://www.ytian.info/">Yuan Tian</a> (Faculty Co-Advisor for Fnu Suya)</p>
-
 <h3 id="alumni">Alumni</h3>
-
 <p><a href="http://www.cs.virginia.edu/~wx4ed/">Weilin Xu</a> (PhD Student who initiated project, lead work on <a href="/squeezing">Feature Squeezing</a> and <a href="/gpevasion">Genetic Evasion</a>, now at Intel Research, Oregon)</p>
-
-<p>Johannes Johnson (Undergraduate researcher working on malware classification and evasion, summer 2018)<br />
-Anant Kharkar (Undergraduate Researcher worked on <a href="/gpevasion">Genetic Evasion</a>, 2016-2018)<br />
-<a href="http://www.noahdkim.com/">Noah Kim</a> (Undergraduate Researcher worked on <a href="/zoo">EvadeML-Zoo</a>, 2017)<br />
-Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)
-Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)<br />
-Helen Simecek (Undergraduate researcher working on <a href="/gpevasion">Genetic Evasion</a>, 2017-2019)<br />
+<p>Johannes Johnson (Undergraduate researcher working on malware classification, summer 2018)<br>
+Anant Kharkar (Undergraduate Researcher worked on <a href="/gpevasion">Genetic Evasion</a>, 2016-2018)<br>
+<a href="http://www.noahdkim.com/">Noah Kim</a> (Undergraduate Researcher worked on <a href="/zoo">EvadeML-Zoo</a>, 2017)<br>
+Yuancheng Lin (Undergraduate researchers working on adversarial examples, summer 2018)<br>
+Felix Park (Undergradaute Researcher, worked on color-aware preprocessors, 2017-2018)<br>
+Helen Simecek (Undergraduate researcher working on <a href="/gpevasion">Genetic Evasion</a>, 2017-2019)<br>
 Matthew Wallace (Undergraduate researcher working on natural language deception, 2018-2019; now at University of Wisconsin)</p>
 
+        
+    
         
     
         

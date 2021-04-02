@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>//evademl.org/</loc>
-  </url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>//evademl.org/playground/</loc>
@@ -14,11 +11,19 @@
   </url>
   
   <url>
+    <loc>//evademl.org/categories/</loc>
+  </url>
+  
+  <url>
     <loc>//evademl.org/costsensitive/</loc>
   </url>
   
   <url>
     <loc>//evademl.org/concentration/</loc>
+  </url>
+  
+  <url>
+    <loc>//evademl.org/</loc>
   </url>
   
   <url>
@@ -35,6 +40,10 @@
   
   <url>
     <loc>//evademl.org/papers/</loc>
+  </url>
+  
+  <url>
+    <loc>//evademl.org/tags/</loc>
   </url>
   
   <url>
