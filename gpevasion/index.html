@@ -130,14 +130,28 @@ and <a href="http://www.jeffersonswheel.org">Security Research Group</a><br>
             <p><strong>EvadeML</strong> is an evolutionary framework based on genetic programming
 for automatically finding variants that evade detection by machine
 learning-based malware classifiers.</p>
-<!-- raw HTML omitted -->
+<center>
+<a href="/images/method.png"><img src="/images/method.png" alt="Overview" width="650px" height="199px"></a>
+</center>
+<p>
+Machine learning is widely used to develop classifiers for security
+tasks. However, the robustness of these methods against motivated
+adversaries is uncertain. In this work, we propose a generic method to
+evaluate the robustness of classifiers under attack. The key idea is to
+stochastically manipulate a malicious sample to find a variant that
+preserves the malicious behavior but is classified as benign by the
+classifier. We present a general approach to search for evasive variants
+and report on results from experiments using our techniques against two
+PDF malware classifiers, PDFrate and Hidost. 
 <p>Our method is able to automatically find evasive variants for both
 classifiers for all of the 500 malicious seeds in our study. Our results
 suggest a general method for evaluating classifiers used in security
 applications, and raise serious doubts about the effectiveness of
 classifiers based on superficial features in the presence of
 adversaries.</p>
-<!-- raw HTML omitted -->
+<center>
+<a href="/images/accumulated_evasion_by_trace_length.png"><img src="/images/accumulated_evasion_by_trace_length.png" alt="Overview" width="531px" height="369px"></a>
+</center>
 <h2 id="references">References</h2>
 <h3 id="paper">Paper</h3>
 <p>Weilin Xu, Yanjun Qi, and David Evans. <a href="/docs/evademl.pdf"><em>Automatically Evading
@@ -150,7 +164,7 @@ Distributed Systems Symposium
 <a href="//www.jeffersonswheel.org/2016/ndss-talk-automatically-evading-classifiers-including-gmails"><strong>Automatically Evading Classifiers</strong></a>, Weilin Xu&rsquo;s talk at NDSS 2016 (24 February 2016)<br>
 <a href="/talks">More talks&hellip;</a></p>
 <h3 id="source-code">Source Code</h3>
-<p><!-- raw HTML omitted --><a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a><!-- raw HTML omitted --></p>
+<p><a href="https://github.com/uvasrg/EvadeML"><a href="https://github.com/uvasrg/EvadeML">https://github.com/uvasrg/EvadeML</a></a></p>
 <h2 id="team">Team</h2>
 <p><a href="http://www.cs.virginia.edu/~wx4ed/">Weilin Xu</a> (Lead PhD Student)<br>
 Anant Kharkar (Undergraduate Researcher)<br>

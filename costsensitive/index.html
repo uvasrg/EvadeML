@@ -141,10 +141,18 @@ robustness. Our experiments on simple MNIST and CIFAR10 models and a
 variety of cost matrices show that the proposed approach can produce
 models with substantially reduced cost-sensitive robust error, while
 maintaining classification accuracy.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<center>
+<img src="/images/protecteven.png" width="70%"> 
+<div class="caption" align="left" style="padding-left:5rem;padding-right:5rem">
+This shows the results of cost-sensitive robustness training to protect the odd classes. By incorporating a cost matrix in the loss function for robustness training, we can produce a model where selected transitions are more robust to adversarial transformation.
+</center>
+<center>
+<a href="/docs/cost-sensitive-poster.pdf"><img src="/images/cost-sensitive-poster-small.png" width="90%" align="center"></a>
+</center>
 <h3 id="paper">Paper</h3>
-<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <!-- raw HTML omitted --><!-- raw HTML omitted -->Seventh International Conference on Learning Representations<!-- raw HTML omitted --><!-- raw HTML omitted --> (ICLR). New Orleans. May 2019. [<!-- raw HTML omitted -->arXiv<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->OpenReview<!-- raw HTML omitted -->] [<!-- raw HTML omitted -->PDF<!-- raw HTML omitted -->]</p>
+<p>Xiao Zhang and David Evans. <a href="/docs/cost-sensitive-robustness.pdf"><em>Cost-Sensitive Robustness against Adversarial Examples</em></a>. In <a
+href="https://iclr.cc/Conferences/2019"><em>Seventh International Conference on Learning Representations</em></a> (ICLR). New Orleans. May 2019. [<a href="https://arxiv.org/abs/1810.09225">arXiv</a>] [<a
+href="https://openreview.net/forum?id=BygANhA9tQ">OpenReview</a>] [<a href="/docs/cost-sensitive-robustness.pdf">PDF</a>]</p>
 <h3 id="code">Code</h3>
 <p><a href="https://github.com/xiaozhanguva/Cost-Sensitive-Robustness"><em>https://github.com/xiaozhanguva/Cost-Sensitive-Robustness</em></a></p>
 

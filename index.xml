@@ -26,7 +26,7 @@
       
       <guid>//evademl.org/gpevasion/</guid>
       <description>EvadeML is an evolutionary framework based on genetic programming for automatically finding variants that evade detection by machine learning-based malware classifiers.
-Our method is able to automatically find evasive variants for both classifiers for all of the 500 malicious seeds in our study. Our results suggest a general method for evaluating classifiers used in security applications, and raise serious doubts about the effectiveness of classifiers based on superficial features in the presence of adversaries.</description>
+    Machine learning is widely used to develop classifiers for security tasks. However, the robustness of these methods against motivated adversaries is uncertain. In this work, we propose a generic method to evaluate the robustness of classifiers under attack. The key idea is to stochastically manipulate a malicious sample to find a variant that preserves the malicious behavior but is classified as benign by the classifier.</description>
     </item>
     
     <item>
@@ -45,7 +45,7 @@ We advocate for cost-sensitive robustness as the criteria for measuring the clas
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/concentration/</guid>
-      <description>Estimating the Intrinsic Robustness for Image Benchmarks Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.g. imperfect classifiers with risk at least $\alpha$), which further implies the impossibility results for robust learning against adversarial examples.</description>
+      <description>Estimating the Intrinsic Robustness for Image Benchmarks    Recent theoretical results, starting with Gilmer et al.&amp;lsquo;s Adversarial Spheres (2018), show that if inputs are drawn from a concentrated metric probability space, then adversarial examples with small perturbation are inevitable.c The key insight from this line of research is that concentration of measure gives lower bound on adversarial risk for a large collection of classifiers (e.g. imperfect classifiers with risk at least $\alpha$), which further implies the impossibility results for robust learning against adversarial examples.</description>
     </item>
     
     <item>
@@ -84,7 +84,7 @@ The key assumption of machine learning is that a model that is trained on traini
       
       <guid>//evademl.org/papers/</guid>
       <description>Jack Prescott, Xiao Zhang, and David Evans. Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces. In Ninth International Conference on Learning Representations (ICLR). May 2021. [arXiv, Open Review] [Code]
-Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries. In 29thUSENIX Security Symposium. Boston, MA. August 12–14, 2020. [PDF] [ArXiV] [Code]
+Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries. In 29th USENIX Security Symposium. Boston, MA. August 12–14, 2020. [PDF] [ArXiV] [Code]
 Saeed Mahloujifar★, Xiao Zhang★, Mohammad Mahmoody, and David Evans.</description>
     </item>
     
@@ -97,7 +97,8 @@ Saeed Mahloujifar★, Xiao Zhang★, Mohammad Mahmoody, and David Evans.</descri
       <description>Selected talks about our work on adversarial machine learning.
 Trustworthy Machine Learning Mini-course at 19th International School on Foundations of Security Analysis and Design. Bertinoro, Italy. 26–28 August 2019. [Slides]
 Can Machine Learning Ever Be Trustworthy? University of Maryland, Booz Allen Hamilton Distinguished Colloquium. 7 December 2018. [SpeakerDeck] [Video]
-Mutually Assured Destruction and the Impending AI Apocalypse Keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018.</description>
+Mutually Assured Destruction and the Impending AI Apocalypse  
+ Keynote talk at USENIX Workshop of Offensive Technologies, Baltimore, Maryland, 13 August 2018.</description>
     </item>
     
   </channel>
