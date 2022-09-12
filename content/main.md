@@ -84,8 +84,11 @@ Evolutionary framework to automatically find variants that preserve malicious be
 
 ## Papers
 
-Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans. [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://arxiv.org/abs/2103.12913). In [_Ninth International Conference on Learning Representations_](https://iclr.cc/Conferences/2021/) (ICLR). May 2021. [[arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)] [[Code](https://github.com/jackbprescott/EMC_HalfSpaces)]
+Xiao Zhang and David Evans. <a href="https://arxiv.org/abs/2107.03250"><em>Incorporating Label Uncertainty in Understanding Adversarial Robustness</em></a>. In <a href="https://iclr.cc/Conferences/2022">10<sup>th</sup> International Conference on Learning Representations</a> (ICLR). April 2022. [<a href="https://arxiv.org/abs/2107.03250">arXiv</a>] [<a href="https://openreview.net/forum?id=6ET9SzlgNX">OpenReview</a>] [<a href="https://github.com/xiaozhanguva/Intrinsic_robustness_label_uncertainty">Code</a>]
 
+Fnu Suya,  Saeed Mahloujifar,  Anshuman Suri, David Evans, and Yuan Tian. <a href="https://arxiv.org/abs/2006.16469"><em>Model-Targeted Poisoning Attacks with Provable Convergence</em></a>. In <a href="https://icml.cc/Conferences/2021">38<sup>th</sup> International Conference on Machine Learning (ICML). July 2021. [<a href="https://arxiv.org/abs/2006.16469">arXiv</a>] [<a href="https://proceedings.mlr.press/v139/suya21a.html">PMLR</a>] [<a href="http://proceedings.mlr.press/v139/suya21a/suya21a.pdf">(PDF)</a>] [<a href="https://github.com/suyeecav/model-targeted-poisoning">Code</a>]
+
+Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans. [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://arxiv.org/abs/2103.12913). In [_Ninth International Conference on Learning Representations_](https://iclr.cc/Conferences/2021/) (ICLR). May 2021. [[arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)] [[Code](https://github.com/jackbprescott/EMC_HalfSpaces)]
 
 Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. [_Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries_](/docs/hybridbatch.pdf). In [_29<sup>th</sup> USENIX Security Symposium_](https://www.usenix.org/conference/usenixsecurity20). Boston, MA. August 12&ndash;14, 2020. [[PDF](/docs/hybridbatch.pdf)] [[arXiV](https://arxiv.org/abs/1908.07000)] [[Code](https://github.com/suyeecav/Hybrid-Attack)]
 
@@ -104,6 +107,14 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 [More Papers...](papers/)
 
 ## Talks
+
+
+<a href="https://uvasrg.github.io/iclr-2022-understanding-intrinsic-robustness-using-label-uncertainty/"><b>Understanding Intrinsic Robustness Using Label Uncertainty</b></a>. Xiao Zhang's talk at ICLR 2022.
+
+<a href="https://uvasrg.github.io/hybrid-batch-attacks-at-usenix-security-2020/"><b>Hybrid Batch Attacks</b></a>. Fnu Suya's talk at USENIX Security 2020.
+
+<A href="https://uvasrg.github.io/intrinsic-robustness-using-conditional-gans/"><b>Intrinsic Robustness using Conditional GANs</b></a>. Xiao Zhang's talk at AISTATS 2020.
+
 
 <p>
 <a href="https://jeffersonswheel.org/fosad2019/"><b>Trustworthy Machine Learning</b></a>. Mini-course at <a href="http://www.sti.uniurb.it/events/fosad19/"><em>19th International School on Foundations of Security Analysis and Design</em></a>. Bertinoro, Italy. 26&ndash;28 August 2019.
