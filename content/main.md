@@ -86,7 +86,7 @@ Evolutionary framework to automatically find variants that preserve malicious be
 
 Xiao Zhang and David Evans. <a href="https://arxiv.org/abs/2107.03250"><em>Incorporating Label Uncertainty in Understanding Adversarial Robustness</em></a>. In <a href="https://iclr.cc/Conferences/2022">10<sup>th</sup> International Conference on Learning Representations</a> (ICLR). April 2022. [<a href="https://arxiv.org/abs/2107.03250">arXiv</a>] [<a href="https://openreview.net/forum?id=6ET9SzlgNX">OpenReview</a>] [<a href="https://github.com/xiaozhanguva/Intrinsic_robustness_label_uncertainty">Code</a>]
 
-Fnu Suya,  Saeed Mahloujifar,  Anshuman Suri, David Evans, and Yuan Tian. <a href="https://arxiv.org/abs/2006.16469"><em>Model-Targeted Poisoning Attacks with Provable Convergence</em></a>. In <a href="https://icml.cc/Conferences/2021">38<sup>th</sup> International Conference on Machine Learning (ICML). July 2021. [<a href="https://arxiv.org/abs/2006.16469">arXiv</a>] [<a href="https://proceedings.mlr.press/v139/suya21a.html">PMLR</a>] [<a href="http://proceedings.mlr.press/v139/suya21a/suya21a.pdf">(PDF)</a>] [<a href="https://github.com/suyeecav/model-targeted-poisoning">Code</a>]
+Fnu Suya,  Saeed Mahloujifar,  Anshuman Suri, David Evans, and Yuan Tian. <a href="https://arxiv.org/abs/2006.16469"><em>Model-Targeted Poisoning Attacks with Provable Convergence</em></a>. In <a href="https://icml.cc/Conferences/2021">38<sup>th</sup> International Conference on Machine Learning (ICML). July 2021. [<a href="https://arxiv.org/abs/2006.16469">arXiv</a>] [<a href="https://proceedings.mlr.press/v139/suya21a.html">PMLR</a>] [<a href="http://proceedings.mlr.press/v139/suya21a/suya21a.pdf">PDF</a>] [<a href="https://github.com/suyeecav/model-targeted-poisoning">Code</a>]
 
 Jack Prescott, <a href="https://people.virginia.edu/~xz7bc/">Xiao Zhang</a>, and David Evans. [_Improved Estimation of Concentration Under &#8467;<sub>p</sub>-Norm Distance Metrics Using Half Spaces_](https://arxiv.org/abs/2103.12913). In [_Ninth International Conference on Learning Representations_](https://iclr.cc/Conferences/2021/) (ICLR). May 2021. [[arXiv](https://arxiv.org/abs/2103.12913), [Open Review](https://openreview.net/forum?id=BUlyHkzjgmA)] [[Code](https://github.com/jackbprescott/EMC_HalfSpaces)]
 
@@ -159,10 +159,10 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 [Hannah Chen](https://hannahxchen.github.io/) (PhD student, working on adversarial natural language processing)  
 [Fnu Suya](https://github.com/suyeecav) (PhD student, working on batch attacks)  
 
-Yulong Tian (visiting PhD student)
-Scott Hong (undergraduate researcher)
-Evan Rose (undergraduate researcher)
-Jinghui Tian (undergraduate researcher)
+Yulong Tian (visiting PhD student)  
+Scott Hong (undergraduate researcher)  
+Evan Rose (undergraduate researcher)  
+Jinghui Tian (undergraduate researcher)  
 Tingwei Zhang (undergraduate researcher)
 
 
@@ -172,9 +172,9 @@ Tingwei Zhang (undergraduate researcher)
 
 ### Alumni
 
-[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, led work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon)  
+[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, led work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon). Dissertation: [_Improving Robustness of Machine Learning Models using Domain Knowledge_](https://uvasrg.github.io/congratulations-dr.-xu/).
 
-[Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, led work on cost-sensitive adversarial robustness and intrinsic robustness, now at  CISPA Helmholtz Center for Information Security, Germany) [PhD Presentation](https://uvasrg.github.io/congratulations-dr.-zhang/)
+[Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, led work on cost-sensitive adversarial robustness and intrinsic robustness, now at  CISPA Helmholtz Center for Information Security, Germany). Dissertation: [_From Characterizing Intrinsic Robustness to Adversarially Robust Machine Learning_](https://uvasrg.github.io/congratulations-dr.-zhang/).
 
 [Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
 
