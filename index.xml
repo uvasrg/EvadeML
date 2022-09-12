@@ -83,9 +83,9 @@ The key assumption of machine learning is that a model that is trained on traini
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//evademl.org/papers/</guid>
-      <description>Jack Prescott, Xiao Zhang, and David Evans. Improved Estimation of Concentration Under ℓp-Norm Distance Metrics Using Half Spaces. In Ninth International Conference on Learning Representations (ICLR). May 2021. [arXiv, Open Review] [Code]
-Fnu Suya, Jianfeng Chi, David Evans, and Yuan Tian. Hybrid Batch Attacks: Finding Black-box Adversarial Examples with Limited Queries. In 29th USENIX Security Symposium. Boston, MA. August 12–14, 2020. [PDF] [ArXiV] [Code]
-Saeed Mahloujifar★, Xiao Zhang★, Mohammad Mahmoody, and David Evans.</description>
+      <description>Xiao Zhang and David Evans. Incorporating Label Uncertainty in Understanding Adversarial Robustness. In 10th International Conference on Learning Representations (ICLR). April 2022. [arXiv] [OpenReview] [Code]
+Yulong Tian, Fnu Suya, Fengyuan Xu and David Evans. Stealthy Backdoors as Compression Artifacts. IEEE Transactions on Information Forensics and Security (Volume 17). 16 March 2022. [PDF] [arXiv] [IEEE Page] [Code]
+Fnu Suya, Saeed Mahloujifar, Anshuman Suri, David Evans, and Yuan Tian. Model-Targeted Poisoning Attacks with Provable Convergence.</description>
     </item>
     
     <item>
