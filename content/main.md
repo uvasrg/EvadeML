@@ -157,9 +157,14 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 ## Team
 
 [Hannah Chen](https://hannahxchen.github.io/) (PhD student, working on adversarial natural language processing)  
-[Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
 [Fnu Suya](https://github.com/suyeecav) (PhD student, working on batch attacks)  
-[Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, working on cost-sensitive adversarial robustness)
+
+Yulong Tian (visiting PhD student)
+Scott Hong (undergraduate researcher)
+Evan Rose (undergraduate researcher)
+Jinghui Tian (undergraduate researcher)
+Tingwei Zhang (undergraduate researcher)
+
 
 [David Evans](https://www.cs.virginia.edu/evans) (Faculty Co-Advisor)  
 [Yanjun Qi](https://www.cs.virginia.edu/yanjun/) (Faculty Co-Advisor for Weilin Xu)  
@@ -167,7 +172,11 @@ Classifiers A Case Study on PDF Malware Classifiers_](/docs/evademl.pdf).  [_Net
 
 ### Alumni
 
-[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, lead work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon)  
+[Weilin Xu](http://www.cs.virginia.edu/~wx4ed/) (PhD Student who initiated project, led work on [Feature Squeezing](/squeezing) and [Genetic Evasion](/gpevasion), now at Intel Research, Oregon)  
+
+[Xiao Zhang](https://people.virginia.edu/~xz7bc/) (PhD student, led work on cost-sensitive adversarial robustness and intrinsic robustness, now at  CISPA Helmholtz Center for Information Security, Germany) [PhD Presentation](https://uvasrg.github.io/congratulations-dr.-zhang/)
+
+[Mainuddin Ahmad Jonas](https://sites.google.com/site/mahmadjonas/) (PhD student, working on adversarial examples)  
 
 Johannes Johnson (Undergraduate researcher working on malware classification, summer 2018)  
 Anant Kharkar (Undergraduate Researcher worked on [Genetic Evasion](/gpevasion), 2016-2018)  
